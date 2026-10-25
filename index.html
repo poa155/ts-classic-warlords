@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<script src="data/warriors.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TS Online Classic - Warrior Database & Comparison</title>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-page: #f8fafc;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+    --border-hover: #3b82f6;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --primary: #2563eb;
+    --primary-light: #eff6ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Sarabun', -apple-system, sans-serif; }
+  body { background: var(--bg-page); color: var(--text-primary); padding: 0 20px 60px; line-height: 1.4; }
+  
+  .sticky-top-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--bg-page);
+    padding: 14px 20px 10px;
+    margin: 0 -20px 16px -20px;
+    border-bottom: 1px solid #cbd5e1;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+  }
+  
+  header {
+    max-width: 1440px;
+    margin: 0 auto 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .title-group h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e3a8a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .badge-live {
+    font-size: 11px;
+    background: #10b981;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .subtitle { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
+
+  /* Navigation Tabs */
+  .view-tabs {
+    max-width: 1440px;
+    margin: 0 auto 16px;
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  .tab-btn {
+    background: transparent;
+    border: none;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748b;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.15s ease;
+  }
+  .tab-btn:hover { background: #f1f5f9; color: #1e293b; }
+  .tab-btn.active {
+    background: #eff6ff;
+    color: #2563eb;
+    font-weight: 700;
+  }
+  .nav-count-badge {
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-weight: 700;
+  }
+  .tab-btn:not(.active) .nav-count-badge {
+    background: #94a3b8;
+  }
+
+  .header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .header-compare-btn {
+    background: #eff6ff;
+    color: #2563eb;
+    border: 1px solid #bfdbfe;
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.15s;
+  }
+  .header-compare-btn:hover {
+    background: #dbeafe;
+    border-color: #93c5fd;
+  }
+  
+  .controls {
+    max-width: 1440px;
+    margin: 0 auto 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .search-box {
+    flex: 2;
+    min-width: 300px;
+    padding: 9px 16px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    transition: all 0.15s;
+  }
+  .search-box:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+  
+  .select-box {
+    padding: 9px 14px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #334155;
+    cursor: pointer;
+  }
+  .elem-filters { display: flex; gap: 6px; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 7px 12px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #475569;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .filter-btn:hover { background: #f1f5f9; }
+  .filter-btn.active { background: #2563eb; color: #ffffff; border-color: #2563eb; }
+  
+  .stats-bar {
+    max-width: 1440px;
+    margin: 0 auto 16px;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .grid {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
+    gap: 16px;
+  }
+  
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px;
+    display: flex;
+    gap: 14px;
+    transition: 0.2s;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: var(--border-hover);
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,0.08);
+  }
+  
+  .sprite-container {
+    width: 125px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .sprite-container img {
+    max-width: 100%;
+    max-height: 100%;
+    image-rendering: pixelated;
+  }
+  
+  .info { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: space-between; }
+  .info-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .header-left { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
+  .warrior-name { font-size: 17px; font-weight: 700; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .warrior-id { font-size: 13px; font-weight: 600; color: #64748b; }
+  
+  /* Add to Compare Button on Card */
+  .btn-compare {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .btn-compare:hover {
+    background: #eff6ff;
+    border-color: #3b82f6;
+    color: #1d4ed8;
+  }
+  .btn-compare.active {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+  }
+  .btn-compare.active:hover {
+    background: #dc2626;
+    border-color: #dc2626;
+    color: #ffffff;
+  }
+
+  .badges-row { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; align-items: center; }
+  .badge { font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 4px; }
+  
+  /* Status Grid: Single Row of 6 columns (INT, ATK, DEF, HP, SP, AGI) */
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 6px 4px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .stat-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .stat-lbl {
+    font-size: 10.5px;
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .stat-val {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .int-val { color: #0284c7; }
+  .atk-val { color: #dc2626; }
+  .def-val { color: #d97706; }
+  .hp-val { color: #16a34a; }
+  .sp-val { color: #2563eb; }
+  .agi-val { color: #9333ea; }
+  
+  /* Skills Grid: 4 columns */
+  .skills-box {
+    margin-top: auto;
+    padding-top: 4px;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  .skill-col {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 48px;
+    cursor: default;
+    transition: 0.15s;
+  }
+  .skill-col:hover {
+    background: #f1f5f9;
+    border-color: #cbd5e1;
+  }
+  .skill-col.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    border-style: dashed;
+    border-color: #e2e8f0;
+  }
+  .empty-dash {
+    color: #cbd5e1;
+    font-size: 14px;
+  }
+  .skill-line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 3px;
+  }
+  .skill-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sp-pill {
+    font-size: 9px;
+    font-weight: 700;
+    color: #2563eb;
+    background: #eff6ff;
+    padding: 1px 4px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .skill-line2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .tag-target {
+    font-size: 9px;
+    font-weight: 600;
+    color: #1e293b;
+    background: #e2e8f0;
+    padding: 1px 4px;
+    border-radius: 3px;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .tag-combo {
+    font-size: 9px;
+    font-weight: 700;
+    color: #15803d;
+    background: #dcfce7;
+    padding: 0 4px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .tag-effect {
+    font-size: 9px;
+    font-weight: 600;
+    color: #7c3aed;
+    background: #f3e8ff;
+    padding: 0 4px;
+    border-radius: 3px;
+    white-space: nowrap;
+    max-width: 55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .load-more-btn {
+    display: block;
+    width: 240px;
+    margin: 30px auto;
+    padding: 12px 24px;
+    background: var(--primary);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(37,99,235,0.2);
+    transition: 0.15s;
+  }
+  .load-more-btn:hover { background: #1d4ed8; }
+
+
+
+  /* Comparison View Styles */
+  .compare-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .compare-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0 10px;
+    background: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .compare-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e293b;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .compare-count-tag {
+    background: #dbeafe;
+    color: #1e40af;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+  .btn-back {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn-back:hover { background: #e2e8f0; }
+  .btn-clear-all {
+    background: #fee2e2;
+    color: #b91c1c;
+    border: 1px solid #fecaca;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn-clear-all:hover { background: #fca5a5; }
+
+  .compare-table-wrapper {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: calc(100vh - 160px);
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    margin-bottom: 16px;
+  }
+  .compare-table-wrapper::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .compare-table-wrapper::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 5px;
+  }
+  .compare-table-wrapper::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 5px;
+  }
+  .compare-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 650px;
+  }
+  .compare-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .compare-table thead th.col-sticky {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    background: #f8fafc;
+  }
+  .compare-table th, .compare-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #f1f5f9;
+    border-right: 1px solid #f1f5f9;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .compare-table .col-sticky {
+    position: sticky;
+    left: 0;
+    background: #f8fafc;
+    z-index: 2;
+    font-weight: 600;
+    color: #475569;
+    text-align: left;
+    min-width: 135px;
+    width: 135px;
+    border-right: 2px solid #e2e8f0;
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  .warrior-col-th {
+    position: relative;
+    min-width: 180px;
+    width: 190px;
+    vertical-align: top;
+    padding: 10px 8px 8px;
+    background: #ffffff;
+  }
+  .btn-remove-col {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fee2e2;
+    color: #dc2626;
+    border: 1px solid #fecaca;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+    transition: 0.15s;
+    z-index: 2;
+  }
+  .btn-remove-col:hover {
+    background: #dc2626;
+    color: #ffffff;
+  }
+  .compare-sprite-box {
+    width: 125px;
+    height: 140px;
+    margin: 0 auto 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .compare-sprite-box img {
+    max-width: 100%;
+    max-height: 100%;
+    image-rendering: pixelated;
+  }
+  .compare-warrior-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 6px;
+    white-space: nowrap;
+  }
+  .compare-warrior-name {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-primary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .compare-warrior-id {
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748b;
+  }
+  .compare-warrior-meta {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+  }
+  .compare-warrior-meta .badge {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .compare-warrior-lv {
+    font-size: 12px;
+    font-weight: 700;
+    color: #d97706;
+  }
+  .compare-section-row td {
+    background: #f1f5f9;
+    font-weight: 700;
+    color: #1e293b;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 12px;
+  }
+  .stat-cell {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding: 5px 8px;
+  }
+  .stat-highlight {
+    background: #dcfce7 !important;
+    color: #15803d !important;
+    font-weight: 800 !important;
+    border-radius: 4px;
+    padding: 2px 6px;
+    border: 1px solid #bbf7d0;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12.5px;
+  }
+  .stat-highlight::before {
+    content: "👑 ";
+    font-size: 10px;
+  }
+  .skill-compare-cell {
+    padding: 6px 6px;
+    text-align: center;
+  }
+  .skill-compare-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .skill-compare-tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+  .empty-compare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="sticky-top-container">
+  <header>
+    <div class="title-group">
+      <h1>TS Online Classic <span class="badge-live">WARLORDS DATABASE</span></h1>
+    </div>
+    <div class="header-actions">
+      <button onclick="switchView(currentView === 'gallery' ? 'compare' : 'gallery')" class="header-compare-btn" id="header-compare-btn">
+        ⚖️ รายการเปรียบเทียบ (<span id="compare-badge-header">0</span>)
+      </button>
+      <button onclick="location.reload()" class="filter-btn" style="background:#10b981; color:#fff; border-color:#10b981; font-weight:600;">🔄 Reload Data</button>
+    </div>
+  </header>
+
+  <div class="view-tabs">
+    <button id="tab-gallery" class="tab-btn active" onclick="switchView('gallery')">
+      ⚔️ คลังขุนพลทั้งหมด (<span id="total-warriors-count">1,083</span>)
+    </button>
+    <button id="tab-compare" class="tab-btn" onclick="switchView('compare')">
+      ⚖️ รายการเปรียบเทียบขุนพล <span id="compare-count-badge" class="nav-count-badge">0</span>
+    </button>
+  </div>
+
+  <!-- Gallery Controls & List -->
+  <div id="controls-section" class="controls">
+    <input type="text" id="search" class="search-box" placeholder="🔍 ค้นหาขุนพลตามชื่อ, ID หรือชื่อสกิล (เช่น จูล่ง, 12027, มังกรเขียว)...">
+    
+    <select id="faction-select" class="select-box" onchange="render()">
+      <option value="ALL">กลุ่มทั้งหมด</option>
+      <option value="วุย">วุย</option>
+      <option value="จ๊ก">จ๊ก</option>
+      <option value="ง่อ">ง่อ</option>
+      <option value="ผ้าเหลือง">ผ้าเหลือง</option>
+      <option value="จอมยุทธ์">จอมยุทธ์</option>
+    </select>
+
+    <select id="reborn-select" class="select-box" onchange="render()">
+      <option value="ALL">ระดับทั้งหมด</option>
+      <option value="ปกติ">ปกติ</option>
+      <option value="จุติ1">จุติ1</option>
+      <option value="จุติ2">จุติ2</option>
+    </select>
+
+    <select id="sort-select" class="select-box" onchange="render()">
+      <option value="sort_index">เรียงตาม: ลำดับสมุด</option>
+      <option value="id">เรียงตาม: ID ขุนพล</option>
+      <option value="level">เรียงตาม: เลเวล (มาก → น้อย)</option>
+      <option value="int">เรียงตาม: ปัญญา</option>
+      <option value="atk">เรียงตาม: โจมตี</option>
+      <option value="def">เรียงตาม: ป้องกัน</option>
+      <option value="hp">เรียงตาม: HP</option>
+      <option value="sp">เรียงตาม: SP</option>
+      <option value="agi">เรียงตาม: ว่องไว</option>
+    </select>
+    
+    <div class="elem-filters">
+      <button class="filter-btn active" onclick="filterElem('ALL')">ทุกธาตุ</button>
+      <button class="filter-btn" onclick="filterElem('ดิน')" style="border-left:4px solid #b45309;">ดิน</button>
+      <button class="filter-btn" onclick="filterElem('น้ำ')" style="border-left:4px solid #0284c7;">น้ำ</button>
+      <button class="filter-btn" onclick="filterElem('ไฟ')" style="border-left:4px solid #dc2626;">ไฟ</button>
+      <button class="filter-btn" onclick="filterElem('ลม')" style="border-left:4px solid #16a34a;">ลม</button>
+      <button class="filter-btn" onclick="filterElem('แสง')" style="border-left:4px solid #eab308;">แสง</button>
+      <button class="filter-btn" onclick="filterElem('มืด')" style="border-left:4px solid #9333ea;">มืด</button>
+      <button class="filter-btn" onclick="filterElem('ไร้ธาตุ')" style="border-left:4px solid #94a3b8;">ไร้ธาตุ</button>
+    </div>
+  </div>
+
+  <div id="stats-bar-section" class="stats-bar">
+    <span id="count-bar">กำลังโหลดข้อมูลขุนพล...</span>
+  </div>
+</div>
+
+<div id="gallery-view">
+  <div class="grid" id="warrior-grid"></div>
+  <button id="load-more" class="load-more-btn" style="display:none;" onclick="loadMore()">แสดงเพิ่มอีก 60 ขุนพล</button>
+</div>
+
+<!-- Comparison View Container -->
+<div id="compare-view" style="display:none;"></div>
+
+
+
+<script>
+let allWarriors = [];
+let currentElem = 'ALL';
+let displayLimit = 60;
+let currentView = 'gallery'; // 'gallery' | 'compare'
+
+// Compare List (persisted in localStorage)
+let compareList = [];
+try {
+  compareList = JSON.parse(localStorage.getItem('ts_compare_ids') || '[]');
+  if (!Array.isArray(compareList)) compareList = [];
+} catch(e) {
+  compareList = [];
+}
+
+function saveCompareList() {
+  localStorage.setItem('ts_compare_ids', JSON.stringify(compareList));
+  updateCompareBadges();
+}
+
+function isInCompare(id) {
+  return compareList.includes(id);
+}
+
+function toggleCompare(id) {
+  const idx = compareList.indexOf(id);
+  if (idx >= 0) {
+    compareList.splice(idx, 1);
+  } else {
+    compareList.push(id);
+  }
+  saveCompareList();
+  
+  // Instant visual feedback on all matching buttons in gallery view
+  const btns = document.querySelectorAll(`.btn-compare[data-id="${id}"]`);
+  btns.forEach(b => {
+    const active = isInCompare(id);
+    b.classList.toggle('active', active);
+    b.innerText = active ? '✓ ในลิสต์' : '+ เปรียบเทียบ';
+    b.title = active ? 'คลิกเพื่อนำออกจากรายการเปรียบเทียบ' : 'คลิกเพื่อเพิ่มลงในรายการเปรียบเทียบ';
+  });
+
+  if (currentView === 'compare') {
+    renderCompareView();
+  }
+}
+
+function clearCompareList() {
+  if (confirm('ต้องการล้างรายชื่อขุนพลที่เลือกเปรียบเทียบทั้งหมดใช่หรือไม่?')) {
+    compareList = [];
+    saveCompareList();
+    render();
+    if (currentView === 'compare') {
+      renderCompareView();
+    }
+  }
+}
+
+function updateCompareBadges() {
+  const count = compareList.length;
+  const b1 = document.getElementById('compare-count-badge');
+  if (b1) b1.innerText = count;
+  const b2 = document.getElementById('compare-badge-header');
+  if (b2) b2.innerText = count;
+}
+
+function switchView(view) {
+  currentView = view;
+  const galleryView = document.getElementById('gallery-view');
+  const compareView = document.getElementById('compare-view');
+  const tabGallery = document.getElementById('tab-gallery');
+  const tabCompare = document.getElementById('tab-compare');
+  const controls = document.getElementById('controls-section');
+  const statsBar = document.getElementById('stats-bar-section');
+
+  if (view === 'compare') {
+    galleryView.style.display = 'none';
+    compareView.style.display = 'block';
+    if (controls) controls.style.display = 'none';
+    if (statsBar) statsBar.style.display = 'none';
+    tabGallery.classList.remove('active');
+    tabCompare.classList.add('active');
+    renderCompareView();
+  } else {
+    galleryView.style.display = 'block';
+    compareView.style.display = 'none';
+    if (controls) controls.style.display = 'flex';
+    if (statsBar) statsBar.style.display = 'flex';
+    tabGallery.classList.add('active');
+    tabCompare.classList.remove('active');
+    render();
+  }
+  updateCompareBadges();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function formatStage(stage) {
+  if (!stage) return 'ปกติ';
+  if (stage.includes('จุติ 2') || stage.includes('Reborn 2') || stage.includes('จุติ2')) return 'จุติ2';
+  if (stage.includes('จุติ 1') || stage.includes('Reborn 1') || stage.includes('จุติ1')) return 'จุติ1';
+  return 'ปกติ';
+}
+
+function getTargetNum(t) {
+  if (!t) return '';
+  if (t.includes('10') || t.includes('ทั้งหมด')) return '10';
+  if (t.includes('ตัวเอง')) return '0';
+  const m = t.match(/\d+/);
+  return m ? m[0] : '';
+}
+
+async function init() {
+  try {
+    const res = await fetch('data/warriors.json');
+    if (!res.ok) throw new Error('Fetch status ' + res.status);
+    allWarriors = await res.json();
+  } catch(e) {
+    if (window.WARRIORS_DATA && Array.isArray(window.WARRIORS_DATA)) {
+      allWarriors = window.WARRIORS_DATA;
+    } else {
+      console.error('Failed to load warriors.json, no fallback found:', e);
+    }
+  }
+  const totalCountEl = document.getElementById('total-warriors-count');
+  if (totalCountEl) totalCountEl.innerText = allWarriors.length.toLocaleString();
+  updateCompareBadges();
+  render();
+}
+
+function filterElem(elem) {
+  currentElem = elem;
+  document.querySelectorAll('.elem-filters .filter-btn').forEach(b => {
+    b.classList.toggle('active', b.innerText.includes(elem) || (elem === 'ALL' && b.innerText === 'ทุกธาตุ'));
+  });
+  displayLimit = 60;
+  render();
+}
+
+document.getElementById('search').addEventListener('input', () => {
+  displayLimit = 60;
+  render();
+});
+
+function loadMore() {
+  displayLimit += 60;
+  render();
+}
+
+function render() {
+  const query = document.getElementById('search').value.trim().toLowerCase();
+  const faction = document.getElementById('faction-select').value;
+  const reborn = document.getElementById('reborn-select').value;
+  const sortBy = document.getElementById('sort-select').value;
+  const grid = document.getElementById('warrior-grid');
+  const loadMoreBtn = document.getElementById('load-more');
+  
+  // Universal Search across Name, ID, and Skills
+  let filtered = allWarriors.filter(w => {
+    let matchQuery = true;
+    if (query) {
+      const matchName = w.name && w.name.toLowerCase().includes(query);
+      const matchId = w.id && w.id.toString().includes(query);
+      const matchSkill = (w.skills || []).some(s => s && s.name && s.name.toLowerCase().includes(query));
+      matchQuery = matchName || matchId || matchSkill;
+    }
+    const matchElem = currentElem === 'ALL' || w.element.includes(currentElem);
+    const matchFaction = faction === 'ALL' || w.faction === faction;
+    const matchReborn = reborn === 'ALL' || formatStage(w.reborn_type) === reborn;
+    return matchQuery && matchElem && matchFaction && matchReborn;
+  });
+  
+  filtered.sort((a, b) => {
+    if (sortBy === 'sort_index' || sortBy === 'id') return a[sortBy] - b[sortBy];
+    return b[sortBy] - a[sortBy];
+  });
+  
+  document.getElementById('count-bar').innerText = `แสดง ${Math.min(displayLimit, filtered.length)} จากทั้งหมด ${filtered.length} ขุนพล (${allWarriors.length} ในระบบ)`;
+  
+  if (filtered.length > displayLimit) {
+    loadMoreBtn.style.display = 'block';
+  } else {
+    loadMoreBtn.style.display = 'none';
+  }
+
+  const elemStyles = {
+    'ดิน': { bg: '#fef3c7', text: '#92400e', border: '#fde68a' },
+    'น้ำ': { bg: '#e0f2fe', text: '#0369a1', border: '#bae6fd' },
+    'ไฟ': { bg: '#fee2e2', text: '#b91c1c', border: '#fecaca' },
+    'ลม': { bg: '#dcfce7', text: '#15803d', border: '#bbf7d0' },
+    'แสง': { bg: '#fef9c3', text: '#854d0e', border: '#fde047' },
+    'มืด': { bg: '#f3e8ff', text: '#6b21a8', border: '#d8b4fe' },
+    'ไร้ธาตุ': { bg: '#ffffff', text: '#334155', border: '#cbd5e1' },
+    'จิต': { bg: '#f8fafc', text: '#475569', border: '#e2e8f0' }
+  };
+
+  const factionStyles = {
+    'วุย': { bg: '#eff6ff', text: '#1d4ed8', border: '#bfdbfe' },
+    'จ๊ก': { bg: '#f0fdf4', text: '#15803d', border: '#bbf7d0' },
+    'ง่อ': { bg: '#fef2f2', text: '#b91c1c', border: '#fecaca' },
+    'ผ้าเหลือง': { bg: '#fffbeb', text: '#b45309', border: '#fde68a' },
+    'จอมยุทธ์': { bg: '#f8fafc', text: '#475569', border: '#cbd5e1' }
+  };
+  
+  if (filtered.length === 0) {
+    grid.innerHTML = `
+      <div style="grid-column: 1 / -1; text-align: center; padding: 60px 20px; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0;">
+        <div style="font-size: 40px; margin-bottom: 12px;">🔍</div>
+        <div style="font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 6px;">ไม่พบข้อมูลขุนพล</div>
+        <div style="font-size: 13px; color: #64748b;">ไม่พบขุนพลที่ตรงกับคำค้นหาหรือตัวกรองที่เลือก</div>
+      </div>
+    `;
+    return;
+  }
+
+  grid.innerHTML = filtered.slice(0, displayLimit).map(w => {
+    const elemKey = Object.keys(elemStyles).find(k => w.element.includes(k)) || '';
+    const e = elemStyles[elemKey] || { bg: '#f1f5f9', text: '#475569', border: '#e2e8f0' };
+    
+    const stageStr = formatStage(w.reborn_type);
+    const rbStyle = stageStr === 'จุติ2' 
+      ? { bg: '#faf5ff', text: '#7c3aed', border: '#ddd6fe' }
+      : (stageStr === 'จุติ1' ? { bg: '#eff6ff', text: '#2563eb', border: '#bfdbfe' } : { bg: '#f1f5f9', text: '#64748b', border: '#e2e8f0' });
+      
+    const facStyle = factionStyles[w.faction] || { bg: '#f8fafc', text: '#475569', border: '#cbd5e1' };
+    const inList = isInCompare(w.id);
+
+    return `
+      <div class="card">
+        <div class="sprite-container">
+          <img src="sprites/${w.id}.png" loading="lazy" alt="${w.name}">
+        </div>
+        <div class="info">
+          <div>
+            <div class="info-header">
+              <div class="header-left">
+                <span class="warrior-name">${w.name}</span>
+                <span class="warrior-id">#${w.id}</span>
+              </div>
+              <button class="btn-compare ${inList ? 'active' : ''}" data-id="${w.id}" onclick="toggleCompare(${w.id})" title="${inList ? 'คลิกเพื่อนำออกจากรายการเปรียบเทียบ' : 'คลิกเพื่อเพิ่มลงในรายการเปรียบเทียบ'}">
+                ${inList ? '✓ ในลิสต์' : '+ เปรียบเทียบ'}
+              </button>
+            </div>
+            
+            <div class="badges-row">
+              <span class="badge" style="background:${e.bg}; color:${e.text}; border:1px solid ${e.border};">${w.element}</span>
+              <span class="badge" style="background:${rbStyle.bg}; color:${rbStyle.text}; border:1px solid ${rbStyle.border};">${stageStr}</span>
+              <span class="badge" style="background:${facStyle.bg}; color:${facStyle.text}; border:1px solid ${facStyle.border};">${w.faction}</span>
+              <span style="font-size:12px; font-weight:700; color:#d97706; margin-left:auto;">Lv.${w.level}</span>
+            </div>
+            
+            <!-- Status Grid: 6 Columns Single Row -->
+            <div class="stat-grid">
+              <div class="stat-col"><span class="stat-lbl">ปัญญา</span><span class="stat-val int-val">${w.int}</span></div>
+              <div class="stat-col"><span class="stat-lbl">โจมตี</span><span class="stat-val atk-val">${w.atk}</span></div>
+              <div class="stat-col"><span class="stat-lbl">ป้องกัน</span><span class="stat-val def-val">${w.def}</span></div>
+              <div class="stat-col"><span class="stat-lbl">HP</span><span class="stat-val hp-val">${w.hp}</span></div>
+              <div class="stat-col"><span class="stat-lbl">SP</span><span class="stat-val sp-val">${w.sp}</span></div>
+              <div class="stat-col"><span class="stat-lbl">ว่องไว</span><span class="stat-val agi-val">${w.agi}</span></div>
+            </div>
+          </div>
+          
+          <!-- Skills Box: 4 Columns -->
+          <div class="skills-box">
+            <div class="skills-grid">
+              ${Array.from({length: 4}).map((_, i) => {
+                const s = w.skills[i];
+                if (!s) {
+                  return `<div class="skill-col empty"><span class="empty-dash">-</span></div>`;
+                }
+                const targetNum = getTargetNum(s.target);
+                const hasEffect = s.effect && !s.effect.includes('ไม่มี');
+                return `
+                  <div class="skill-col" title="${s.name}&#10;• SP: ${s.sp}&#10;• เป้าหมาย: ${s.target}&#10;• คอมโบ: ${s.combo}&#10;• Effect: ${s.effect}&#10;• รายละเอียด: ${s.desc}">
+                    <div class="skill-line1" title="${s.name}">
+                      <span class="skill-name">${s.name}</span>
+                      <span class="sp-pill">SP : ${s.sp}</span>
+                    </div>
+                    <div class="skill-line2">
+                      ${targetNum ? `<span class="tag-target" title="เป้าหมาย: ${s.target}">เป้าหมาย : ${targetNum}</span>` : ''}
+                      ${s.combo === 'ได้' ? `<span class="tag-combo" title="คอมโบได้">Combo</span>` : ''}
+                      ${hasEffect ? `<span class="tag-effect" title="${s.effect}">${s.effect}</span>` : ''}
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderCompareView() {
+  const container = document.getElementById('compare-view');
+  const compareWarriors = compareList.map(id => allWarriors.find(w => w.id === id)).filter(Boolean);
+  
+  if (compareWarriors.length === 0) {
+    container.innerHTML = `
+      <div class="empty-compare">
+        <div style="font-size: 52px; margin-bottom: 12px;">⚖️</div>
+        <div style="font-size: 18px; font-weight: 700; color: #1e293b; margin-bottom: 8px;">ยังไม่มีขุนพลในรายการเปรียบเทียบ</div>
+        <div style="font-size: 14px; color: #64748b; margin-bottom: 22px; max-width: 480px; text-align: center; line-height: 1.5;">
+          คลิกปุ่ม <strong>"+ เปรียบเทียบ"</strong> ที่การ์ดขุนพลในหน้ารวม เพื่อเลือกขุนพลที่ต้องการนำมาเปรียบเทียบสเตตัส สกิล และข้อมูลต่างๆ
+        </div>
+        <button onclick="switchView('gallery')" class="load-more-btn" style="margin: 0;">⚔️ ไปเลือกขุนพล</button>
+      </div>
+    `;
+    return;
+  }
+
+  // Calculate highest stats among compared warriors for highlight
+  const maxInt = Math.max(...compareWarriors.map(w => w.int || 0));
+  const maxAtk = Math.max(...compareWarriors.map(w => w.atk || 0));
+  const maxDef = Math.max(...compareWarriors.map(w => w.def || 0));
+  const maxHp = Math.max(...compareWarriors.map(w => w.hp || 0));
+  const maxSp = Math.max(...compareWarriors.map(w => w.sp || 0));
+  const maxAgi = Math.max(...compareWarriors.map(w => w.agi || 0));
+
+  const elemStyles = {
+    'ดิน': { bg: '#fef3c7', text: '#92400e', border: '#fde68a' },
+    'น้ำ': { bg: '#e0f2fe', text: '#0369a1', border: '#bae6fd' },
+    'ไฟ': { bg: '#fee2e2', text: '#b91c1c', border: '#fecaca' },
+    'ลม': { bg: '#dcfce7', text: '#15803d', border: '#bbf7d0' },
+    'แสง': { bg: '#fef9c3', text: '#854d0e', border: '#fde047' },
+    'มืด': { bg: '#f3e8ff', text: '#6b21a8', border: '#d8b4fe' },
+    'ไร้ธาตุ': { bg: '#ffffff', text: '#334155', border: '#cbd5e1' },
+    'จิต': { bg: '#f8fafc', text: '#475569', border: '#e2e8f0' }
+  };
+
+  const factionStyles = {
+    'วุย': { bg: '#eff6ff', text: '#1d4ed8', border: '#bfdbfe' },
+    'จ๊ก': { bg: '#f0fdf4', text: '#15803d', border: '#bbf7d0' },
+    'ง่อ': { bg: '#fef2f2', text: '#b91c1c', border: '#fecaca' },
+    'ผ้าเหลือง': { bg: '#fffbeb', text: '#b45309', border: '#fde68a' },
+    'จอมยุทธ์': { bg: '#f8fafc', text: '#475569', border: '#cbd5e1' }
+  };
+
+  let html = `
+    <div class="compare-container">
+      <div class="compare-header">
+        <div class="compare-title">
+          <span>⚖️ ตารางเปรียบเทียบขุนพล</span>
+          <span class="compare-count-tag">${compareWarriors.length} ขุนพล</span>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <button onclick="switchView('gallery')" class="btn-back">← กลับไปหน้ารวมขุนพล</button>
+          <button onclick="clearCompareList()" class="btn-clear-all">🗑️ ล้างรายการทั้งหมด</button>
+        </div>
+      </div>
+
+      <div class="compare-table-wrapper">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th class="col-sticky">คุณสมบัติ</th>
+              ${compareWarriors.map(w => {
+                const elemKey = Object.keys(elemStyles).find(k => w.element.includes(k)) || '';
+                const e = elemStyles[elemKey] || { bg: '#f1f5f9', text: '#475569', border: '#e2e8f0' };
+                const stageStr = formatStage(w.reborn_type);
+                const rbStyle = stageStr === 'จุติ2' 
+                  ? { bg: '#faf5ff', text: '#7c3aed', border: '#ddd6fe' }
+                  : (stageStr === 'จุติ1' ? { bg: '#eff6ff', text: '#2563eb', border: '#bfdbfe' } : { bg: '#f1f5f9', text: '#64748b', border: '#e2e8f0' });
+                const facStyle = factionStyles[w.faction] || { bg: '#f8fafc', text: '#475569', border: '#cbd5e1' };
+
+                return `
+                  <th class="warrior-col-th">
+                    <button class="btn-remove-col" onclick="toggleCompare(${w.id})" title="นำออกจากรายการ">✕</button>
+                    <div class="compare-sprite-box">
+                      <img src="sprites/${w.id}.png" loading="lazy" alt="${w.name}">
+                    </div>
+                    <div class="compare-warrior-title">
+                      <span class="compare-warrior-name">${w.name}</span>
+                      <span class="compare-warrior-id">#${w.id}</span>
+                    </div>
+                    <div class="compare-warrior-meta">
+                      <span class="badge" style="background:${e.bg}; color:${e.text}; border:1px solid ${e.border};">${w.element}</span>
+                      <span class="badge" style="background:${rbStyle.bg}; color:${rbStyle.text}; border:1px solid ${rbStyle.border};">${stageStr}</span>
+                      <span class="badge" style="background:${facStyle.bg}; color:${facStyle.text}; border:1px solid ${facStyle.border};">${w.faction}</span>
+                      <span class="compare-warrior-lv">Lv.${w.level}</span>
+                    </div>
+                  </th>
+                `;
+              }).join('')}
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="compare-section-row">
+              <td class="col-sticky">สเตตัสพื้นฐาน</td>
+              ${compareWarriors.map(() => `<td></td>`).join('')}
+            </tr>
+            <tr>
+              <td class="col-sticky">ปัญญา</td>
+              ${compareWarriors.map(w => `<td class="stat-cell int-val"><span class="${w.int === maxInt && compareWarriors.length > 1 ? 'stat-highlight' : ''}">${w.int}</span></td>`).join('')}
+            </tr>
+            <tr>
+              <td class="col-sticky">โจมตี</td>
+              ${compareWarriors.map(w => `<td class="stat-cell atk-val"><span class="${w.atk === maxAtk && compareWarriors.length > 1 ? 'stat-highlight' : ''}">${w.atk}</span></td>`).join('')}
+            </tr>
+            <tr>
+              <td class="col-sticky">ป้องกัน</td>
+              ${compareWarriors.map(w => `<td class="stat-cell def-val"><span class="${w.def === maxDef && compareWarriors.length > 1 ? 'stat-highlight' : ''}">${w.def}</span></td>`).join('')}
+            </tr>
+            <tr>
+              <td class="col-sticky">HP</td>
+              ${compareWarriors.map(w => `<td class="stat-cell hp-val"><span class="${w.hp === maxHp && compareWarriors.length > 1 ? 'stat-highlight' : ''}">${w.hp}</span></td>`).join('')}
+            </tr>
+            <tr>
+              <td class="col-sticky">SP</td>
+              ${compareWarriors.map(w => `<td class="stat-cell sp-val"><span class="${w.sp === maxSp && compareWarriors.length > 1 ? 'stat-highlight' : ''}">${w.sp}</span></td>`).join('')}
+            </tr>
+            <tr>
+              <td class="col-sticky">ว่องไว</td>
+              ${compareWarriors.map(w => `<td class="stat-cell agi-val"><span class="${w.agi === maxAgi && compareWarriors.length > 1 ? 'stat-highlight' : ''}">${w.agi}</span></td>`).join('')}
+            </tr>
+
+            <tr class="compare-section-row">
+              <td class="col-sticky">สกิลประจำตัว</td>
+              ${compareWarriors.map(() => `<td></td>`).join('')}
+            </tr>
+            ${[0, 1, 2, 3].map(i => `
+              <tr>
+                <td class="col-sticky">สกิลที่ ${i + 1}</td>
+                ${compareWarriors.map(w => {
+                  const s = w.skills ? w.skills[i] : null;
+                  if (!s) return `<td class="skill-compare-cell empty"><span style="color:#cbd5e1;">-</span></td>`;
+                  const targetNum = getTargetNum(s.target);
+                  const hasEffect = s.effect && !s.effect.includes('ไม่มี');
+                  return `
+                    <td class="skill-compare-cell" title="${s.name}&#10;• SP: ${s.sp}&#10;• เป้าหมาย: ${s.target}&#10;• คอมโบ: ${s.combo}&#10;• Effect: ${s.effect}&#10;• รายละเอียด: ${s.desc}">
+                      <div class="skill-compare-name">${s.name}</div>
+                      <div class="skill-compare-tags">
+                        <span class="sp-pill">SP : ${s.sp}</span>
+                        ${targetNum ? `<span class="tag-target" title="เป้าหมาย: ${s.target}">เป้าหมาย : ${targetNum}</span>` : ''}
+                        ${s.combo === 'ได้' ? `<span class="tag-combo" title="คอมโบได้">Combo</span>` : ''}
+                        ${hasEffect ? `<span class="tag-effect" title="${s.effect}">${s.effect}</span>` : ''}
+                      </div>
+                    </td>
+                  `;
+                }).join('')}
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+
+  container.innerHTML = html;
+}
+
+init();
+</script>
+</body>
+</html>
