@@ -230,7 +230,24 @@
   .info { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: space-between; }
   .info-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
   .header-left { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
-  .warrior-name { font-size: 17px; font-weight: 700; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .warrior-name {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.45;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    margin-top: -4px;
+  }
+  .warrior-legacy-sub {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: #64748b;
+    margin-left: 3px;
+  }
   .warrior-id { font-size: 13px; font-weight: 600; color: #64748b; }
   
   /* Add to Compare Button on Card */
@@ -605,6 +622,7 @@
     gap: 6px;
     margin-bottom: 6px;
     white-space: nowrap;
+    padding-top: 4px;
   }
   .compare-warrior-name {
     font-size: 17px;
@@ -612,6 +630,10 @@
     color: var(--text-primary);
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 1.45;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    margin-top: -4px;
   }
   .compare-warrior-id {
     font-size: 13px;
@@ -879,6 +901,17 @@ function switchView(view) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function formatWarriorName(fullName) {
+  if (!fullName) return '';
+  const idx = fullName.indexOf('(');
+  if (idx !== -1 && fullName.endsWith(')')) {
+    const main = fullName.substring(0, idx).trim();
+    const sub = fullName.substring(idx).trim();
+    return `${main} <span class="warrior-legacy-sub">${sub}</span>`;
+  }
+  return fullName;
+}
+
 function formatStage(stage) {
   if (!stage) return 'ปกติ';
   if (stage.includes('จุติ 2') || stage.includes('Reborn 2') || stage.includes('จุติ2')) return 'จุติ2';
@@ -1018,7 +1051,7 @@ function render() {
           <div>
             <div class="info-header">
               <div class="header-left">
-                <span class="warrior-name">${w.name}</span>
+                <span class="warrior-name" title="${w.name}">${formatWarriorName(w.name)}</span>
                 <span class="warrior-id">#${w.id}</span>
               </div>
               <button class="btn-compare ${inList ? 'active' : ''}" data-id="${w.id}" onclick="toggleCompare(${w.id})" title="${inList ? 'คลิกเพื่อนำออกจากรายการเปรียบเทียบ' : 'คลิกเพื่อเพิ่มลงในรายการเปรียบเทียบ'}">
@@ -1155,7 +1188,7 @@ function renderCompareView() {
                       <img src="sprites/${w.id}.png" loading="lazy" alt="${w.name}">
                     </div>
                     <div class="compare-warrior-title">
-                      <span class="compare-warrior-name">${w.name}</span>
+                      <span class="compare-warrior-name" title="${w.name}">${formatWarriorName(w.name)}</span>
                       <span class="compare-warrior-id">#${w.id}</span>
                     </div>
                     <div class="compare-warrior-meta">
