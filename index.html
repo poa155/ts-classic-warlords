@@ -101,28 +101,30 @@
     background: #94a3b8;
   }
 
-  .header-actions {
+  .header-info-box {
     display: flex;
-    gap: 10px;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    text-align: right;
   }
-  .header-compare-btn {
-    background: #eff6ff;
-    color: #2563eb;
-    border: 1px solid #bfdbfe;
-    padding: 7px 14px;
-    border-radius: 8px;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
+  .header-date {
+    font-size: 12px;
+    font-weight: 700;
+    color: #334155;
+    background: #f1f5f9;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid #cbd5e1;
+    display: inline-flex;
     align-items: center;
-    gap: 6px;
-    transition: 0.15s;
+    gap: 4px;
   }
-  .header-compare-btn:hover {
-    background: #dbeafe;
-    border-color: #93c5fd;
+  .header-disclaimer {
+    font-size: 11px;
+    color: #64748b;
+    line-height: 1.4;
+    max-width: 480px;
   }
   
   .controls {
@@ -707,7 +709,11 @@
     <div class="title-group">
       <h1>TS Online Classic <span class="badge-live">WARLORDS DATABASE</span></h1>
     </div>
-    </header>
+    <div class="header-info-box">
+      <div class="header-date">📅 ข้อมูลไฟล์เกมล่าสุด: 24 ต.ค. 2026</div>
+      <div class="header-disclaimer">⚠️ ข้อมูลจากระบบ อาจเป็นขุนพลที่ยังไม่เปิดให้ใช้ในปัจจุบัน และอาจมีการปรับเปลี่ยนในอนาคต</div>
+    </div>
+  </header>
 
   <div class="view-tabs">
     <button id="tab-gallery" class="tab-btn active" onclick="switchView('gallery')">
