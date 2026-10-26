@@ -1,4 +1,4 @@
-# TS Online Classic - Warlords Database & Comparison Tool
+# TS Online Classic - Warrior Database & Comparison Tool
 
 ฐานข้อมูลและระบบเปรียบเทียบขุนพลเกม TS Online Classic (ฉบับสมบูรณ์ 100%)
 - **จำนวนขุนพล**: 1,290 ตัว
