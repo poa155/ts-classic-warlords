@@ -567,8 +567,8 @@
   }
   .warrior-col-th {
     position: relative;
-    min-width: 180px;
-    width: 190px;
+    min-width: 210px;
+    width: 210px;
     vertical-align: top;
     padding: 10px 8px 8px;
     background: #ffffff;
@@ -686,7 +686,7 @@
     box-shadow: inset -4px 0 0 #2563eb;
   }
   .compare-sprite-box {
-    width: 125px;
+    width: 145px;
     height: 140px;
     margin: 0 auto 8px;
     display: flex;
@@ -700,7 +700,12 @@
   .compare-sprite-box img {
     max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
     image-rendering: pixelated;
+  }
+  .compare-warrior-meta .badge,
+  .compare-warrior-lv {
+    white-space: nowrap;
   }
   .compare-warrior-title {
     display: flex;
@@ -1299,6 +1304,13 @@ function render() {
   }).join('');
 }
 
+function fitCompareSprite(img) {
+  if (img && img.naturalWidth > 0) {
+    img.style.width = Math.round(img.naturalWidth * 0.65) + 'px';
+    img.style.height = 'auto';
+  }
+}
+
 function renderCompareView() {
   const container = document.getElementById('compare-view');
   const prevWrapper = container.querySelector('.compare-table-wrapper');
@@ -1388,7 +1400,7 @@ function renderCompareView() {
                     </div>
                     <button class="btn-remove-col" onclick="toggleCompare(${w.id})" title="นำออกจากรายการ">✕</button>
                     <div class="compare-sprite-box" draggable="true" ondragstart="onCompareDragStart(event, ${w.id})" title="ลากรูปเพื่อแทรกตำแหน่ง">
-                      <img src="sprites/${w.id}.png" draggable="false" loading="lazy" alt="${w.name}">
+                      <img src="sprites/${w.id}.png" onload="fitCompareSprite(this)" draggable="false" loading="lazy" alt="${w.name}">
                     </div>
                     <div class="compare-warrior-title">
                       <span class="compare-warrior-name" title="${w.name}">${formatWarriorName(w.name)}</span>
@@ -1474,6 +1486,9 @@ function renderCompareView() {
   `;
 
   container.innerHTML = html;
+  container.querySelectorAll('.compare-sprite-box img').forEach(img => {
+    if (img.complete) fitCompareSprite(img);
+  });
   const newWrapper = container.querySelector('.compare-table-wrapper');
   if (newWrapper && savedScrollLeft > 0) {
     newWrapper.scrollLeft = savedScrollLeft;
