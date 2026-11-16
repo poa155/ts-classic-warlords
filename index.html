@@ -224,6 +224,7 @@
   .sprite-container img {
     max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
     image-rendering: pixelated;
   }
   
@@ -1240,7 +1241,7 @@ function render() {
     return `
       <div class="card">
         <div class="sprite-container">
-          <img src="sprites/${w.id}.png" loading="lazy" alt="${w.name}">
+          <img src="sprites/${w.id}.png" onload="fitCompareSprite(this)" loading="lazy" alt="${w.name}">
         </div>
         <div class="info">
           <div>
