@@ -601,8 +601,9 @@
   .compare-col-actions {
     position: absolute;
     top: 6px;
-    left: 6px;
+    left: 4px;
     display: inline-flex;
+    flex-direction: column;
     gap: 4px;
     z-index: 2;
   }
@@ -663,8 +664,15 @@
     opacity: 0.3;
     cursor: not-allowed;
   }
-  .warrior-col-th[draggable="true"] {
+  .compare-sprite-box[draggable="true"] {
     cursor: grab;
+  }
+  .compare-sprite-box[draggable="true"]:active {
+    cursor: grabbing;
+  }
+  .compare-warrior-title {
+    user-select: text;
+    cursor: text;
   }
   .warrior-col-th.drag-over {
     background: #eff6ff;
@@ -1369,8 +1377,7 @@ function renderCompareView() {
                 const stageIdx = stages.indexOf(w.id);
 
                 return `
-                  <th class="warrior-col-th" draggable="true"
-                      ondragstart="onCompareDragStart(event, ${w.id})"
+                  <th class="warrior-col-th"
                       ondragover="onCompareDragOver(event)"
                       ondragleave="onCompareDragLeave(event)"
                       ondrop="onCompareDrop(event, ${w.id})"
@@ -1380,22 +1387,24 @@ function renderCompareView() {
                       <button class="btn-move-col" onclick="moveCompareWarrior(${w.id}, 1)" title="เลื่อนไปทางขวา" ${idx === compareWarriors.length - 1 ? 'disabled' : ''}>▶</button>
                     </div>
                     <button class="btn-remove-col" onclick="toggleCompare(${w.id})" title="นำออกจากรายการ">✕</button>
-                    <div class="compare-sprite-box">
-                      <img src="sprites/${w.id}.png" loading="lazy" alt="${w.name}">
+                    <div class="compare-sprite-box" draggable="true" ondragstart="onCompareDragStart(event, ${w.id})" title="ลากรูปเพื่อแทรกตำแหน่ง">
+                      <img src="sprites/${w.id}.png" draggable="false" loading="lazy" alt="${w.name}">
                     </div>
                     <div class="compare-warrior-title">
                       <span class="compare-warrior-name" title="${w.name}">${formatWarriorName(w.name)}</span>
                       <span class="compare-warrior-id">#${w.id}</span>
                     </div>
-                    <div class="compare-warrior-meta">
-                      <span class="badge" style="background:${e.bg}; color:${e.text}; border:1px solid ${e.border};">${w.element}</span>
-                      <span class="reborn-stepper">
+                    <div class="compare-warrior-meta" style="flex-direction: column; align-items: center; gap: 5px;">
+                      <div style="display: flex; align-items: center; justify-content: center; gap: 4px; flex-wrap: nowrap;">
+                        <span class="badge" style="background:${e.bg}; color:${e.text}; border:1px solid ${e.border};">${w.element}</span>
+                        <span class="badge" style="background:${facStyle.bg}; color:${facStyle.text}; border:1px solid ${facStyle.border};">${w.faction}</span>
+                        <span class="compare-warrior-lv">Lv.${w.level}</span>
+                      </div>
+                      <div class="reborn-stepper">
                         <button class="btn-reborn-step" onclick="changeCompareReborn(${w.id}, -1)" title="ลดระดับจุติ" ${stageIdx <= 0 ? 'disabled' : ''}>−</button>
-                        <span class="badge" style="background:${rbStyle.bg}; color:${rbStyle.text}; border:1px solid ${rbStyle.border};">${stageStr}</span>
+                        <span class="badge" style="background:${rbStyle.bg}; color:${rbStyle.text}; border:1px solid ${rbStyle.border}; min-width: 44px; text-align: center;">${stageStr}</span>
                         <button class="btn-reborn-step" onclick="changeCompareReborn(${w.id}, 1)" title="เพิ่มระดับจุติ" ${stageIdx === -1 || stageIdx >= stages.length - 1 ? 'disabled' : ''}>+</button>
-                      </span>
-                      <span class="badge" style="background:${facStyle.bg}; color:${facStyle.text}; border:1px solid ${facStyle.border};">${w.faction}</span>
-                      <span class="compare-warrior-lv">Lv.${w.level}</span>
+                      </div>
                     </div>
                   </th>
                 `;
