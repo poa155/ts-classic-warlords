@@ -637,7 +637,14 @@
   }
   .warrior-col-th.drag-over {
     background: #eff6ff;
-    box-shadow: inset 0 0 0 2px #3b82f6;
+  }
+  .warrior-col-th.drag-insert-left {
+    background: #eff6ff;
+    box-shadow: inset 4px 0 0 #2563eb;
+  }
+  .warrior-col-th.drag-insert-right {
+    background: #eff6ff;
+    box-shadow: inset -4px 0 0 #2563eb;
   }
   .compare-sprite-box {
     width: 125px;
@@ -917,6 +924,23 @@ function swapCompareWarriors(idA, idB) {
   }
 }
 
+function insertCompareWarrior(sourceId, targetId, insertAfter = false) {
+  const srcIdx = compareList.indexOf(sourceId);
+  if (srcIdx === -1 || sourceId === targetId) return;
+  compareList.splice(srcIdx, 1);
+  let dstIdx = compareList.indexOf(targetId);
+  if (dstIdx === -1) {
+    compareList.push(sourceId);
+  } else {
+    if (insertAfter) dstIdx += 1;
+    compareList.splice(dstIdx, 0, sourceId);
+  }
+  saveCompareList();
+  if (currentView === 'compare') {
+    renderCompareView();
+  }
+}
+
 function moveCompareWarrior(id, delta) {
   const visibleIds = compareList.filter(cid => allWarriors.some(w => w.id === cid));
   const vIdx = visibleIds.indexOf(id);
@@ -926,6 +950,7 @@ function moveCompareWarrior(id, delta) {
 }
 
 let draggedCompareId = null;
+let dragInsertAfter = false;
 function onCompareDragStart(e, id) {
   draggedCompareId = id;
   e.dataTransfer.effectAllowed = 'move';
@@ -934,22 +959,29 @@ function onCompareDragStart(e, id) {
 function onCompareDragOver(e) {
   e.preventDefault();
   e.dataTransfer.dropEffect = 'move';
-  e.currentTarget.classList.add('drag-over');
+  const rect = e.currentTarget.getBoundingClientRect();
+  dragInsertAfter = (e.clientX - rect.left) >= rect.width / 2;
+  e.currentTarget.classList.remove('drag-insert-left', 'drag-insert-right');
+  e.currentTarget.classList.add(dragInsertAfter ? 'drag-insert-right' : 'drag-insert-left');
 }
 function onCompareDragLeave(e) {
-  e.currentTarget.classList.remove('drag-over');
+  e.currentTarget.classList.remove('drag-over', 'drag-insert-left', 'drag-insert-right');
 }
 function onCompareDrop(e, targetId) {
   e.preventDefault();
-  e.currentTarget.classList.remove('drag-over');
+  const rect = e.currentTarget.getBoundingClientRect();
+  const insertAfter = (e.clientX - rect.left) >= rect.width / 2;
+  e.currentTarget.classList.remove('drag-over', 'drag-insert-left', 'drag-insert-right');
   if (draggedCompareId !== null && draggedCompareId !== targetId) {
-    swapCompareWarriors(draggedCompareId, targetId);
+    insertCompareWarrior(draggedCompareId, targetId, insertAfter);
   }
   draggedCompareId = null;
 }
 function onCompareDragEnd() {
   draggedCompareId = null;
-  document.querySelectorAll('.warrior-col-th.drag-over').forEach(el => el.classList.remove('drag-over'));
+  document.querySelectorAll('.warrior-col-th').forEach(el => {
+    el.classList.remove('drag-over', 'drag-insert-left', 'drag-insert-right');
+  });
 }
 
 function updateCompareBadges() {
@@ -1200,6 +1232,9 @@ function render() {
 
 function renderCompareView() {
   const container = document.getElementById('compare-view');
+  const prevWrapper = container.querySelector('.compare-table-wrapper');
+  const savedScrollLeft = prevWrapper ? prevWrapper.scrollLeft : 0;
+  const savedScrollTop = window.scrollY;
   const compareWarriors = compareList.map(id => allWarriors.find(w => w.id === id)).filter(Boolean);
   
   if (compareWarriors.length === 0) {
@@ -1363,6 +1398,13 @@ function renderCompareView() {
   `;
 
   container.innerHTML = html;
+  const newWrapper = container.querySelector('.compare-table-wrapper');
+  if (newWrapper && savedScrollLeft > 0) {
+    newWrapper.scrollLeft = savedScrollLeft;
+  }
+  if (savedScrollTop > 0) {
+    window.scrollTo(0, savedScrollTop);
+  }
 }
 
 init();
