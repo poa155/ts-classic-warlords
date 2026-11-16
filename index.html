@@ -598,6 +598,47 @@
     background: #dc2626;
     color: #ffffff;
   }
+  .compare-col-actions {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    display: inline-flex;
+    gap: 4px;
+    z-index: 2;
+  }
+  .btn-move-col {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    color: #475569;
+    border: 1px solid #cbd5e1;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+    transition: 0.15s;
+  }
+  .btn-move-col:hover:not(:disabled) {
+    background: #3b82f6;
+    color: #ffffff;
+    border-color: #2563eb;
+  }
+  .btn-move-col:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+  .warrior-col-th[draggable="true"] {
+    cursor: grab;
+  }
+  .warrior-col-th.drag-over {
+    background: #eff6ff;
+    box-shadow: inset 0 0 0 2px #3b82f6;
+  }
   .compare-sprite-box {
     width: 125px;
     height: 140px;
@@ -861,6 +902,54 @@ function clearCompareList() {
       renderCompareView();
     }
   }
+}
+
+function swapCompareWarriors(idA, idB) {
+  const idxA = compareList.indexOf(idA);
+  const idxB = compareList.indexOf(idB);
+  if (idxA === -1 || idxB === -1 || idxA === idxB) return;
+  const tmp = compareList[idxA];
+  compareList[idxA] = compareList[idxB];
+  compareList[idxB] = tmp;
+  saveCompareList();
+  if (currentView === 'compare') {
+    renderCompareView();
+  }
+}
+
+function moveCompareWarrior(id, delta) {
+  const visibleIds = compareList.filter(cid => allWarriors.some(w => w.id === cid));
+  const vIdx = visibleIds.indexOf(id);
+  const targetVIdx = vIdx + delta;
+  if (vIdx === -1 || targetVIdx < 0 || targetVIdx >= visibleIds.length) return;
+  swapCompareWarriors(visibleIds[vIdx], visibleIds[targetVIdx]);
+}
+
+let draggedCompareId = null;
+function onCompareDragStart(e, id) {
+  draggedCompareId = id;
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/plain', String(id));
+}
+function onCompareDragOver(e) {
+  e.preventDefault();
+  e.dataTransfer.dropEffect = 'move';
+  e.currentTarget.classList.add('drag-over');
+}
+function onCompareDragLeave(e) {
+  e.currentTarget.classList.remove('drag-over');
+}
+function onCompareDrop(e, targetId) {
+  e.preventDefault();
+  e.currentTarget.classList.remove('drag-over');
+  if (draggedCompareId !== null && draggedCompareId !== targetId) {
+    swapCompareWarriors(draggedCompareId, targetId);
+  }
+  draggedCompareId = null;
+}
+function onCompareDragEnd() {
+  draggedCompareId = null;
+  document.querySelectorAll('.warrior-col-th.drag-over').forEach(el => el.classList.remove('drag-over'));
 }
 
 function updateCompareBadges() {
@@ -1172,7 +1261,7 @@ function renderCompareView() {
           <thead>
             <tr>
               <th class="col-sticky">คุณสมบัติ</th>
-              ${compareWarriors.map(w => {
+              ${compareWarriors.map((w, idx) => {
                 const elemKey = Object.keys(elemStyles).find(k => w.element.includes(k)) || '';
                 const e = elemStyles[elemKey] || { bg: '#f1f5f9', text: '#475569', border: '#e2e8f0' };
                 const stageStr = formatStage(w.reborn_type);
@@ -1182,7 +1271,16 @@ function renderCompareView() {
                 const facStyle = factionStyles[w.faction] || { bg: '#f8fafc', text: '#475569', border: '#cbd5e1' };
 
                 return `
-                  <th class="warrior-col-th">
+                  <th class="warrior-col-th" draggable="true"
+                      ondragstart="onCompareDragStart(event, ${w.id})"
+                      ondragover="onCompareDragOver(event)"
+                      ondragleave="onCompareDragLeave(event)"
+                      ondrop="onCompareDrop(event, ${w.id})"
+                      ondragend="onCompareDragEnd()">
+                    <div class="compare-col-actions">
+                      <button class="btn-move-col" onclick="moveCompareWarrior(${w.id}, -1)" title="เลื่อนไปทางซ้าย" ${idx === 0 ? 'disabled' : ''}>◀</button>
+                      <button class="btn-move-col" onclick="moveCompareWarrior(${w.id}, 1)" title="เลื่อนไปทางขวา" ${idx === compareWarriors.length - 1 ? 'disabled' : ''}>▶</button>
+                    </div>
                     <button class="btn-remove-col" onclick="toggleCompare(${w.id})" title="นำออกจากรายการ">✕</button>
                     <div class="compare-sprite-box">
                       <img src="sprites/${w.id}.png" loading="lazy" alt="${w.name}">
