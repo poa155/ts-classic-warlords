@@ -632,6 +632,37 @@
     opacity: 0.35;
     cursor: not-allowed;
   }
+  .reborn-stepper {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .btn-reborn-step {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 1px solid #cbd5e1;
+    background: #f8fafc;
+    color: #334155;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.12s;
+  }
+  .btn-reborn-step:hover:not(:disabled) {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+  }
+  .btn-reborn-step:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
   .warrior-col-th[draggable="true"] {
     cursor: grab;
   }
@@ -947,6 +978,36 @@ function moveCompareWarrior(id, delta) {
   const targetVIdx = vIdx + delta;
   if (vIdx === -1 || targetVIdx < 0 || targetVIdx >= visibleIds.length) return;
   swapCompareWarriors(visibleIds[vIdx], visibleIds[targetVIdx]);
+}
+
+function getWarriorStages(w) {
+  if (!w || !w.chain) return [w.id];
+  return [w.chain.normal_id, w.chain.reborn1_id, w.chain.reborn2_id]
+    .filter((sid, i, arr) => sid && arr.indexOf(sid) === i && allWarriors.some(x => x.id === sid));
+}
+
+function changeCompareReborn(id, delta) {
+  const w = allWarriors.find(x => x.id === id);
+  if (!w) return;
+  const stages = getWarriorStages(w);
+  const sIdx = stages.indexOf(id);
+  const nextIdx = sIdx + delta;
+  if (sIdx === -1 || nextIdx < 0 || nextIdx >= stages.length) return;
+  const targetId = stages[nextIdx];
+  const cIdx = compareList.indexOf(id);
+  if (cIdx === -1) return;
+  const existingIdx = compareList.indexOf(targetId);
+  if (existingIdx !== -1 && existingIdx !== cIdx) {
+    compareList[existingIdx] = id;
+    compareList[cIdx] = targetId;
+  } else {
+    compareList[cIdx] = targetId;
+  }
+  saveCompareList();
+  updateCompareBadges();
+  if (currentView === 'compare') {
+    renderCompareView();
+  }
 }
 
 let draggedCompareId = null;
@@ -1304,6 +1365,8 @@ function renderCompareView() {
                   ? { bg: '#faf5ff', text: '#7c3aed', border: '#ddd6fe' }
                   : (stageStr === 'จุติ1' ? { bg: '#eff6ff', text: '#2563eb', border: '#bfdbfe' } : { bg: '#f1f5f9', text: '#64748b', border: '#e2e8f0' });
                 const facStyle = factionStyles[w.faction] || { bg: '#f8fafc', text: '#475569', border: '#cbd5e1' };
+                const stages = getWarriorStages(w);
+                const stageIdx = stages.indexOf(w.id);
 
                 return `
                   <th class="warrior-col-th" draggable="true"
@@ -1326,7 +1389,11 @@ function renderCompareView() {
                     </div>
                     <div class="compare-warrior-meta">
                       <span class="badge" style="background:${e.bg}; color:${e.text}; border:1px solid ${e.border};">${w.element}</span>
-                      <span class="badge" style="background:${rbStyle.bg}; color:${rbStyle.text}; border:1px solid ${rbStyle.border};">${stageStr}</span>
+                      <span class="reborn-stepper">
+                        <button class="btn-reborn-step" onclick="changeCompareReborn(${w.id}, -1)" title="ลดระดับจุติ" ${stageIdx <= 0 ? 'disabled' : ''}>−</button>
+                        <span class="badge" style="background:${rbStyle.bg}; color:${rbStyle.text}; border:1px solid ${rbStyle.border};">${stageStr}</span>
+                        <button class="btn-reborn-step" onclick="changeCompareReborn(${w.id}, 1)" title="เพิ่มระดับจุติ" ${stageIdx === -1 || stageIdx >= stages.length - 1 ? 'disabled' : ''}>+</button>
+                      </span>
                       <span class="badge" style="background:${facStyle.bg}; color:${facStyle.text}; border:1px solid ${facStyle.border};">${w.faction}</span>
                       <span class="compare-warrior-lv">Lv.${w.level}</span>
                     </div>
