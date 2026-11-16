@@ -632,8 +632,8 @@
   {
     "id": 10004,
     "picid": 1049,
-    "name": "เทียอ้วนจี้ (เฉิงหย่วนจื้อ)",
-    "classic_name": "เทียอ้วนจี้",
+    "name": "เฉิงหยวนจื้อ (เฉิงหย่วนจื้อ)",
+    "classic_name": "เฉิงหยวนจื้อ",
     "legacy_name": "เฉิงหย่วนจื้อ",
     "element": "ดิน",
     "level": 53,
@@ -684,7 +684,7 @@
     ],
     "mount_type": 1,
     "sort_index": 4,
-    "base_name": "เทียอ้วนจี้ (เฉิงหย่วนจื้อ)",
+    "base_name": "เฉิงหยวนจื้อ (เฉิงหย่วนจื้อ)",
     "faction": "ผ้าเหลือง",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -1610,9 +1610,9 @@
   {
     "id": 10016,
     "picid": 1065,
-    "name": "ฮั่นต๋ง (หานจง)",
-    "classic_name": "ฮั่นต๋ง",
-    "legacy_name": "หานจง",
+    "name": "หานจง",
+    "classic_name": "หานจง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 55,
     "hpx": 360,
@@ -1662,7 +1662,7 @@
     ],
     "mount_type": 1,
     "sort_index": 12,
-    "base_name": "ฮั่นต๋ง (หานจง)",
+    "base_name": "หานจง",
     "faction": "ผ้าเหลือง",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -1674,9 +1674,9 @@
   {
     "id": 41009,
     "picid": 1065,
-    "name": "ฮั่นต๋ง (หานจง)",
-    "classic_name": "ฮั่นต๋ง",
-    "legacy_name": "หานจง",
+    "name": "หานจง",
+    "classic_name": "หานจง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 75,
     "hpx": 1622,
@@ -1726,7 +1726,7 @@
     ],
     "mount_type": 1,
     "sort_index": 12,
-    "base_name": "ฮั่นต๋ง (หานจง)",
+    "base_name": "หานจง",
     "faction": "ผ้าเหลือง",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -1738,9 +1738,9 @@
   {
     "id": 45257,
     "picid": 1077,
-    "name": "ฮั่นต๋ง (หานจง)",
-    "classic_name": "ฮั่นต๋ง",
-    "legacy_name": "หานจง",
+    "name": "หานจง",
+    "classic_name": "หานจง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 125,
     "hpx": 3738,
@@ -1790,7 +1790,7 @@
     ],
     "mount_type": 1,
     "sort_index": 12,
-    "base_name": "ฮั่นต๋ง (หานจง)",
+    "base_name": "หานจง",
     "faction": "ผ้าเหลือง",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -1994,9 +1994,9 @@
   {
     "id": 10018,
     "picid": 1089,
-    "name": "จ้าวหยวนเจียง (เจ้าหยวนเจียง)",
-    "classic_name": "จ้าวหยวนเจียง",
-    "legacy_name": "เจ้าหยวนเจียง",
+    "name": "เจ้าหยวนเจียง",
+    "classic_name": "เจ้าหยวนเจียง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 93,
     "hpx": 763,
@@ -2046,7 +2046,7 @@
     ],
     "mount_type": 1,
     "sort_index": 14,
-    "base_name": "จ้าวหยวนเจียง (เจ้าหยวนเจียง)",
+    "base_name": "เจ้าหยวนเจียง",
     "faction": "ผ้าเหลือง",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -2058,9 +2058,9 @@
   {
     "id": 41004,
     "picid": 1089,
-    "name": "จ้าวหยวนเจียง (เจ้าหยวนเจียง)",
-    "classic_name": "จ้าวหยวนเจียง",
-    "legacy_name": "เจ้าหยวนเจียง",
+    "name": "เจ้าหยวนเจียง",
+    "classic_name": "เจ้าหยวนเจียง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 108,
     "hpx": 2539,
@@ -2119,7 +2119,7 @@
     ],
     "mount_type": 1,
     "sort_index": 14,
-    "base_name": "จ้าวหยวนเจียง (เจ้าหยวนเจียง)",
+    "base_name": "เจ้าหยวนเจียง",
     "faction": "ผ้าเหลือง",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -2131,9 +2131,9 @@
   {
     "id": 45008,
     "picid": 1310,
-    "name": "จ้าวหยวนเจียง (เจ้าหยวนเจียง)",
-    "classic_name": "จ้าวหยวนเจียง",
-    "legacy_name": "เจ้าหยวนเจียง",
+    "name": "เจ้าหยวนเจียง",
+    "classic_name": "เจ้าหยวนเจียง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 137,
     "hpx": 6520,
@@ -2192,7 +2192,7 @@
     ],
     "mount_type": 1,
     "sort_index": 14,
-    "base_name": "จ้าวหยวนเจียง (เจ้าหยวนเจียง)",
+    "base_name": "เจ้าหยวนเจียง",
     "faction": "ผ้าเหลือง",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -2524,8 +2524,8 @@
   {
     "id": 10026,
     "picid": 1029,
-    "name": "เจ้าจือ",
-    "classic_name": "เจ้าจือ",
+    "name": "จ้าวฉี",
+    "classic_name": "จ้าวฉี",
     "legacy_name": "",
     "element": "น้ำ",
     "level": 35,
@@ -2576,7 +2576,7 @@
     ],
     "mount_type": 1,
     "sort_index": 18,
-    "base_name": "เจ้าจือ",
+    "base_name": "จ้าวฉี",
     "faction": "ผ้าเหลือง",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -3960,9 +3960,9 @@
   {
     "id": 10232,
     "picid": 1374,
-    "name": "เตียวฬ่อ (จางหลู่)",
-    "classic_name": "เตียวฬ่อ",
-    "legacy_name": "จางหลู่",
+    "name": "จางหลู่",
+    "classic_name": "จางหลู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 124,
     "hpx": 1510,
@@ -4012,7 +4012,7 @@
     ],
     "mount_type": 1,
     "sort_index": 32,
-    "base_name": "เตียวฬ่อ (จางหลู่)",
+    "base_name": "จางหลู่",
     "faction": "ผ้าเหลือง",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -4024,9 +4024,9 @@
   {
     "id": 41171,
     "picid": 1374,
-    "name": "เตียวฬ่อ (จางหลู่)",
-    "classic_name": "เตียวฬ่อ",
-    "legacy_name": "จางหลู่",
+    "name": "จางหลู่",
+    "classic_name": "จางหลู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 138,
     "hpx": 3902,
@@ -4076,7 +4076,7 @@
     ],
     "mount_type": 1,
     "sort_index": 32,
-    "base_name": "เตียวฬ่อ (จางหลู่)",
+    "base_name": "จางหลู่",
     "faction": "ผ้าเหลือง",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -4088,9 +4088,9 @@
   {
     "id": 45089,
     "picid": 1051,
-    "name": "เตียวฬ่อ (จางหลู่)",
-    "classic_name": "เตียวฬ่อ",
-    "legacy_name": "จางหลู่",
+    "name": "จางหลู่",
+    "classic_name": "จางหลู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 168,
     "hpx": 9121,
@@ -4140,7 +4140,7 @@
     ],
     "mount_type": 1,
     "sort_index": 32,
-    "base_name": "เตียวฬ่อ (จางหลู่)",
+    "base_name": "จางหลู่",
     "faction": "ผ้าเหลือง",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -4152,9 +4152,9 @@
   {
     "id": 10233,
     "picid": 1076,
-    "name": "เอียวเหียม (หยางเหยิน)",
-    "classic_name": "เอียวเหียม",
-    "legacy_name": "หยางเหยิน",
+    "name": "หยางเหยิน",
+    "classic_name": "หยางเหยิน",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 93,
     "hpx": 786,
@@ -4204,7 +4204,7 @@
     ],
     "mount_type": 1,
     "sort_index": 33,
-    "base_name": "เอียวเหียม (หยางเหยิน)",
+    "base_name": "หยางเหยิน",
     "faction": "ผ้าเหลือง",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -4216,9 +4216,9 @@
   {
     "id": 41321,
     "picid": 1243,
-    "name": "เอียวเหียม (หยางเหยิน)",
-    "classic_name": "เอียวเหียม",
-    "legacy_name": "หยางเหยิน",
+    "name": "หยางเหยิน",
+    "classic_name": "หยางเหยิน",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 116,
     "hpx": 2791,
@@ -4268,7 +4268,7 @@
     ],
     "mount_type": 1,
     "sort_index": 33,
-    "base_name": "เอียวเหียม (หยางเหยิน)",
+    "base_name": "หยางเหยิน",
     "faction": "ผ้าเหลือง",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -4600,9 +4600,9 @@
   {
     "id": 11001,
     "picid": 1076,
-    "name": "อิกิ๋ม (หวีจิ้น)",
-    "classic_name": "อิกิ๋ม",
-    "legacy_name": "หวีจิ้น",
+    "name": "หวีจิ้น",
+    "classic_name": "หวีจิ้น",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 101,
     "hpx": 983,
@@ -4652,7 +4652,7 @@
     ],
     "mount_type": 1,
     "sort_index": 36,
-    "base_name": "อิกิ๋ม (หวีจิ้น)",
+    "base_name": "หวีจิ้น",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -4664,9 +4664,9 @@
   {
     "id": 41042,
     "picid": 1112,
-    "name": "อิกิ๋ม (หวีจิ้น)",
-    "classic_name": "อิกิ๋ม",
-    "legacy_name": "หวีจิ้น",
+    "name": "หวีจิ้น",
+    "classic_name": "หวีจิ้น",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 121,
     "hpx": 3229,
@@ -4725,7 +4725,7 @@
     ],
     "mount_type": 1,
     "sort_index": 36,
-    "base_name": "อิกิ๋ม (หวีจิ้น)",
+    "base_name": "หวีจิ้น",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -4737,9 +4737,9 @@
   {
     "id": 45022,
     "picid": 1112,
-    "name": "อิกิ๋ม (หวีจิ้น)",
-    "classic_name": "อิกิ๋ม",
-    "legacy_name": "หวีจิ้น",
+    "name": "หวีจิ้น",
+    "classic_name": "หวีจิ้น",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 146,
     "hpx": 788,
@@ -4798,7 +4798,7 @@
     ],
     "mount_type": 1,
     "sort_index": 36,
-    "base_name": "อิกิ๋ม (หวีจิ้น)",
+    "base_name": "หวีจิ้น",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -4938,9 +4938,9 @@
   {
     "id": 11003,
     "picid": 1113,
-    "name": "บุนเพ่ง (เหวินพิ่น)",
-    "classic_name": "บุนเพ่ง",
-    "legacy_name": "เหวินพิ่น",
+    "name": "เหวินพิ่น",
+    "classic_name": "เหวินพิ่น",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 91,
     "hpx": 745,
@@ -4990,7 +4990,7 @@
     ],
     "mount_type": 1,
     "sort_index": 38,
-    "base_name": "บุนเพ่ง (เหวินพิ่น)",
+    "base_name": "เหวินพิ่น",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -5002,9 +5002,9 @@
   {
     "id": 41149,
     "picid": 1290,
-    "name": "บุนเพ่ง (เหวินพิ่น)",
-    "classic_name": "บุนเพ่ง",
-    "legacy_name": "เหวินพิ่น",
+    "name": "เหวินพิ่น",
+    "classic_name": "เหวินพิ่น",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 104,
     "hpx": 2453,
@@ -5063,7 +5063,7 @@
     ],
     "mount_type": 1,
     "sort_index": 38,
-    "base_name": "บุนเพ่ง (เหวินพิ่น)",
+    "base_name": "เหวินพิ่น",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -5075,9 +5075,9 @@
   {
     "id": 45047,
     "picid": 1489,
-    "name": "บุนเพ่ง (เหวินพิ่น)",
-    "classic_name": "บุนเพ่ง",
-    "legacy_name": "เหวินพิ่น",
+    "name": "เหวินพิ่น",
+    "classic_name": "เหวินพิ่น",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 132,
     "hpx": 6279,
@@ -5136,7 +5136,7 @@
     ],
     "mount_type": 1,
     "sort_index": 38,
-    "base_name": "บุนเพ่ง (เหวินพิ่น)",
+    "base_name": "เหวินพิ่น",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -5340,9 +5340,9 @@
   {
     "id": 11006,
     "picid": 1117,
-    "name": "เล่าหัว (หลิวเยี่ย)",
-    "classic_name": "เล่าหัว",
-    "legacy_name": "หลิวเยี่ย",
+    "name": "หลิวเยี่ย",
+    "classic_name": "หลิวเยี่ย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 113,
     "hpx": 1080,
@@ -5392,7 +5392,7 @@
     ],
     "mount_type": 1,
     "sort_index": 40,
-    "base_name": "เล่าหัว (หลิวเยี่ย)",
+    "base_name": "หลิวเยี่ย",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -5404,9 +5404,9 @@
   {
     "id": 41117,
     "picid": 1345,
-    "name": "เล่าหัว (หลิวเยี่ย)",
-    "classic_name": "เล่าหัว",
-    "legacy_name": "หลิวเยี่ย",
+    "name": "หลิวเยี่ย",
+    "classic_name": "หลิวเยี่ย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 140,
     "hpx": 3747,
@@ -5465,7 +5465,7 @@
     ],
     "mount_type": 1,
     "sort_index": 40,
-    "base_name": "เล่าหัว (หลิวเยี่ย)",
+    "base_name": "หลิวเยี่ย",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -5477,9 +5477,9 @@
   {
     "id": 45097,
     "picid": 1504,
-    "name": "เล่าหัว (หลิวเยี่ย)",
-    "classic_name": "เล่าหัว",
-    "legacy_name": "หลิวเยี่ย",
+    "name": "หลิวเยี่ย",
+    "classic_name": "หลิวเยี่ย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 170,
     "hpx": 9319,
@@ -5538,7 +5538,7 @@
     ],
     "mount_type": 1,
     "sort_index": 40,
-    "base_name": "เล่าหัว (หลิวเยี่ย)",
+    "base_name": "หลิวเยี่ย",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -6071,9 +6071,9 @@
   {
     "id": 11014,
     "picid": 1085,
-    "name": "ลิยอย (หลี่เฉียน)",
-    "classic_name": "ลิยอย",
-    "legacy_name": "หลี่เฉียน",
+    "name": "หลี่เฉียน",
+    "classic_name": "หลี่เฉียน",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 91,
     "hpx": 745,
@@ -6123,7 +6123,7 @@
     ],
     "mount_type": 1,
     "sort_index": 44,
-    "base_name": "ลิยอย (หลี่เฉียน)",
+    "base_name": "หลี่เฉียน",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -6135,9 +6135,9 @@
   {
     "id": 41260,
     "picid": 1494,
-    "name": "ลิยอย (หลี่เฉียน)",
-    "classic_name": "ลิยอย",
-    "legacy_name": "หลี่เฉียน",
+    "name": "หลี่เฉียน",
+    "classic_name": "หลี่เฉียน",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 116,
     "hpx": 2732,
@@ -6196,7 +6196,7 @@
     ],
     "mount_type": 1,
     "sort_index": 44,
-    "base_name": "ลิยอย (หลี่เฉียน)",
+    "base_name": "หลี่เฉียน",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -6208,9 +6208,9 @@
   {
     "id": 45162,
     "picid": 1564,
-    "name": "ลิยอย (หลี่เฉียน)",
-    "classic_name": "ลิยอย",
-    "legacy_name": "หลี่เฉียน",
+    "name": "หลี่เฉียน",
+    "classic_name": "หลี่เฉียน",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 146,
     "hpx": 7250,
@@ -6269,7 +6269,7 @@
     ],
     "mount_type": 1,
     "sort_index": 44,
-    "base_name": "ลิยอย (หลี่เฉียน)",
+    "base_name": "หลี่เฉียน",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -6345,9 +6345,9 @@
   {
     "id": 11016,
     "picid": 1078,
-    "name": "ลิเตียน (หลี่เตี่ยน)",
-    "classic_name": "ลิเตียน",
-    "legacy_name": "หลี่เตี่ยน",
+    "name": "หลี่เตี่ยน",
+    "classic_name": "หลี่เตี่ยน",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 100,
     "hpx": 973,
@@ -6397,7 +6397,7 @@
     ],
     "mount_type": 1,
     "sort_index": 46,
-    "base_name": "ลิเตียน (หลี่เตี่ยน)",
+    "base_name": "หลี่เตี่ยน",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -6409,9 +6409,9 @@
   {
     "id": 41105,
     "picid": 1113,
-    "name": "ลิเตียน (หลี่เตี่ยน)",
-    "classic_name": "ลิเตียน",
-    "legacy_name": "หลี่เตี่ยน",
+    "name": "หลี่เตี่ยน",
+    "classic_name": "หลี่เตี่ยน",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 121,
     "hpx": 3229,
@@ -6461,7 +6461,7 @@
     ],
     "mount_type": 1,
     "sort_index": 46,
-    "base_name": "ลิเตียน (หลี่เตี่ยน)",
+    "base_name": "หลี่เตี่ยน",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -6473,9 +6473,9 @@
   {
     "id": 45054,
     "picid": 1317,
-    "name": "ลิเตียน (หลี่เตี่ยน)",
-    "classic_name": "ลิเตียน",
-    "legacy_name": "หลี่เตี่ยน",
+    "name": "หลี่เตี่ยน",
+    "classic_name": "หลี่เตี่ยน",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 146,
     "hpx": 7278,
@@ -6525,7 +6525,7 @@
     ],
     "mount_type": 1,
     "sort_index": 46,
-    "base_name": "ลิเตียน (หลี่เตี่ยน)",
+    "base_name": "หลี่เตี่ยน",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -7551,9 +7551,9 @@
   {
     "id": 11024,
     "picid": 1149,
-    "name": "ซิหลง (สวีห่วง)",
-    "classic_name": "ซิหลง",
-    "legacy_name": "สวีห่วง",
+    "name": "สวีห่วง",
+    "classic_name": "สวีห่วง",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 132,
     "hpx": 1698,
@@ -7603,7 +7603,7 @@
     ],
     "mount_type": 1,
     "sort_index": 52,
-    "base_name": "ซิหลง (สวีห่วง)",
+    "base_name": "สวีห่วง",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -7615,9 +7615,9 @@
   {
     "id": 41032,
     "picid": 1407,
-    "name": "ซิหลง (สวีห่วง)",
-    "classic_name": "ซิหลง",
-    "legacy_name": "สวีห่วง",
+    "name": "สวีห่วง",
+    "classic_name": "สวีห่วง",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 155,
     "hpx": 4826,
@@ -7676,7 +7676,7 @@
     ],
     "mount_type": 1,
     "sort_index": 52,
-    "base_name": "ซิหลง (สวีห่วง)",
+    "base_name": "สวีห่วง",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -7688,9 +7688,9 @@
   {
     "id": 45269,
     "picid": 1781,
-    "name": "ซิหลง (สวีห่วง)",
-    "classic_name": "ซิหลง",
-    "legacy_name": "สวีห่วง",
+    "name": "สวีห่วง",
+    "classic_name": "สวีห่วง",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 180,
     "hpx": 5617,
@@ -7749,7 +7749,7 @@
     ],
     "mount_type": 1,
     "sort_index": 52,
-    "base_name": "ซิหลง (สวีห่วง)",
+    "base_name": "สวีห่วง",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -8501,9 +8501,9 @@
   {
     "id": 11029,
     "picid": 1077,
-    "name": "โกลำ (เกาหลั่น)",
-    "classic_name": "โกลำ",
-    "legacy_name": "เกาหลั่น",
+    "name": "เกาหลั่น",
+    "classic_name": "เกาหลั่น",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 92,
     "hpx": 754,
@@ -8553,7 +8553,7 @@
     ],
     "mount_type": 1,
     "sort_index": 57,
-    "base_name": "โกลำ (เกาหลั่น)",
+    "base_name": "เกาหลั่น",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -8565,9 +8565,9 @@
   {
     "id": 41120,
     "picid": 1290,
-    "name": "โกลำ (เกาหลั่น)",
-    "classic_name": "โกลำ",
-    "legacy_name": "เกาหลั่น",
+    "name": "เกาหลั่น",
+    "classic_name": "เกาหลั่น",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 105,
     "hpx": 2494,
@@ -8617,7 +8617,7 @@
     ],
     "mount_type": 1,
     "sort_index": 57,
-    "base_name": "โกลำ (เกาหลั่น)",
+    "base_name": "เกาหลั่น",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -8629,9 +8629,9 @@
   {
     "id": 45007,
     "picid": 1261,
-    "name": "โกลำ (เกาหลั่น)",
-    "classic_name": "โกลำ",
-    "legacy_name": "เกาหลั่น",
+    "name": "เกาหลั่น",
+    "classic_name": "เกาหลั่น",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 135,
     "hpx": 6456,
@@ -8681,7 +8681,7 @@
     ],
     "mount_type": 1,
     "sort_index": 57,
-    "base_name": "โกลำ (เกาหลั่น)",
+    "base_name": "เกาหลั่น",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -8967,9 +8967,9 @@
   {
     "id": 11032,
     "picid": 1078,
-    "name": "เตียวโอย (จางเว่ย)",
-    "classic_name": "เตียวโอย",
-    "legacy_name": "จางเว่ย",
+    "name": "จางเว่ย",
+    "classic_name": "จางเว่ย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 81,
     "hpx": 619,
@@ -9019,7 +9019,7 @@
     ],
     "mount_type": 1,
     "sort_index": 60,
-    "base_name": "เตียวโอย (จางเว่ย)",
+    "base_name": "จางเว่ย",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -9031,9 +9031,9 @@
   {
     "id": 41396,
     "picid": 1077,
-    "name": "เตียวโอย (จางเว่ย)",
-    "classic_name": "เตียวโอย",
-    "legacy_name": "จางเว่ย",
+    "name": "จางเว่ย",
+    "classic_name": "จางเว่ย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 116,
     "hpx": 4049,
@@ -9083,7 +9083,7 @@
     ],
     "mount_type": 1,
     "sort_index": 60,
-    "base_name": "เตียวโอย (จางเว่ย)",
+    "base_name": "จางเว่ย",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -9369,9 +9369,9 @@
   {
     "id": 11035,
     "picid": 1032,
-    "name": "เตียวซิ่ว (จางซิ่ว)",
-    "classic_name": "เตียวซิ่ว",
-    "legacy_name": "จางซิ่ว",
+    "name": "จางซิ่ว",
+    "classic_name": "จางซิ่ว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 95,
     "hpx": 600,
@@ -9421,7 +9421,7 @@
     ],
     "mount_type": 1,
     "sort_index": 63,
-    "base_name": "เตียวซิ่ว (จางซิ่ว)",
+    "base_name": "จางซิ่ว",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -9433,9 +9433,9 @@
   {
     "id": 41350,
     "picid": 1225,
-    "name": "เตียวซิ่ว (จางซิ่ว)",
-    "classic_name": "เตียวซิ่ว",
-    "legacy_name": "จางซิ่ว",
+    "name": "จางซิ่ว",
+    "classic_name": "จางซิ่ว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 120,
     "hpx": 3145,
@@ -9485,7 +9485,7 @@
     ],
     "mount_type": 1,
     "sort_index": 63,
-    "base_name": "เตียวซิ่ว (จางซิ่ว)",
+    "base_name": "จางซิ่ว",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -11315,9 +11315,9 @@
   {
     "id": 11048,
     "picid": 1115,
-    "name": "เขาฮิว (สวี่โยว)",
-    "classic_name": "เขาฮิว",
-    "legacy_name": "สวี่โยว",
+    "name": "สวี่โยว",
+    "classic_name": "สวี่โยว",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 94,
     "hpx": 749,
@@ -11367,7 +11367,7 @@
     ],
     "mount_type": 1,
     "sort_index": 74,
-    "base_name": "เขาฮิว (สวี่โยว)",
+    "base_name": "สวี่โยว",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -11379,9 +11379,9 @@
   {
     "id": 41161,
     "picid": 1401,
-    "name": "เขาฮิว (สวี่โยว)",
-    "classic_name": "เขาฮิว",
-    "legacy_name": "สวี่โยว",
+    "name": "สวี่โยว",
+    "classic_name": "สวี่โยว",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 130,
     "hpx": 3594,
@@ -11440,7 +11440,7 @@
     ],
     "mount_type": 1,
     "sort_index": 74,
-    "base_name": "เขาฮิว (สวี่โยว)",
+    "base_name": "สวี่โยว",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -11452,9 +11452,9 @@
   {
     "id": 45093,
     "picid": 1376,
-    "name": "เขาฮิว (สวี่โยว)",
-    "classic_name": "เขาฮิว",
-    "legacy_name": "สวี่โยว",
+    "name": "สวี่โยว",
+    "classic_name": "สวี่โยว",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 160,
     "hpx": 8593,
@@ -11513,7 +11513,7 @@
     ],
     "mount_type": 1,
     "sort_index": 74,
-    "base_name": "เขาฮิว (สวี่โยว)",
+    "base_name": "สวี่โยว",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -11525,8 +11525,8 @@
   {
     "id": 11049,
     "picid": 1344,
-    "name": "โจฉอง (สวี่จิ้ง)",
-    "classic_name": "โจฉอง",
+    "name": "เฉาชง (สวี่จิ้ง)",
+    "classic_name": "เฉาชง",
     "legacy_name": "สวี่จิ้ง",
     "element": "ไฟ",
     "level": 134,
@@ -11577,7 +11577,7 @@
     ],
     "mount_type": 1,
     "sort_index": 75,
-    "base_name": "โจฉอง (สวี่จิ้ง)",
+    "base_name": "เฉาชง (สวี่จิ้ง)",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -11589,8 +11589,8 @@
   {
     "id": 41156,
     "picid": 1344,
-    "name": "โจฉอง (สวี่จิ้ง)",
-    "classic_name": "โจฉอง",
+    "name": "เฉาชง (สวี่จิ้ง)",
+    "classic_name": "เฉาชง",
     "legacy_name": "สวี่จิ้ง",
     "element": "ไฟ",
     "level": 154,
@@ -11641,7 +11641,7 @@
     ],
     "mount_type": 1,
     "sort_index": 75,
-    "base_name": "โจฉอง (สวี่จิ้ง)",
+    "base_name": "เฉาชง (สวี่จิ้ง)",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -11653,8 +11653,8 @@
   {
     "id": 45219,
     "picid": 1617,
-    "name": "โจฉอง (สวี่จิ้ง)",
-    "classic_name": "โจฉอง",
+    "name": "เฉาชง (สวี่จิ้ง)",
+    "classic_name": "เฉาชง",
     "legacy_name": "สวี่จิ้ง",
     "element": "ไฟ",
     "level": 164,
@@ -11705,7 +11705,7 @@
     ],
     "mount_type": 1,
     "sort_index": 75,
-    "base_name": "โจฉอง (สวี่จิ้ง)",
+    "base_name": "เฉาชง (สวี่จิ้ง)",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -17135,9 +17135,9 @@
   {
     "id": 11093,
     "picid": 1052,
-    "name": "ซีจื้อไฉ (ซี่จื้อไฉ)",
-    "classic_name": "ซีจื้อไฉ",
-    "legacy_name": "ซี่จื้อไฉ",
+    "name": "ซี่จื้อไฉ",
+    "classic_name": "ซี่จื้อไฉ",
+    "legacy_name": "",
     "element": "ลม",
     "level": 112,
     "hpx": 1118,
@@ -17187,7 +17187,7 @@
     ],
     "mount_type": 1,
     "sort_index": 106,
-    "base_name": "ซีจื้อไฉ (ซี่จื้อไฉ)",
+    "base_name": "ซี่จื้อไฉ",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -17199,9 +17199,9 @@
   {
     "id": 41138,
     "picid": 1338,
-    "name": "ซีจื้อไฉ (ซี่จื้อไฉ)",
-    "classic_name": "ซีจื้อไฉ",
-    "legacy_name": "ซี่จื้อไฉ",
+    "name": "ซี่จื้อไฉ",
+    "classic_name": "ซี่จื้อไฉ",
+    "legacy_name": "",
     "element": "ลม",
     "level": 135,
     "hpx": 3709,
@@ -17260,7 +17260,7 @@
     ],
     "mount_type": 1,
     "sort_index": 106,
-    "base_name": "ซีจื้อไฉ (ซี่จื้อไฉ)",
+    "base_name": "ซี่จื้อไฉ",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -17272,9 +17272,9 @@
   {
     "id": 45087,
     "picid": 1338,
-    "name": "ซีจื้อไฉ (ซี่จื้อไฉ)",
-    "classic_name": "ซีจื้อไฉ",
-    "legacy_name": "ซี่จื้อไฉ",
+    "name": "ซี่จื้อไฉ",
+    "classic_name": "ซี่จื้อไฉ",
+    "legacy_name": "",
     "element": "ลม",
     "level": 165,
     "hpx": 8844,
@@ -17333,7 +17333,7 @@
     ],
     "mount_type": 1,
     "sort_index": 106,
-    "base_name": "ซีจื้อไฉ (ซี่จื้อไฉ)",
+    "base_name": "ซี่จื้อไฉ",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -19237,9 +19237,9 @@
   {
     "id": 11120,
     "picid": 1252,
-    "name": "เตียวชุนหัว (จางชุนหัว)",
-    "classic_name": "เตียวชุนหัว",
-    "legacy_name": "จางชุนหัว",
+    "name": "จางชุนหัว",
+    "classic_name": "จางชุนหัว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 106,
     "hpx": 1093,
@@ -19289,7 +19289,7 @@
     ],
     "mount_type": 1,
     "sort_index": 121,
-    "base_name": "เตียวชุนหัว (จางชุนหัว)",
+    "base_name": "จางชุนหัว",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -19301,9 +19301,9 @@
   {
     "id": 41224,
     "picid": 1252,
-    "name": "เตียวชุนหัว (จางชุนหัว)",
-    "classic_name": "เตียวชุนหัว",
-    "legacy_name": "จางชุนหัว",
+    "name": "จางชุนหัว",
+    "classic_name": "จางชุนหัว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 121,
     "hpx": 3183,
@@ -19362,7 +19362,7 @@
     ],
     "mount_type": 1,
     "sort_index": 121,
-    "base_name": "เตียวชุนหัว (จางชุนหัว)",
+    "base_name": "จางชุนหัว",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -19374,9 +19374,9 @@
   {
     "id": 45098,
     "picid": 1372,
-    "name": "เตียวชุนหัว (จางชุนหัว)",
-    "classic_name": "เตียวชุนหัว",
-    "legacy_name": "จางชุนหัว",
+    "name": "จางชุนหัว",
+    "classic_name": "จางชุนหัว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 150,
     "hpx": 7720,
@@ -19435,7 +19435,7 @@
     ],
     "mount_type": 1,
     "sort_index": 121,
-    "base_name": "เตียวชุนหัว (จางชุนหัว)",
+    "base_name": "จางชุนหัว",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -20553,9 +20553,9 @@
   {
     "id": 11144,
     "picid": 1338,
-    "name": "เจียวเจ้ (เจี่ยงจี้)",
-    "classic_name": "เจียวเจ้",
-    "legacy_name": "เจี่ยงจี้",
+    "name": "เจี่ยงจี้",
+    "classic_name": "เจี่ยงจี้",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 107,
     "hpx": 1198,
@@ -20605,7 +20605,7 @@
     ],
     "mount_type": 1,
     "sort_index": 129,
-    "base_name": "เจียวเจ้ (เจี่ยงจี้)",
+    "base_name": "เจี่ยงจี้",
     "faction": "วุย",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -20617,9 +20617,9 @@
   {
     "id": 41119,
     "picid": 1338,
-    "name": "เจียวเจ้ (เจี่ยงจี้)",
-    "classic_name": "เจียวเจ้",
-    "legacy_name": "เจี่ยงจี้",
+    "name": "เจี่ยงจี้",
+    "classic_name": "เจี่ยงจี้",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 132,
     "hpx": 3747,
@@ -20678,7 +20678,7 @@
     ],
     "mount_type": 1,
     "sort_index": 129,
-    "base_name": "เจียวเจ้ (เจี่ยงจี้)",
+    "base_name": "เจี่ยงจี้",
     "faction": "วุย",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -20690,9 +20690,9 @@
   {
     "id": 45085,
     "picid": 1153,
-    "name": "เจียวเจ้ (เจี่ยงจี้)",
-    "classic_name": "เจียวเจ้",
-    "legacy_name": "เจี่ยงจี้",
+    "name": "เจี่ยงจี้",
+    "classic_name": "เจี่ยงจี้",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 162,
     "hpx": 8860,
@@ -20751,7 +20751,7 @@
     ],
     "mount_type": 1,
     "sort_index": 129,
-    "base_name": "เจียวเจ้ (เจี่ยงจี้)",
+    "base_name": "เจี่ยงจี้",
     "faction": "วุย",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -23277,9 +23277,9 @@
   {
     "id": 12011,
     "picid": 1109,
-    "name": "จิวฉอง (โจวชาง)",
-    "classic_name": "จิวฉอง",
-    "legacy_name": "โจวชาง",
+    "name": "โจวชาง",
+    "classic_name": "โจวชาง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 92,
     "hpx": 754,
@@ -23329,7 +23329,7 @@
     ],
     "mount_type": 1,
     "sort_index": 149,
-    "base_name": "จิวฉอง (โจวชาง)",
+    "base_name": "โจวชาง",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -23341,9 +23341,9 @@
   {
     "id": 41046,
     "picid": 1291,
-    "name": "จิวฉอง (โจวชาง)",
-    "classic_name": "จิวฉอง",
-    "legacy_name": "โจวชาง",
+    "name": "โจวชาง",
+    "classic_name": "โจวชาง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 117,
     "hpx": 2961,
@@ -23393,7 +23393,7 @@
     ],
     "mount_type": 1,
     "sort_index": 149,
-    "base_name": "จิวฉอง (โจวชาง)",
+    "base_name": "โจวชาง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -23405,9 +23405,9 @@
   {
     "id": 45030,
     "picid": 1291,
-    "name": "จิวฉอง (โจวชาง)",
-    "classic_name": "จิวฉอง",
-    "legacy_name": "โจวชาง",
+    "name": "โจวชาง",
+    "classic_name": "โจวชาง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 147,
     "hpx": 7249,
@@ -23457,7 +23457,7 @@
     ],
     "mount_type": 1,
     "sort_index": 149,
-    "base_name": "จิวฉอง (โจวชาง)",
+    "base_name": "โจวชาง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -23469,9 +23469,9 @@
   {
     "id": 12012,
     "picid": 1376,
-    "name": "หวดเจ้ง (ฝ่าเจิ้ง)",
-    "classic_name": "หวดเจ้ง",
-    "legacy_name": "ฝ่าเจิ้ง",
+    "name": "ฝ่าเจิ้ง",
+    "classic_name": "ฝ่าเจิ้ง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 132,
     "hpx": 1645,
@@ -23521,7 +23521,7 @@
     ],
     "mount_type": 1,
     "sort_index": 150,
-    "base_name": "หวดเจ้ง (ฝ่าเจิ้ง)",
+    "base_name": "ฝ่าเจิ้ง",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -23533,9 +23533,9 @@
   {
     "id": 41057,
     "picid": 1401,
-    "name": "หวดเจ้ง (ฝ่าเจิ้ง)",
-    "classic_name": "หวดเจ้ง",
-    "legacy_name": "ฝ่าเจิ้ง",
+    "name": "ฝ่าเจิ้ง",
+    "classic_name": "ฝ่าเจิ้ง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 144,
     "hpx": 4103,
@@ -23594,7 +23594,7 @@
     ],
     "mount_type": 1,
     "sort_index": 150,
-    "base_name": "หวดเจ้ง (ฝ่าเจิ้ง)",
+    "base_name": "ฝ่าเจิ้ง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -23606,9 +23606,9 @@
   {
     "id": 45165,
     "picid": 1406,
-    "name": "หวดเจ้ง (ฝ่าเจิ้ง)",
-    "classic_name": "หวดเจ้ง",
-    "legacy_name": "ฝ่าเจิ้ง",
+    "name": "ฝ่าเจิ้ง",
+    "classic_name": "ฝ่าเจิ้ง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 184,
     "hpx": 10604,
@@ -23667,7 +23667,7 @@
     ],
     "mount_type": 1,
     "sort_index": 150,
-    "base_name": "หวดเจ้ง (ฝ่าเจิ้ง)",
+    "base_name": "ฝ่าเจิ้ง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -23679,9 +23679,9 @@
   {
     "id": 12014,
     "picid": 1029,
-    "name": "ซุนเขียน (ซุนเฉียน)",
-    "classic_name": "ซุนเขียน",
-    "legacy_name": "ซุนเฉียน",
+    "name": "ซุนเฉียน",
+    "classic_name": "ซุนเฉียน",
+    "legacy_name": "",
     "element": "ลม",
     "level": 46,
     "hpx": 287,
@@ -23731,7 +23731,7 @@
     ],
     "mount_type": 1,
     "sort_index": 151,
-    "base_name": "ซุนเขียน (ซุนเฉียน)",
+    "base_name": "ซุนเฉียน",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -23743,9 +23743,9 @@
   {
     "id": 41015,
     "picid": 1029,
-    "name": "ซุนเขียน (ซุนเฉียน)",
-    "classic_name": "ซุนเขียน",
-    "legacy_name": "ซุนเฉียน",
+    "name": "ซุนเฉียน",
+    "classic_name": "ซุนเฉียน",
+    "legacy_name": "",
     "element": "ลม",
     "level": 67,
     "hpx": 1436,
@@ -23795,7 +23795,7 @@
     ],
     "mount_type": 1,
     "sort_index": 151,
-    "base_name": "ซุนเขียน (ซุนเฉียน)",
+    "base_name": "ซุนเฉียน",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -23807,9 +23807,9 @@
   {
     "id": 45255,
     "picid": 1101,
-    "name": "ซุนเขียน (ซุนเฉียน)",
-    "classic_name": "ซุนเขียน",
-    "legacy_name": "ซุนเฉียน",
+    "name": "ซุนเฉียน",
+    "classic_name": "ซุนเฉียน",
+    "legacy_name": "",
     "element": "ลม",
     "level": 107,
     "hpx": 2877,
@@ -23859,7 +23859,7 @@
     ],
     "mount_type": 1,
     "sort_index": 151,
-    "base_name": "ซุนเขียน (ซุนเฉียน)",
+    "base_name": "ซุนเฉียน",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -23871,9 +23871,9 @@
   {
     "id": 12015,
     "picid": 1306,
-    "name": "ม้าเลี้ยง (หม่าเหลียง)",
-    "classic_name": "ม้าเลี้ยง",
-    "legacy_name": "หม่าเหลียง",
+    "name": "หม่าเหลียง",
+    "classic_name": "หม่าเหลียง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 121,
     "hpx": 1255,
@@ -23923,7 +23923,7 @@
     ],
     "mount_type": 1,
     "sort_index": 152,
-    "base_name": "ม้าเลี้ยง (หม่าเหลียง)",
+    "base_name": "หม่าเหลียง",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -23935,9 +23935,9 @@
   {
     "id": 41116,
     "picid": 1306,
-    "name": "ม้าเลี้ยง (หม่าเหลียง)",
-    "classic_name": "ม้าเลี้ยง",
-    "legacy_name": "หม่าเหลียง",
+    "name": "หม่าเหลียง",
+    "classic_name": "หม่าเหลียง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 145,
     "hpx": 3991,
@@ -23996,7 +23996,7 @@
     ],
     "mount_type": 1,
     "sort_index": 152,
-    "base_name": "ม้าเลี้ยง (หม่าเหลียง)",
+    "base_name": "หม่าเหลียง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -24008,9 +24008,9 @@
   {
     "id": 45071,
     "picid": 1306,
-    "name": "ม้าเลี้ยง (หม่าเหลียง)",
-    "classic_name": "ม้าเลี้ยง",
-    "legacy_name": "หม่าเหลียง",
+    "name": "หม่าเหลียง",
+    "classic_name": "หม่าเหลียง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 174,
     "hpx": 9474,
@@ -24069,7 +24069,7 @@
     ],
     "mount_type": 1,
     "sort_index": 152,
-    "base_name": "ม้าเลี้ยง (หม่าเหลียง)",
+    "base_name": "หม่าเหลียง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -25259,9 +25259,9 @@
   {
     "id": 12028,
     "picid": 1279,
-    "name": "ม้าต้าย (หม่าต้าย)",
-    "classic_name": "ม้าต้าย",
-    "legacy_name": "หม่าต้าย",
+    "name": "หม่าต้าย",
+    "classic_name": "หม่าต้าย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 115,
     "hpx": 1241,
@@ -25311,7 +25311,7 @@
     ],
     "mount_type": 1,
     "sort_index": 159,
-    "base_name": "ม้าต้าย (หม่าต้าย)",
+    "base_name": "หม่าต้าย",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -25323,9 +25323,9 @@
   {
     "id": 41148,
     "picid": 1279,
-    "name": "ม้าต้าย (หม่าต้าย)",
-    "classic_name": "ม้าต้าย",
-    "legacy_name": "หม่าต้าย",
+    "name": "หม่าต้าย",
+    "classic_name": "หม่าต้าย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 130,
     "hpx": 3614,
@@ -25384,7 +25384,7 @@
     ],
     "mount_type": 1,
     "sort_index": 159,
-    "base_name": "ม้าต้าย (หม่าต้าย)",
+    "base_name": "หม่าต้าย",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -25396,9 +25396,9 @@
   {
     "id": 45101,
     "picid": 1492,
-    "name": "ม้าต้าย (หม่าต้าย)",
-    "classic_name": "ม้าต้าย",
-    "legacy_name": "หม่าต้าย",
+    "name": "หม่าต้าย",
+    "classic_name": "หม่าต้าย",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 160,
     "hpx": 8635,
@@ -25457,7 +25457,7 @@
     ],
     "mount_type": 1,
     "sort_index": 159,
-    "base_name": "ม้าต้าย (หม่าต้าย)",
+    "base_name": "หม่าต้าย",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -25597,9 +25597,9 @@
   {
     "id": 12031,
     "picid": 1049,
-    "name": "เล่าฮอง (หลิวเฟิง)",
-    "classic_name": "เล่าฮอง",
-    "legacy_name": "หลิวเฟิง",
+    "name": "หลิวเฟิง",
+    "classic_name": "หลิวเฟิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 84,
     "hpx": 643,
@@ -25649,7 +25649,7 @@
     ],
     "mount_type": 1,
     "sort_index": 161,
-    "base_name": "เล่าฮอง (หลิวเฟิง)",
+    "base_name": "หลิวเฟิง",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -25661,9 +25661,9 @@
   {
     "id": 41166,
     "picid": 1268,
-    "name": "เล่าฮอง (หลิวเฟิง)",
-    "classic_name": "เล่าฮอง",
-    "legacy_name": "หลิวเฟิง",
+    "name": "หลิวเฟิง",
+    "classic_name": "หลิวเฟิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 101,
     "hpx": 2407,
@@ -25713,7 +25713,7 @@
     ],
     "mount_type": 1,
     "sort_index": 161,
-    "base_name": "เล่าฮอง (หลิวเฟิง)",
+    "base_name": "หลิวเฟิง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -25725,9 +25725,9 @@
   {
     "id": 45127,
     "picid": 1495,
-    "name": "เล่าฮอง (หลิวเฟิง)",
-    "classic_name": "เล่าฮอง",
-    "legacy_name": "หลิวเฟิง",
+    "name": "หลิวเฟิง",
+    "classic_name": "หลิวเฟิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 126,
     "hpx": 5766,
@@ -25777,7 +25777,7 @@
     ],
     "mount_type": 1,
     "sort_index": 161,
-    "base_name": "เล่าฮอง (หลิวเฟิง)",
+    "base_name": "หลิวเฟิง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -26383,9 +26383,9 @@
   {
     "id": 12039,
     "picid": 1055,
-    "name": "ตันหยง (เจี่ยนยง)",
-    "classic_name": "ตันหยง",
-    "legacy_name": "เจี่ยนยง",
+    "name": "เจี่ยนยง",
+    "classic_name": "เจี่ยนยง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 41,
     "hpx": 250,
@@ -26435,7 +26435,7 @@
     ],
     "mount_type": 1,
     "sort_index": 166,
-    "base_name": "ตันหยง (เจี่ยนยง)",
+    "base_name": "เจี่ยนยง",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -26447,9 +26447,9 @@
   {
     "id": 41018,
     "picid": 1055,
-    "name": "ตันหยง (เจี่ยนยง)",
-    "classic_name": "ตันหยง",
-    "legacy_name": "เจี่ยนยง",
+    "name": "เจี่ยนยง",
+    "classic_name": "เจี่ยนยง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 63,
     "hpx": 1341,
@@ -26499,7 +26499,7 @@
     ],
     "mount_type": 1,
     "sort_index": 166,
-    "base_name": "ตันหยง (เจี่ยนยง)",
+    "base_name": "เจี่ยนยง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -26511,9 +26511,9 @@
   {
     "id": 45256,
     "picid": 1145,
-    "name": "ตันหยง (เจี่ยนยง)",
-    "classic_name": "ตันหยง",
-    "legacy_name": "เจี่ยนยง",
+    "name": "เจี่ยนยง",
+    "classic_name": "เจี่ยนยง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 103,
     "hpx": 2823,
@@ -26563,7 +26563,7 @@
     ],
     "mount_type": 1,
     "sort_index": 166,
-    "base_name": "ตันหยง (เจี่ยนยง)",
+    "base_name": "เจี่ยนยง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -29024,9 +29024,9 @@
   {
     "id": 12094,
     "picid": 1106,
-    "name": "เบ้งตัด (เมิ่งต๋า)",
-    "classic_name": "เบ้งตัด",
-    "legacy_name": "เมิ่งต๋า",
+    "name": "เมิ่งต๋า",
+    "classic_name": "เมิ่งต๋า",
+    "legacy_name": "",
     "element": "ลม",
     "level": 115,
     "hpx": 1222,
@@ -29076,7 +29076,7 @@
     ],
     "mount_type": 1,
     "sort_index": 180,
-    "base_name": "เบ้งตัด (เมิ่งต๋า)",
+    "base_name": "เมิ่งต๋า",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -29088,9 +29088,9 @@
   {
     "id": 41185,
     "picid": 1367,
-    "name": "เบ้งตัด (เมิ่งต๋า)",
-    "classic_name": "เบ้งตัด",
-    "legacy_name": "เมิ่งต๋า",
+    "name": "เมิ่งต๋า",
+    "classic_name": "เมิ่งต๋า",
+    "legacy_name": "",
     "element": "ลม",
     "level": 130,
     "hpx": 3601,
@@ -29140,7 +29140,7 @@
     ],
     "mount_type": 1,
     "sort_index": 180,
-    "base_name": "เบ้งตัด (เมิ่งต๋า)",
+    "base_name": "เมิ่งต๋า",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -29152,9 +29152,9 @@
   {
     "id": 45096,
     "picid": 1367,
-    "name": "เบ้งตัด (เมิ่งต๋า)",
-    "classic_name": "เบ้งตัด",
-    "legacy_name": "เมิ่งต๋า",
+    "name": "เมิ่งต๋า",
+    "classic_name": "เมิ่งต๋า",
+    "legacy_name": "",
     "element": "ลม",
     "level": 158,
     "hpx": 8173,
@@ -29204,7 +29204,7 @@
     ],
     "mount_type": 1,
     "sort_index": 180,
-    "base_name": "เบ้งตัด (เมิ่งต๋า)",
+    "base_name": "เมิ่งต๋า",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -29344,9 +29344,9 @@
   {
     "id": 13001,
     "picid": 1049,
-    "name": "เตงฮอง (ติงเฟิ่ง)",
-    "classic_name": "เตงฮอง",
-    "legacy_name": "ติงเฟิ่ง",
+    "name": "ติงเฟิ่ง",
+    "classic_name": "ติงเฟิ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 76,
     "hpx": 580,
@@ -29396,7 +29396,7 @@
     ],
     "mount_type": 1,
     "sort_index": 183,
-    "base_name": "เตงฮอง (ติงเฟิ่ง)",
+    "base_name": "ติงเฟิ่ง",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -29408,9 +29408,9 @@
   {
     "id": 41104,
     "picid": 1257,
-    "name": "เตงฮอง (ติงเฟิ่ง)",
-    "classic_name": "เตงฮอง",
-    "legacy_name": "ติงเฟิ่ง",
+    "name": "ติงเฟิ่ง",
+    "classic_name": "ติงเฟิ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 88,
     "hpx": 2026,
@@ -29460,7 +29460,7 @@
     ],
     "mount_type": 1,
     "sort_index": 183,
-    "base_name": "เตงฮอง (ติงเฟิ่ง)",
+    "base_name": "ติงเฟิ่ง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -29472,9 +29472,9 @@
   {
     "id": 45111,
     "picid": 1257,
-    "name": "เตงฮอง (ติงเฟิ่ง)",
-    "classic_name": "เตงฮอง",
-    "legacy_name": "ติงเฟิ่ง",
+    "name": "ติงเฟิ่ง",
+    "classic_name": "ติงเฟิ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 128,
     "hpx": 5833,
@@ -29524,7 +29524,7 @@
     ],
     "mount_type": 1,
     "sort_index": 183,
-    "base_name": "เตงฮอง (ติงเฟิ่ง)",
+    "base_name": "ติงเฟิ่ง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -30340,9 +30340,9 @@
   {
     "id": 13006,
     "picid": 1029,
-    "name": "ลิห้อม (หลี่ฟ่าน)",
-    "classic_name": "ลิห้อม",
-    "legacy_name": "หลี่ฟ่าน",
+    "name": "หลี่ฟ่าน",
+    "classic_name": "หลี่ฟ่าน",
+    "legacy_name": "",
     "element": "ลม",
     "level": 68,
     "hpx": 436,
@@ -30392,7 +30392,7 @@
     ],
     "mount_type": 1,
     "sort_index": 188,
-    "base_name": "ลิห้อม (หลี่ฟ่าน)",
+    "base_name": "หลี่ฟ่าน",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -30404,9 +30404,9 @@
   {
     "id": 41370,
     "picid": 1502,
-    "name": "ลิห้อม (หลี่ฟ่าน)",
-    "classic_name": "ลิห้อม",
-    "legacy_name": "หลี่ฟ่าน",
+    "name": "หลี่ฟ่าน",
+    "classic_name": "หลี่ฟ่าน",
+    "legacy_name": "",
     "element": "ลม",
     "level": 98,
     "hpx": 2230,
@@ -30456,7 +30456,7 @@
     ],
     "mount_type": 1,
     "sort_index": 188,
-    "base_name": "ลิห้อม (หลี่ฟ่าน)",
+    "base_name": "หลี่ฟ่าน",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -30468,9 +30468,9 @@
   {
     "id": 45215,
     "picid": 1502,
-    "name": "ลิห้อม (หลี่ฟ่าน)",
-    "classic_name": "ลิห้อม",
-    "legacy_name": "หลี่ฟ่าน",
+    "name": "หลี่ฟ่าน",
+    "classic_name": "หลี่ฟ่าน",
+    "legacy_name": "",
     "element": "ลม",
     "level": 120,
     "hpx": 2745,
@@ -30520,7 +30520,7 @@
     ],
     "mount_type": 1,
     "sort_index": 188,
-    "base_name": "ลิห้อม (หลี่ฟ่าน)",
+    "base_name": "หลี่ฟ่าน",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -30724,9 +30724,9 @@
   {
     "id": 13008,
     "picid": 1150,
-    "name": "จิวท่าย (โจวไท่)",
-    "classic_name": "จิวท่าย",
-    "legacy_name": "โจวไท่",
+    "name": "โจวไท่",
+    "classic_name": "โจวไท่",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 120,
     "hpx": 1391,
@@ -30776,7 +30776,7 @@
     ],
     "mount_type": 1,
     "sort_index": 190,
-    "base_name": "จิวท่าย (โจวไท่)",
+    "base_name": "โจวไท่",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -30788,9 +30788,9 @@
   {
     "id": 41067,
     "picid": 1347,
-    "name": "จิวท่าย (โจวไท่)",
-    "classic_name": "จิวท่าย",
-    "legacy_name": "โจวไท่",
+    "name": "โจวไท่",
+    "classic_name": "โจวไท่",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 153,
     "hpx": 4796,
@@ -30849,7 +30849,7 @@
     ],
     "mount_type": 1,
     "sort_index": 190,
-    "base_name": "จิวท่าย (โจวไท่)",
+    "base_name": "โจวไท่",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -30861,9 +30861,9 @@
   {
     "id": 45268,
     "picid": 1782,
-    "name": "จิวท่าย (โจวไท่)",
-    "classic_name": "จิวท่าย",
-    "legacy_name": "โจวไท่",
+    "name": "โจวไท่",
+    "classic_name": "โจวไท่",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 178,
     "hpx": 5588,
@@ -30922,7 +30922,7 @@
     ],
     "mount_type": 1,
     "sort_index": 190,
-    "base_name": "จิวท่าย (โจวไท่)",
+    "base_name": "โจวไท่",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -31144,9 +31144,9 @@
   {
     "id": 13010,
     "picid": 1083,
-    "name": "เล่งทอง (หลิงถ่ง)",
-    "classic_name": "เล่งทอง",
-    "legacy_name": "หลิงถ่ง",
+    "name": "หลิงถ่ง",
+    "classic_name": "หลิงถ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 95,
     "hpx": 827,
@@ -31196,7 +31196,7 @@
     ],
     "mount_type": 1,
     "sort_index": 192,
-    "base_name": "เล่งทอง (หลิงถ่ง)",
+    "base_name": "หลิงถ่ง",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -31208,9 +31208,9 @@
   {
     "id": 41074,
     "picid": 1333,
-    "name": "เล่งทอง (หลิงถ่ง)",
-    "classic_name": "เล่งทอง",
-    "legacy_name": "หลิงถ่ง",
+    "name": "หลิงถ่ง",
+    "classic_name": "หลิงถ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 110,
     "hpx": 2621,
@@ -31260,7 +31260,7 @@
     ],
     "mount_type": 1,
     "sort_index": 192,
-    "base_name": "เล่งทอง (หลิงถ่ง)",
+    "base_name": "หลิงถ่ง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -31272,9 +31272,9 @@
   {
     "id": 45048,
     "picid": 1498,
-    "name": "เล่งทอง (หลิงถ่ง)",
-    "classic_name": "เล่งทอง",
-    "legacy_name": "หลิงถ่ง",
+    "name": "หลิงถ่ง",
+    "classic_name": "หลิงถ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 135,
     "hpx": 6470,
@@ -31324,7 +31324,7 @@
     ],
     "mount_type": 1,
     "sort_index": 192,
-    "base_name": "เล่งทอง (หลิงถ่ง)",
+    "base_name": "หลิงถ่ง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -31336,9 +31336,9 @@
   {
     "id": 13012,
     "picid": 1060,
-    "name": "ซุนเกี๋ยน (ซุนเจียน)",
-    "classic_name": "ซุนเกี๋ยน",
-    "legacy_name": "ซุนเจียน",
+    "name": "ซุนเจียน",
+    "classic_name": "ซุนเจียน",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 137,
     "hpx": 1698,
@@ -31388,7 +31388,7 @@
     ],
     "mount_type": 1,
     "sort_index": 193,
-    "base_name": "ซุนเกี๋ยน (ซุนเจียน)",
+    "base_name": "ซุนเจียน",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -31400,9 +31400,9 @@
   {
     "id": 41140,
     "picid": 1403,
-    "name": "ซุนเกี๋ยน (ซุนเจียน)",
-    "classic_name": "ซุนเกี๋ยน",
-    "legacy_name": "ซุนเจียน",
+    "name": "ซุนเจียน",
+    "classic_name": "ซุนเจียน",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 159,
     "hpx": 4848,
@@ -31452,7 +31452,7 @@
     ],
     "mount_type": 1,
     "sort_index": 193,
-    "base_name": "ซุนเกี๋ยน (ซุนเจียน)",
+    "base_name": "ซุนเจียน",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -32286,9 +32286,9 @@
   {
     "id": 13017,
     "picid": 1106,
-    "name": "ชีเซ่ง (สวีเซิ่ง)",
-    "classic_name": "ชีเซ่ง",
-    "legacy_name": "สวีเซิ่ง",
+    "name": "สวีเซิ่ง",
+    "classic_name": "สวีเซิ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 102,
     "hpx": 931,
@@ -32338,7 +32338,7 @@
     ],
     "mount_type": 1,
     "sort_index": 198,
-    "base_name": "ชีเซ่ง (สวีเซิ่ง)",
+    "base_name": "สวีเซิ่ง",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -32350,9 +32350,9 @@
   {
     "id": 41071,
     "picid": 1291,
-    "name": "ชีเซ่ง (สวีเซิ่ง)",
-    "classic_name": "ชีเซ่ง",
-    "legacy_name": "สวีเซิ่ง",
+    "name": "สวีเซิ่ง",
+    "classic_name": "สวีเซิ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 118,
     "hpx": 2984,
@@ -32402,7 +32402,7 @@
     ],
     "mount_type": 1,
     "sort_index": 198,
-    "base_name": "ชีเซ่ง (สวีเซิ่ง)",
+    "base_name": "สวีเซิ่ง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -32414,9 +32414,9 @@
   {
     "id": 45014,
     "picid": 1348,
-    "name": "ชีเซ่ง (สวีเซิ่ง)",
-    "classic_name": "ชีเซ่ง",
-    "legacy_name": "สวีเซิ่ง",
+    "name": "สวีเซิ่ง",
+    "classic_name": "สวีเซิ่ง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 143,
     "hpx": 7059,
@@ -32466,7 +32466,7 @@
     ],
     "mount_type": 1,
     "sort_index": 198,
-    "base_name": "ชีเซ่ง (สวีเซิ่ง)",
+    "base_name": "สวีเซิ่ง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -32478,9 +32478,9 @@
   {
     "id": 13018,
     "picid": 1114,
-    "name": "เตียวเจียว (จางเจา)",
-    "classic_name": "เตียวเจียว",
-    "legacy_name": "จางเจา",
+    "name": "จางเจา",
+    "classic_name": "จางเจา",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 123,
     "hpx": 1320,
@@ -32530,7 +32530,7 @@
     ],
     "mount_type": 1,
     "sort_index": 199,
-    "base_name": "เตียวเจียว (จางเจา)",
+    "base_name": "จางเจา",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -32542,9 +32542,9 @@
   {
     "id": 41110,
     "picid": 1114,
-    "name": "เตียวเจียว (จางเจา)",
-    "classic_name": "เตียวเจียว",
-    "legacy_name": "จางเจา",
+    "name": "จางเจา",
+    "classic_name": "จางเจา",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 133,
     "hpx": 3569,
@@ -32603,7 +32603,7 @@
     ],
     "mount_type": 1,
     "sort_index": 199,
-    "base_name": "เตียวเจียว (จางเจา)",
+    "base_name": "จางเจา",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -32615,9 +32615,9 @@
   {
     "id": 45009,
     "picid": 1502,
-    "name": "เตียวเจียว (จางเจา)",
-    "classic_name": "เตียวเจียว",
-    "legacy_name": "จางเจา",
+    "name": "จางเจา",
+    "classic_name": "จางเจา",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 162,
     "hpx": 8575,
@@ -32676,7 +32676,7 @@
     ],
     "mount_type": 1,
     "sort_index": 199,
-    "base_name": "เตียวเจียว (จางเจา)",
+    "base_name": "จางเจา",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -32688,9 +32688,9 @@
   {
     "id": 13019,
     "picid": 1115,
-    "name": "เตียวเหียน (จางหง)",
-    "classic_name": "เตียวเหียน",
-    "legacy_name": "จางหง",
+    "name": "จางหง",
+    "classic_name": "จางหง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 118,
     "hpx": 1142,
@@ -32740,7 +32740,7 @@
     ],
     "mount_type": 1,
     "sort_index": 200,
-    "base_name": "เตียวเหียน (จางหง)",
+    "base_name": "จางหง",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -32752,9 +32752,9 @@
   {
     "id": 41128,
     "picid": 1376,
-    "name": "เตียวเหียน (จางหง)",
-    "classic_name": "เตียวเหียน",
-    "legacy_name": "จางหง",
+    "name": "จางหง",
+    "classic_name": "จางหง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 130,
     "hpx": 3486,
@@ -32813,7 +32813,7 @@
     ],
     "mount_type": 1,
     "sort_index": 200,
-    "base_name": "เตียวเหียน (จางหง)",
+    "base_name": "จางหง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -32825,9 +32825,9 @@
   {
     "id": 45041,
     "picid": 1503,
-    "name": "เตียวเหียน (จางหง)",
-    "classic_name": "เตียวเหียน",
-    "legacy_name": "จางหง",
+    "name": "จางหง",
+    "classic_name": "จางหง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 160,
     "hpx": 8457,
@@ -32886,7 +32886,7 @@
     ],
     "mount_type": 1,
     "sort_index": 200,
-    "base_name": "เตียวเหียน (จางหง)",
+    "base_name": "จางหง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -33693,9 +33693,9 @@
   {
     "id": 13024,
     "picid": 1048,
-    "name": "เทียเภา (เฉิงผู่)",
-    "classic_name": "เทียเภา",
-    "legacy_name": "เฉิงผู่",
+    "name": "เฉิงผู่",
+    "classic_name": "เฉิงผู่",
+    "legacy_name": "",
     "element": "ลม",
     "level": 115,
     "hpx": 1176,
@@ -33745,7 +33745,7 @@
     ],
     "mount_type": 1,
     "sort_index": 205,
-    "base_name": "เทียเภา (เฉิงผู่)",
+    "base_name": "เฉิงผู่",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -33757,9 +33757,9 @@
   {
     "id": 41073,
     "picid": 1048,
-    "name": "เทียเภา (เฉิงผู่)",
-    "classic_name": "เทียเภา",
-    "legacy_name": "เฉิงผู่",
+    "name": "เฉิงผู่",
+    "classic_name": "เฉิงผู่",
+    "legacy_name": "",
     "element": "ลม",
     "level": 125,
     "hpx": 3287,
@@ -33818,7 +33818,7 @@
     ],
     "mount_type": 1,
     "sort_index": 205,
-    "base_name": "เทียเภา (เฉิงผู่)",
+    "base_name": "เฉิงผู่",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -33830,9 +33830,9 @@
   {
     "id": 45125,
     "picid": 1224,
-    "name": "เทียเภา (เฉิงผู่)",
-    "classic_name": "เทียเภา",
-    "legacy_name": "เฉิงผู่",
+    "name": "เฉิงผู่",
+    "classic_name": "เฉิงผู่",
+    "legacy_name": "",
     "element": "ลม",
     "level": 150,
     "hpx": 7706,
@@ -33891,7 +33891,7 @@
     ],
     "mount_type": 1,
     "sort_index": 205,
-    "base_name": "เทียเภา (เฉิงผู่)",
+    "base_name": "เฉิงผู่",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -35109,9 +35109,9 @@
   {
     "id": 13032,
     "picid": 1086,
-    "name": "ฮันต๋ง (หานตาง)",
-    "classic_name": "ฮันต๋ง",
-    "legacy_name": "หานตาง",
+    "name": "หานตาง",
+    "classic_name": "หานตาง",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 105,
     "hpx": 1024,
@@ -35161,7 +35161,7 @@
     ],
     "mount_type": 1,
     "sort_index": 212,
-    "base_name": "ฮันต๋ง (หานตาง)",
+    "base_name": "หานตาง",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -35173,9 +35173,9 @@
   {
     "id": 41152,
     "picid": 1243,
-    "name": "ฮันต๋ง (หานตาง)",
-    "classic_name": "ฮันต๋ง",
-    "legacy_name": "หานตาง",
+    "name": "หานตาง",
+    "classic_name": "หานตาง",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 131,
     "hpx": 3660,
@@ -35234,7 +35234,7 @@
     ],
     "mount_type": 1,
     "sort_index": 212,
-    "base_name": "ฮันต๋ง (หานตาง)",
+    "base_name": "หานตาง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -35246,9 +35246,9 @@
   {
     "id": 45086,
     "picid": 1291,
-    "name": "ฮันต๋ง (หานตาง)",
-    "classic_name": "ฮันต๋ง",
-    "legacy_name": "หานตาง",
+    "name": "หานตาง",
+    "classic_name": "หานตาง",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 156,
     "hpx": 8123,
@@ -35307,7 +35307,7 @@
     ],
     "mount_type": 1,
     "sort_index": 212,
-    "base_name": "ฮันต๋ง (หานตาง)",
+    "base_name": "หานตาง",
     "faction": "ง่อ",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -41087,8 +41087,8 @@
   {
     "id": 13142,
     "picid": 1166,
-    "name": "เจ้าจือ",
-    "classic_name": "เจ้าจือ",
+    "name": "จ้าวจือ",
+    "classic_name": "จ้าวจือ",
     "legacy_name": "",
     "element": "น้ำ",
     "level": 72,
@@ -41139,7 +41139,7 @@
     ],
     "mount_type": 1,
     "sort_index": 246,
-    "base_name": "เจ้าจือ",
+    "base_name": "จ้าวจือ",
     "faction": "ง่อ",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -41343,9 +41343,9 @@
   {
     "id": 14002,
     "picid": 1104,
-    "name": "บุนทิว (เหวินโฉ่ว)",
-    "classic_name": "บุนทิว",
-    "legacy_name": "เหวินโฉ่ว",
+    "name": "เหวินโฉ่ว",
+    "classic_name": "เหวินโฉ่ว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 117,
     "hpx": 1298,
@@ -41395,7 +41395,7 @@
     ],
     "mount_type": 1,
     "sort_index": 248,
-    "base_name": "บุนทิว (เหวินโฉ่ว)",
+    "base_name": "เหวินโฉ่ว",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -41407,9 +41407,9 @@
   {
     "id": 41087,
     "picid": 1104,
-    "name": "บุนทิว (เหวินโฉ่ว)",
-    "classic_name": "บุนทิว",
-    "legacy_name": "เหวินโฉ่ว",
+    "name": "เหวินโฉ่ว",
+    "classic_name": "เหวินโฉ่ว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 138,
     "hpx": 3881,
@@ -41468,7 +41468,7 @@
     ],
     "mount_type": 1,
     "sort_index": 248,
-    "base_name": "บุนทิว (เหวินโฉ่ว)",
+    "base_name": "เหวินโฉ่ว",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -41480,9 +41480,9 @@
   {
     "id": 45037,
     "picid": 1219,
-    "name": "บุนทิว (เหวินโฉ่ว)",
-    "classic_name": "บุนทิว",
-    "legacy_name": "เหวินโฉ่ว",
+    "name": "เหวินโฉ่ว",
+    "classic_name": "เหวินโฉ่ว",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 163,
     "hpx": 8833,
@@ -41541,7 +41541,7 @@
     ],
     "mount_type": 1,
     "sort_index": 248,
-    "base_name": "บุนทิว (เหวินโฉ่ว)",
+    "base_name": "เหวินโฉ่ว",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -42211,9 +42211,9 @@
   {
     "id": 14010,
     "picid": 1061,
-    "name": "งิวฮู (หนิวฝู่)",
-    "classic_name": "งิวฮู",
-    "legacy_name": "หนิวฝู่",
+    "name": "หนิวฝู่",
+    "classic_name": "หนิวฝู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 99,
     "hpx": 814,
@@ -42263,7 +42263,7 @@
     ],
     "mount_type": 1,
     "sort_index": 253,
-    "base_name": "งิวฮู (หนิวฝู่)",
+    "base_name": "หนิวฝู่",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -42275,9 +42275,9 @@
   {
     "id": 41257,
     "picid": 1167,
-    "name": "งิวฮู (หนิวฝู่)",
-    "classic_name": "งิวฮู",
-    "legacy_name": "หนิวฝู่",
+    "name": "หนิวฝู่",
+    "classic_name": "หนิวฝู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 114,
     "hpx": 2712,
@@ -42327,7 +42327,7 @@
     ],
     "mount_type": 1,
     "sort_index": 253,
-    "base_name": "งิวฮู (หนิวฝู่)",
+    "base_name": "หนิวฝู่",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -42723,9 +42723,9 @@
   {
     "id": 14017,
     "picid": 1052,
-    "name": "ลิยู (หลี่หยู)",
-    "classic_name": "ลิยู",
-    "legacy_name": "หลี่หยู",
+    "name": "หลี่หยู",
+    "classic_name": "หลี่หยู",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 106,
     "hpx": 890,
@@ -42775,7 +42775,7 @@
     ],
     "mount_type": 1,
     "sort_index": 257,
-    "base_name": "ลิยู (หลี่หยู)",
+    "base_name": "หลี่หยู",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -42787,9 +42787,9 @@
   {
     "id": 41088,
     "picid": 1052,
-    "name": "ลิยู (หลี่หยู)",
-    "classic_name": "ลิยู",
-    "legacy_name": "หลี่หยู",
+    "name": "หลี่หยู",
+    "classic_name": "หลี่หยู",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 128,
     "hpx": 3280,
@@ -42848,7 +42848,7 @@
     ],
     "mount_type": 1,
     "sort_index": 257,
-    "base_name": "ลิยู (หลี่หยู)",
+    "base_name": "หลี่หยู",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -42860,9 +42860,9 @@
   {
     "id": 45002,
     "picid": 1306,
-    "name": "ลิยู (หลี่หยู)",
-    "classic_name": "ลิยู",
-    "legacy_name": "หลี่หยู",
+    "name": "หลี่หยู",
+    "classic_name": "หลี่หยู",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 152,
     "hpx": 7721,
@@ -42921,7 +42921,7 @@
     ],
     "mount_type": 1,
     "sort_index": 257,
-    "base_name": "ลิยู (หลี่หยู)",
+    "base_name": "หลี่หยู",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -44487,9 +44487,9 @@
   {
     "id": 14054,
     "picid": 1110,
-    "name": "ตันก๋ง (เฉินกง)",
-    "classic_name": "ตันก๋ง",
-    "legacy_name": "เฉินกง",
+    "name": "เฉินกง",
+    "classic_name": "เฉินกง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 130,
     "hpx": 1523,
@@ -44539,7 +44539,7 @@
     ],
     "mount_type": 1,
     "sort_index": 269,
-    "base_name": "ตันก๋ง (เฉินกง)",
+    "base_name": "เฉินกง",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -44551,9 +44551,9 @@
   {
     "id": 41113,
     "picid": 1339,
-    "name": "ตันก๋ง (เฉินกง)",
-    "classic_name": "ตันก๋ง",
-    "legacy_name": "เฉินกง",
+    "name": "เฉินกง",
+    "classic_name": "เฉินกง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 141,
     "hpx": 3934,
@@ -44612,7 +44612,7 @@
     ],
     "mount_type": 1,
     "sort_index": 269,
-    "base_name": "ตันก๋ง (เฉินกง)",
+    "base_name": "เฉินกง",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -44624,9 +44624,9 @@
   {
     "id": 45081,
     "picid": 1145,
-    "name": "ตันก๋ง (เฉินกง)",
-    "classic_name": "ตันก๋ง",
-    "legacy_name": "เฉินกง",
+    "name": "เฉินกง",
+    "classic_name": "เฉินกง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 170,
     "hpx": 9319,
@@ -44685,7 +44685,7 @@
     ],
     "mount_type": 1,
     "sort_index": 269,
-    "base_name": "ตันก๋ง (เฉินกง)",
+    "base_name": "เฉินกง",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -44889,9 +44889,9 @@
   {
     "id": 14061,
     "picid": 1105,
-    "name": "ฮัวหยง (หัวสง)",
-    "classic_name": "ฮัวหยง",
-    "legacy_name": "หัวสง",
+    "name": "หัวสง",
+    "classic_name": "หัวสง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 110,
     "hpx": 1185,
@@ -44941,7 +44941,7 @@
     ],
     "mount_type": 1,
     "sort_index": 271,
-    "base_name": "ฮัวหยง (หัวสง)",
+    "base_name": "หัวสง",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -44953,9 +44953,9 @@
   {
     "id": 41147,
     "picid": 1150,
-    "name": "ฮัวหยง (หัวสง)",
-    "classic_name": "ฮัวหยง",
-    "legacy_name": "หัวสง",
+    "name": "หัวสง",
+    "classic_name": "หัวสง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 136,
     "hpx": 3809,
@@ -45014,7 +45014,7 @@
     ],
     "mount_type": 1,
     "sort_index": 271,
-    "base_name": "ฮัวหยง (หัวสง)",
+    "base_name": "หัวสง",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -45026,9 +45026,9 @@
   {
     "id": 45090,
     "picid": 1347,
-    "name": "ฮัวหยง (หัวสง)",
-    "classic_name": "ฮัวหยง",
-    "legacy_name": "หัวสง",
+    "name": "หัวสง",
+    "classic_name": "หัวสง",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 166,
     "hpx": 8967,
@@ -45087,7 +45087,7 @@
     ],
     "mount_type": 1,
     "sort_index": 271,
-    "base_name": "ฮัวหยง (หัวสง)",
+    "base_name": "หัวสง",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -46964,9 +46964,9 @@
   {
     "id": 14084,
     "picid": 1105,
-    "name": "ชัวมอ (ไช่เม่า)",
-    "classic_name": "ชัวมอ",
-    "legacy_name": "ไช่เม่า",
+    "name": "ไช่เม่า",
+    "classic_name": "ไช่เม่า",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 85,
     "hpx": 651,
@@ -47016,7 +47016,7 @@
     ],
     "mount_type": 1,
     "sort_index": 286,
-    "base_name": "ชัวมอ (ไช่เม่า)",
+    "base_name": "ไช่เม่า",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -47028,9 +47028,9 @@
   {
     "id": 41181,
     "picid": 1107,
-    "name": "ชัวมอ (ไช่เม่า)",
-    "classic_name": "ชัวมอ",
-    "legacy_name": "ไช่เม่า",
+    "name": "ไช่เม่า",
+    "classic_name": "ไช่เม่า",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 100,
     "hpx": 2354,
@@ -47080,7 +47080,7 @@
     ],
     "mount_type": 1,
     "sort_index": 286,
-    "base_name": "ชัวมอ (ไช่เม่า)",
+    "base_name": "ไช่เม่า",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -47092,9 +47092,9 @@
   {
     "id": 45188,
     "picid": 1107,
-    "name": "ชัวมอ (ไช่เม่า)",
-    "classic_name": "ชัวมอ",
-    "legacy_name": "ไช่เม่า",
+    "name": "ไช่เม่า",
+    "classic_name": "ไช่เม่า",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 130,
     "hpx": 6187,
@@ -47144,7 +47144,7 @@
     ],
     "mount_type": 1,
     "sort_index": 286,
-    "base_name": "ชัวมอ (ไช่เม่า)",
+    "base_name": "ไช่เม่า",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -49469,9 +49469,9 @@
   {
     "id": 14169,
     "picid": 1154,
-    "name": "แปงอี (เจ้าเอ๋อ)",
-    "classic_name": "แปงอี",
-    "legacy_name": "เจ้าเอ๋อ",
+    "name": "เจ้าเอ๋อ",
+    "classic_name": "เจ้าเอ๋อ",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 91,
     "hpx": 745,
@@ -49521,7 +49521,7 @@
     ],
     "mount_type": 1,
     "sort_index": 308,
-    "base_name": "แปงอี (เจ้าเอ๋อ)",
+    "base_name": "เจ้าเอ๋อ",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -49533,9 +49533,9 @@
   {
     "id": 41001,
     "picid": 1154,
-    "name": "แปงอี (เจ้าเอ๋อ)",
-    "classic_name": "แปงอี",
-    "legacy_name": "เจ้าเอ๋อ",
+    "name": "เจ้าเอ๋อ",
+    "classic_name": "เจ้าเอ๋อ",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 115,
     "hpx": 2901,
@@ -49585,7 +49585,7 @@
     ],
     "mount_type": 1,
     "sort_index": 308,
-    "base_name": "แปงอี (เจ้าเอ๋อ)",
+    "base_name": "เจ้าเอ๋อ",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -49597,9 +49597,9 @@
   {
     "id": 45220,
     "picid": 1618,
-    "name": "แปงอี (เจ้าเอ๋อ)",
-    "classic_name": "แปงอี",
-    "legacy_name": "เจ้าเอ๋อ",
+    "name": "เจ้าเอ๋อ",
+    "classic_name": "เจ้าเอ๋อ",
+    "legacy_name": "",
     "element": "ไฟ",
     "level": 135,
     "hpx": 3418,
@@ -49649,7 +49649,7 @@
     ],
     "mount_type": 1,
     "sort_index": 308,
-    "base_name": "แปงอี (เจ้าเอ๋อ)",
+    "base_name": "เจ้าเอ๋อ",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -50411,9 +50411,9 @@
   {
     "id": 14183,
     "picid": 1063,
-    "name": "โกซุ่น (เกาซุ่น)",
-    "classic_name": "โกซุ่น",
-    "legacy_name": "เกาซุ่น",
+    "name": "เกาซุ่น",
+    "classic_name": "เกาซุ่น",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 111,
     "hpx": 1057,
@@ -50463,7 +50463,7 @@
     ],
     "mount_type": 1,
     "sort_index": 317,
-    "base_name": "โกซุ่น (เกาซุ่น)",
+    "base_name": "เกาซุ่น",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -50475,9 +50475,9 @@
   {
     "id": 41089,
     "picid": 1317,
-    "name": "โกซุ่น (เกาซุ่น)",
-    "classic_name": "โกซุ่น",
-    "legacy_name": "เกาซุ่น",
+    "name": "เกาซุ่น",
+    "classic_name": "เกาซุ่น",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 132,
     "hpx": 3523,
@@ -50536,7 +50536,7 @@
     ],
     "mount_type": 1,
     "sort_index": 317,
-    "base_name": "โกซุ่น (เกาซุ่น)",
+    "base_name": "เกาซุ่น",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -50548,9 +50548,9 @@
   {
     "id": 45005,
     "picid": 1492,
-    "name": "โกซุ่น (เกาซุ่น)",
-    "classic_name": "โกซุ่น",
-    "legacy_name": "เกาซุ่น",
+    "name": "เกาซุ่น",
+    "classic_name": "เกาซุ่น",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 156,
     "hpx": 7947,
@@ -50609,7 +50609,7 @@
     ],
     "mount_type": 1,
     "sort_index": 317,
-    "base_name": "โกซุ่น (เกาซุ่น)",
+    "base_name": "เกาซุ่น",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -51919,9 +51919,9 @@
   {
     "id": 14216,
     "picid": 1114,
-    "name": "หวางหง (หวางกง)",
-    "classic_name": "หวางหง",
-    "legacy_name": "หวางกง",
+    "name": "หวางกง",
+    "classic_name": "หวางกง",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 34,
     "hpx": 254,
@@ -51971,7 +51971,7 @@
     ],
     "mount_type": 1,
     "sort_index": 331,
-    "base_name": "หวางหง (หวางกง)",
+    "base_name": "หวางกง",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -53455,9 +53455,9 @@
   {
     "id": 14256,
     "picid": 1048,
-    "name": "ม้าเท้ง (หม่าเถิง)",
-    "classic_name": "ม้าเท้ง",
-    "legacy_name": "หม่าเถิง",
+    "name": "หม่าเถิง",
+    "classic_name": "หม่าเถิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 105,
     "hpx": 1024,
@@ -53507,7 +53507,7 @@
     ],
     "mount_type": 1,
     "sort_index": 347,
-    "base_name": "ม้าเท้ง (หม่าเถิง)",
+    "base_name": "หม่าเถิง",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -53519,9 +53519,9 @@
   {
     "id": 41095,
     "picid": 1048,
-    "name": "ม้าเท้ง (หม่าเถิง)",
-    "classic_name": "ม้าเท้ง",
-    "legacy_name": "หม่าเถิง",
+    "name": "หม่าเถิง",
+    "classic_name": "หม่าเถิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 130,
     "hpx": 3628,
@@ -53580,7 +53580,7 @@
     ],
     "mount_type": 1,
     "sort_index": 347,
-    "base_name": "ม้าเท้ง (หม่าเถิง)",
+    "base_name": "หม่าเถิง",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -53592,9 +53592,9 @@
   {
     "id": 45029,
     "picid": 1403,
-    "name": "ม้าเท้ง (หม่าเถิง)",
-    "classic_name": "ม้าเท้ง",
-    "legacy_name": "หม่าเถิง",
+    "name": "หม่าเถิง",
+    "classic_name": "หม่าเถิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 160,
     "hpx": 8649,
@@ -53653,7 +53653,7 @@
     ],
     "mount_type": 1,
     "sort_index": 347,
-    "base_name": "ม้าเท้ง (หม่าเถิง)",
+    "base_name": "หม่าเถิง",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -53665,9 +53665,9 @@
   {
     "id": 14257,
     "picid": 1077,
-    "name": "หันซุย (หานซุ่ย)",
-    "classic_name": "หันซุย",
-    "legacy_name": "หานซุ่ย",
+    "name": "หานซุ่ย",
+    "classic_name": "หานซุ่ย",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 97,
     "hpx": 836,
@@ -53717,7 +53717,7 @@
     ],
     "mount_type": 1,
     "sort_index": 348,
-    "base_name": "หันซุย (หานซุ่ย)",
+    "base_name": "หานซุ่ย",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -53729,9 +53729,9 @@
   {
     "id": 41241,
     "picid": 1224,
-    "name": "หันซุย (หานซุ่ย)",
-    "classic_name": "หันซุย",
-    "legacy_name": "หานซุ่ย",
+    "name": "หานซุ่ย",
+    "classic_name": "หานซุ่ย",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 122,
     "hpx": 3307,
@@ -53790,7 +53790,7 @@
     ],
     "mount_type": 1,
     "sort_index": 348,
-    "base_name": "หันซุย (หานซุ่ย)",
+    "base_name": "หานซุ่ย",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -53802,9 +53802,9 @@
   {
     "id": 45149,
     "picid": 1566,
-    "name": "หันซุย (หานซุ่ย)",
-    "classic_name": "หันซุย",
-    "legacy_name": "หานซุ่ย",
+    "name": "หานซุ่ย",
+    "classic_name": "หานซุ่ย",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 147,
     "hpx": 7389,
@@ -53863,7 +53863,7 @@
     ],
     "mount_type": 1,
     "sort_index": 348,
-    "base_name": "หันซุย (หานซุ่ย)",
+    "base_name": "หานซุ่ย",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -56261,9 +56261,9 @@
   {
     "id": 14366,
     "picid": 1180,
-    "name": "เสือขาว (เหยียนไป๋หู่)",
-    "classic_name": "เสือขาว",
-    "legacy_name": "เหยียนไป๋หู่",
+    "name": "เหยียนไป๋หู่",
+    "classic_name": "เหยียนไป๋หู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 101,
     "hpx": 983,
@@ -56313,7 +56313,7 @@
     ],
     "mount_type": 1,
     "sort_index": 372,
-    "base_name": "เสือขาว (เหยียนไป๋หู่)",
+    "base_name": "เหยียนไป๋หู่",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -56325,9 +56325,9 @@
   {
     "id": 41108,
     "picid": 1292,
-    "name": "เสือขาว (เหยียนไป๋หู่)",
-    "classic_name": "เสือขาว",
-    "legacy_name": "เหยียนไป๋หู่",
+    "name": "เหยียนไป๋หู่",
+    "classic_name": "เหยียนไป๋หู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 123,
     "hpx": 3278,
@@ -56386,7 +56386,7 @@
     ],
     "mount_type": 1,
     "sort_index": 372,
-    "base_name": "เสือขาว (เหยียนไป๋หู่)",
+    "base_name": "เหยียนไป๋หู่",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -56398,9 +56398,9 @@
   {
     "id": 45006,
     "picid": 1292,
-    "name": "เสือขาว (เหยียนไป๋หู่)",
-    "classic_name": "เสือขาว",
-    "legacy_name": "เหยียนไป๋หู่",
+    "name": "เหยียนไป๋หู่",
+    "classic_name": "เหยียนไป๋หู่",
+    "legacy_name": "",
     "element": "ดิน",
     "level": 153,
     "hpx": 7925,
@@ -56459,7 +56459,7 @@
     ],
     "mount_type": 1,
     "sort_index": 372,
-    "base_name": "เสือขาว (เหยียนไป๋หู่)",
+    "base_name": "เหยียนไป๋หู่",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -61768,70 +61768,6 @@
     }
   },
   {
-    "id": 22091,
-    "picid": 1193,
-    "name": "ภูตฟักทอง (ภูติฟักทอง)",
-    "classic_name": "ภูตฟักทอง",
-    "legacy_name": "ภูติฟักทอง",
-    "element": "ไฟ",
-    "level": 40,
-    "hpx": 393,
-    "spx": 174,
-    "hp": 15,
-    "sp": 9,
-    "int": 9,
-    "atk": 16,
-    "def": 15,
-    "agi": 11,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444804634,
-      772444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12006,
-        "name": "รวมจิตโจมตี",
-        "sp": 24,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ผนึกรวมจิตโจมตีศัตรูถึงตาย"
-      },
-      {
-        "id": 12007,
-        "name": "ระบำไฟ",
-        "sp": 30,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ยืมพลังไฟที่แทรกอยู่ในหมู่เมฆพุ่งลงมาโจมตี"
-      },
-      {
-        "id": 14008,
-        "name": "หลับไหล",
-        "sp": 15,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "หลับ",
-        "desc": "ใช้ทำนองเสียงหลอกล่อใจคนทำให้หลับไหล"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 415,
-    "base_name": "ภูตฟักทอง (ภูติฟักทอง)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 22091,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
     "id": 11116,
     "picid": 1153,
     "name": "เชียนเจา",
@@ -62538,9 +62474,9 @@
   {
     "id": 12018,
     "picid": 1317,
-    "name": "ม้าเจ๊ก (หม่าซู่)",
-    "classic_name": "ม้าเจ๊ก",
-    "legacy_name": "หม่าซู่",
+    "name": "หม่าซู่",
+    "classic_name": "หม่าซู่",
+    "legacy_name": "",
     "element": "ลม",
     "level": 102,
     "hpx": 957,
@@ -62590,7 +62526,7 @@
     ],
     "mount_type": 1,
     "sort_index": 420,
-    "base_name": "ม้าเจ๊ก (หม่าซู่)",
+    "base_name": "หม่าซู่",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -62602,9 +62538,9 @@
   {
     "id": 41153,
     "picid": 1112,
-    "name": "ม้าเจ๊ก (หม่าซู่)",
-    "classic_name": "ม้าเจ๊ก",
-    "legacy_name": "หม่าซู่",
+    "name": "หม่าซู่",
+    "classic_name": "หม่าซู่",
+    "legacy_name": "",
     "element": "ลม",
     "level": 127,
     "hpx": 3236,
@@ -62654,7 +62590,7 @@
     ],
     "mount_type": 1,
     "sort_index": 420,
-    "base_name": "ม้าเจ๊ก (หม่าซู่)",
+    "base_name": "หม่าซู่",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -62666,9 +62602,9 @@
   {
     "id": 45058,
     "picid": 1112,
-    "name": "ม้าเจ๊ก (หม่าซู่)",
-    "classic_name": "ม้าเจ๊ก",
-    "legacy_name": "หม่าซู่",
+    "name": "หม่าซู่",
+    "classic_name": "หม่าซู่",
+    "legacy_name": "",
     "element": "ลม",
     "level": 156,
     "hpx": 7890,
@@ -62718,7 +62654,7 @@
     ],
     "mount_type": 1,
     "sort_index": 420,
-    "base_name": "ม้าเจ๊ก (หม่าซู่)",
+    "base_name": "หม่าซู่",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -68852,70 +68788,6 @@
     }
   },
   {
-    "id": 22092,
-    "picid": 1997,
-    "name": "ครัมปัส",
-    "classic_name": "ครัมปัส",
-    "legacy_name": "",
-    "element": "น้ำ",
-    "level": 40,
-    "hpx": 440,
-    "spx": 180,
-    "hp": 17,
-    "sp": 8,
-    "int": 5,
-    "atk": 26,
-    "def": 16,
-    "agi": 8,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11005,
-        "name": "น้ำพุทะลวง",
-        "sp": 18,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกน้ำพุใต้ดินอัดพุ่งโจมตีใส่ศัตรู"
-      },
-      {
-        "id": 11003,
-        "name": "กระบี่น้ำแข็ง",
-        "sp": 12,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แปรน้ำเป็นน้ำแข็ง หลอมน้ำแข็งเป็นกระบี่ โจมตีศัตรู"
-      },
-      {
-        "id": 14015,
-        "name": "ปล่อยพิษ",
-        "sp": 25,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "ปล่อยพิษชั่วร้ายทำให้คนอื่นถูกพิษ"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 459,
-    "base_name": "ครัมปัส",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 22092,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
     "id": 15478,
     "picid": 1088,
     "name": "แม่หมอเรียกขวัญ (มารดาแม่หมอขวัญ)",
@@ -71270,70 +71142,6 @@
     "chain": {
       "normal_id": 14559,
       "reborn1_id": 41205,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 22093,
-    "picid": 2024,
-    "name": "ปาโต้เยาที่หนึ่ง",
-    "classic_name": "ปาโต้เยาที่หนึ่ง",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 130,
-    "hpx": 4112,
-    "spx": 636,
-    "hp": 67,
-    "sp": 32,
-    "int": 28,
-    "atk": 80,
-    "def": 41,
-    "agi": 32,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10021,
-        "name": "กระบี่ทลายพสุธา",
-        "sp": 36,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กระบี่วิเศษโบราณที่ผานกู่ใช้เบิกฟ้าแยกดิน"
-      },
-      {
-        "id": 10010,
-        "name": "ม่านคุ้มกัน",
-        "sp": 33,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ม่านคุ้มกัน",
-        "desc": "แผ่ม่านคุ้มกันออกมา เพื่อป้องกันการโจมตี"
-      },
-      {
-        "id": 14008,
-        "name": "หลับไหล",
-        "sp": 15,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "หลับ",
-        "desc": "ใช้ทำนองเสียงหลอกล่อใจคนทำให้หลับไหล"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 476,
-    "base_name": "ปาโต้เยาที่หนึ่ง",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 22093,
-      "reborn1_id": null,
       "reborn2_id": null
     }
   },
@@ -74256,9 +74064,9 @@
   {
     "id": 12002,
     "picid": 1492,
-    "name": "อองเป๋ง (หวางผิง)",
-    "classic_name": "อองเป๋ง",
-    "legacy_name": "หวางผิง",
+    "name": "หวางผิง",
+    "classic_name": "หวางผิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 118,
     "hpx": 1234,
@@ -74308,7 +74116,7 @@
     ],
     "mount_type": 1,
     "sort_index": 497,
-    "base_name": "อองเป๋ง (หวางผิง)",
+    "base_name": "หวางผิง",
     "faction": "จ๊ก",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -74320,9 +74128,9 @@
   {
     "id": 41344,
     "picid": 1567,
-    "name": "อองเป๋ง (หวางผิง)",
-    "classic_name": "อองเป๋ง",
-    "legacy_name": "หวางผิง",
+    "name": "หวางผิง",
+    "classic_name": "หวางผิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 135,
     "hpx": 3722,
@@ -74372,7 +74180,7 @@
     ],
     "mount_type": 1,
     "sort_index": 497,
-    "base_name": "อองเป๋ง (หวางผิง)",
+    "base_name": "หวางผิง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -74384,9 +74192,9 @@
   {
     "id": 45252,
     "picid": 1634,
-    "name": "อองเป๋ง (หวางผิง)",
-    "classic_name": "อองเป๋ง",
-    "legacy_name": "หวางผิง",
+    "name": "หวางผิง",
+    "classic_name": "หวางผิง",
+    "legacy_name": "",
     "element": "ลม",
     "level": 173,
     "hpx": 4780,
@@ -74436,7 +74244,7 @@
     ],
     "mount_type": 1,
     "sort_index": 497,
-    "base_name": "อองเป๋ง (หวางผิง)",
+    "base_name": "หวางผิง",
     "faction": "จ๊ก",
     "reborn_type": "จุติ 2 (Reborn 2)",
     "chain": {
@@ -74896,9 +74704,9 @@
   {
     "id": 14644,
     "picid": 1590,
-    "name": "เบ้งเฮก (เมิ่งฮั่ว)",
-    "classic_name": "เบ้งเฮก",
-    "legacy_name": "เมิ่งฮั่ว",
+    "name": "เมิ่งฮั่ว",
+    "classic_name": "เมิ่งฮั่ว",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 130,
     "hpx": 1274,
@@ -74948,7 +74756,7 @@
     ],
     "mount_type": 1,
     "sort_index": 501,
-    "base_name": "เบ้งเฮก (เมิ่งฮั่ว)",
+    "base_name": "เมิ่งฮั่ว",
     "faction": "จอมยุทธ์",
     "reborn_type": "ปกติ (Normal)",
     "chain": {
@@ -74960,9 +74768,9 @@
   {
     "id": 41419,
     "picid": 1590,
-    "name": "เบ้งเฮก (เมิ่งฮั่ว)",
-    "classic_name": "เบ้งเฮก",
-    "legacy_name": "เมิ่งฮั่ว",
+    "name": "เมิ่งฮั่ว",
+    "classic_name": "เมิ่งฮั่ว",
+    "legacy_name": "",
     "element": "น้ำ",
     "level": 156,
     "hpx": 5273,
@@ -75012,7 +74820,7 @@
     ],
     "mount_type": 1,
     "sort_index": 501,
-    "base_name": "เบ้งเฮก (เมิ่งฮั่ว)",
+    "base_name": "เมิ่งฮั่ว",
     "faction": "จอมยุทธ์",
     "reborn_type": "จุติ 1 (Reborn 1)",
     "chain": {
@@ -77499,143 +77307,6 @@
     }
   },
   {
-    "id": 41550,
-    "picid": 2102,
-    "name": "เยี่ยนเตียวเสี่ยชุดว่ายน้ำ (เยี่ยนเตียวเสียชุดว่ายน้ำ)",
-    "classic_name": "เยี่ยนเตียวเสี่ยชุดว่ายน้ำ",
-    "legacy_name": "เยี่ยนเตียวเสียชุดว่ายน้ำ",
-    "element": "น้ำ",
-    "level": 140,
-    "hpx": 1551,
-    "spx": 643,
-    "hp": 62,
-    "sp": 44,
-    "int": 117,
-    "atk": 31,
-    "def": 34,
-    "agi": 62,
-    "b24": 19,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11037,
-        "name": "จัตุรัสวารี",
-        "sp": 53,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "น้ำจากใต้ดินที่พ่นออกมาจากพื้น ส่งผลให้ศัตรูเปียกชุ่มไปทั้งตัว"
-      },
-      {
-        "id": 11008,
-        "name": "น้ำป่า",
-        "sp": 26,
-        "target": "5 เป้าหมาย (1 แถว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "โยกย้ายน้ำป่ามหาศาลโจมตีศัตรู"
-      },
-      {
-        "id": 11025,
-        "name": "สลายสภาวะเลื่อนขั้น",
-        "sp": 48,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "เข้าสู่ภาวะจิตดิ่งลึก ขจัดราคีที่เกาะกุมจิตใจทั้งมวลสลายสิ้น"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 517,
-    "base_name": "เยี่ยนเตียวเสี่ยชุดว่ายน้ำ (เยี่ยนเตียวเสียชุดว่ายน้ำ)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 41550,
-      "reborn1_id": 45423,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45423,
-    "picid": 2103,
-    "name": "เยี่ยนเตียวเสี่ยชุดว่ายน้ำ (เยี่ยนเตียวเสียชุดว่ายน้ำ)",
-    "classic_name": "เยี่ยนเตียวเสี่ยชุดว่ายน้ำ",
-    "legacy_name": "เยี่ยนเตียวเสียชุดว่ายน้ำ",
-    "element": "น้ำ",
-    "level": 170,
-    "hpx": 1850,
-    "spx": 761,
-    "hp": 64,
-    "sp": 50,
-    "int": 153,
-    "atk": 41,
-    "def": 35,
-    "agi": 82,
-    "b24": 19,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11037,
-        "name": "จัตุรัสวารี",
-        "sp": 53,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "น้ำจากใต้ดินที่พ่นออกมาจากพื้น ส่งผลให้ศัตรูเปียกชุ่มไปทั้งตัว"
-      },
-      {
-        "id": 11023,
-        "name": "คะนิ้งเยือกจิต",
-        "sp": 50,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อากาศจับตัวแข็งในพริบตา ทำให้ศัตรูไม่รอดแม้แต่คนเดียว"
-      },
-      {
-        "id": 11025,
-        "name": "สลายสภาวะเลื่อนขั้น",
-        "sp": 48,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "เข้าสู่ภาวะจิตดิ่งลึก ขจัดราคีที่เกาะกุมจิตใจทั้งมวลสลายสิ้น"
-      },
-      {
-        "id": 11038,
-        "name": "ปืนน้ำโจมตี",
-        "sp": 63,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้ปืนน้ำยิงโจมตีศัตรู ไม่เพียงทรงพลัง แต่ยังสามารถล้างสถานะพิเศษของศัตรูได้อีกด้วย"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 517,
-    "base_name": "เยี่ยนเตียวเสี่ยชุดว่ายน้ำ (เยี่ยนเตียวเสียชุดว่ายน้ำ)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 41550,
-      "reborn1_id": 45423,
-      "reborn2_id": null
-    }
-  },
-  {
     "id": 12110,
     "picid": 1295,
     "name": "ต่งเหอ",
@@ -78401,207 +78072,6 @@
       "normal_id": 14539,
       "reborn1_id": 41303,
       "reborn2_id": 45181
-    }
-  },
-  {
-    "id": 11249,
-    "picid": 1252,
-    "name": "อองง่วนกี๋ (หวางหยวนจี)",
-    "classic_name": "อองง่วนกี๋",
-    "legacy_name": "หวางหยวนจี",
-    "element": "ลม",
-    "level": 164,
-    "hpx": 3023,
-    "spx": 1202,
-    "hp": 53,
-    "sp": 45,
-    "int": 121,
-    "atk": 30,
-    "def": 65,
-    "agi": 75,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444158444,
-      159158444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13006,
-        "name": "ลมพายุร้าย",
-        "sp": 30,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ระดมพลังแห่งลมพายุร้ายกวาดกองทัพศัตรู"
-      },
-      {
-        "id": 13009,
-        "name": "ลมม้วนเมฆแยก",
-        "sp": 40,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กวาดศัตรูบนพื้นดิน ด้วยพลังแข็งแกร่งทำให้ศัตรูล้ม"
-      },
-      {
-        "id": 13015,
-        "name": "มังกรเขียว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "อัญเชิญสัตว์เทพมังกรเขียวให้ปรากฎกาย"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 522,
-    "base_name": "อองง่วนกี๋ (หวางหยวนจี)",
-    "faction": "วุย",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 11249,
-      "reborn1_id": 41549,
-      "reborn2_id": 45420
-    }
-  },
-  {
-    "id": 41549,
-    "picid": 2100,
-    "name": "อองง่วนกี๋ (หวางหยวนจี)",
-    "classic_name": "อองง่วนกี๋",
-    "legacy_name": "หวางหยวนจี",
-    "element": "ลม",
-    "level": 164,
-    "hpx": 3073,
-    "spx": 1252,
-    "hp": 60,
-    "sp": 52,
-    "int": 134,
-    "atk": 33,
-    "def": 70,
-    "agi": 81,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13022,
-        "name": "กระสุนลมทมิฬ",
-        "sp": 36,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ชักนำพลังลมดุร้ายที่ตัดทำลายอากาศธาตุแยกขาด อัดแน่นเป็นลูกกลมโจมตีใส่ศัตรูอย่างบ้าคลั่ง"
-      },
-      {
-        "id": 13023,
-        "name": "พายุไซโคลน",
-        "sp": 54,
-        "target": "6 เป้าหมาย (2x3 ช่อง)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "พลังพายุไซโคลนยักษ์มหึมาที่ไม่เคยพบเห็นมาก่อนพัดกวาดค่ายทัพศัตรู"
-      },
-      {
-        "id": 13015,
-        "name": "มังกรเขียว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "อัญเชิญสัตว์เทพมังกรเขียวให้ปรากฎกาย"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 522,
-    "base_name": "อองง่วนกี๋ (หวางหยวนจี)",
-    "faction": "วุย",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 11249,
-      "reborn1_id": 41549,
-      "reborn2_id": 45420
-    }
-  },
-  {
-    "id": 45420,
-    "picid": 2101,
-    "name": "อองง่วนกี๋ (หวางหยวนจี)",
-    "classic_name": "อองง่วนกี๋",
-    "legacy_name": "หวางหยวนจี",
-    "element": "ลม",
-    "level": 164,
-    "hpx": 3283,
-    "spx": 1359,
-    "hp": 66,
-    "sp": 59,
-    "int": 151,
-    "atk": 35,
-    "def": 72,
-    "agi": 83,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13039,
-        "name": "กระสุนลมทมิฬต่อเนื่อง",
-        "sp": 47,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้กระสุนวายุอันรุนแรงโจมตีศัตรู"
-      },
-      {
-        "id": 13023,
-        "name": "พายุไซโคลน",
-        "sp": 54,
-        "target": "6 เป้าหมาย (2x3 ช่อง)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "พลังพายุไซโคลนยักษ์มหึมาที่ไม่เคยพบเห็นมาก่อนพัดกวาดค่ายทัพศัตรู"
-      },
-      {
-        "id": 13015,
-        "name": "มังกรเขียว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "อัญเชิญสัตว์เทพมังกรเขียวให้ปรากฎกาย"
-      },
-      {
-        "id": 13038,
-        "name": "สาดกระสุนลมทมิฬ",
-        "sp": 17,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แยกลมโหมกระหน่ำให้เป็น 3 วิถีแล้วโจมตีศัตรู 3 ตัว"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 522,
-    "base_name": "อองง่วนกี๋ (หวางหยวนจี)",
-    "faction": "วุย",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 11249,
-      "reborn1_id": 41549,
-      "reborn2_id": 45420
     }
   },
   {
@@ -79967,61 +79437,6 @@
     }
   },
   {
-    "id": 11250,
-    "picid": 2142,
-    "name": "เตียวเสี้ยนคริสต์มาส",
-    "classic_name": "เตียวเสี้ยนคริสต์มาส",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 80,
-    "hpx": 643,
-    "spx": 328,
-    "hp": 30,
-    "sp": 21,
-    "int": 19,
-    "atk": 75,
-    "def": 26,
-    "agi": 44,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444158444,
-      159158444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12003,
-        "name": "ธนูไฟ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12027,
-        "name": "พลังหมัดอัคคี",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังหมัดอัคคีโจมตีศัตรู"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 530,
-    "base_name": "เตียวเสี้ยนคริสต์มาส",
-    "faction": "วุย",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 11250,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
     "id": 15217,
     "picid": 1179,
     "name": "น่าลี่ (นั่วลี่)",
@@ -80211,1587 +79626,6 @@
       "normal_id": 15217,
       "reborn1_id": 41006,
       "reborn2_id": 45254
-    }
-  },
-  {
-    "id": 15493,
-    "picid": 1758,
-    "name": "เซี่ยงหวี่",
-    "classic_name": "เซี่ยงหวี่",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 120,
-    "hpx": 1367,
-    "spx": 486,
-    "hp": 43,
-    "sp": 18,
-    "int": 34,
-    "atk": 101,
-    "def": 58,
-    "agi": 66,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      113005544,
-      300300202,
-      134444444,
-      200245444
-    ],
-    "skills": [
-      {
-        "id": 23025,
-        "name": "ธนูมืดทมิฬ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังแห่งความมืดเข้ากับลูกธนูเพื่อโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23026,
-        "name": "สะบั้นวิญญาณมืด",
-        "sp": 36,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "สะบั้นโจมตีศัตรูด้วยพลังแห่งความมืด"
-      },
-      {
-        "id": 14006,
-        "name": "คำรามก้อง",
-        "sp": 20,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ส่งเสียงคำรามโทสะสะท้านฟ้าขู่ขวัญศัตรู"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 532,
-    "base_name": "เซี่ยงหวี่",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 15493,
-      "reborn1_id": 41552,
-      "reborn2_id": 45430
-    }
-  },
-  {
-    "id": 41552,
-    "picid": 1758,
-    "name": "เซี่ยงหวี่",
-    "classic_name": "เซี่ยงหวี่",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 140,
-    "hpx": 1710,
-    "spx": 574,
-    "hp": 59,
-    "sp": 21,
-    "int": 36,
-    "atk": 121,
-    "def": 66,
-    "agi": 82,
-    "b24": 20,
-    "b25": 32,
-    "colors": [
-      113005544,
-      300300202,
-      134444444,
-      200245444
-    ],
-    "skills": [
-      {
-        "id": 23025,
-        "name": "ธนูมืดทมิฬ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังแห่งความมืดเข้ากับลูกธนูเพื่อโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23026,
-        "name": "สะบั้นวิญญาณมืด",
-        "sp": 36,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "สะบั้นโจมตีศัตรูด้วยพลังแห่งความมืด"
-      },
-      {
-        "id": 14006,
-        "name": "คำรามก้อง",
-        "sp": 20,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ส่งเสียงคำรามโทสะสะท้านฟ้าขู่ขวัญศัตรู"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 532,
-    "base_name": "เซี่ยงหวี่",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 15493,
-      "reborn1_id": 41552,
-      "reborn2_id": 45430
-    }
-  },
-  {
-    "id": 45430,
-    "picid": 1902,
-    "name": "เซี่ยงหวี่",
-    "classic_name": "เซี่ยงหวี่",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 200,
-    "hpx": 2087,
-    "spx": 671,
-    "hp": 68,
-    "sp": 28,
-    "int": 37,
-    "atk": 155,
-    "def": 73,
-    "agi": 90,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444245545,
-      156503002,
-      103204003,
-      300024444
-    ],
-    "skills": [
-      {
-        "id": 23001,
-        "name": "ธนูพิษมืด",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังมืดไว้ที่ธนูโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23002,
-        "name": "ดาบทมิฬพิฆาต",
-        "sp": 66,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังมืดโจมตีสะบั้นศัตรู 1 ตัว"
-      },
-      {
-        "id": 14006,
-        "name": "คำรามก้อง",
-        "sp": 20,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ส่งเสียงคำรามโทสะสะท้านฟ้าขู่ขวัญศัตรู"
-      },
-      {
-        "id": 23005,
-        "name": "กระบี่ในแขนเสื้อ",
-        "sp": 30,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กระบี่ในแขนเสื้อโจมตีศัตรูก่อน"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 532,
-    "base_name": "เซี่ยงหวี่",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 15493,
-      "reborn1_id": 41552,
-      "reborn2_id": 45430
-    }
-  },
-  {
-    "id": 12179,
-    "picid": 1814,
-    "name": "จูเก่อกั่ว",
-    "classic_name": "จูเก่อกั่ว",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 140,
-    "hpx": 741,
-    "spx": 656,
-    "hp": 54,
-    "sp": 46,
-    "int": 127,
-    "atk": 25,
-    "def": 63,
-    "agi": 76,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444002755,
-      414350444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 10004,
-        "name": "ปีศาจต้นไม้",
-        "sp": 18,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "เรียกปีศาจต้นไม้ปล่อยกิ่งก้านรัดศัตรู"
-      },
-      {
-        "id": 10016,
-        "name": "จ้าวหินผา",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญจ้าวหินผา สัตว์ประหลาดโบราณให้ปรากฎกาย"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 533,
-    "base_name": "จูเก่อกั่ว",
-    "faction": "จ๊ก",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 12179,
-      "reborn1_id": 41551,
-      "reborn2_id": 45427
-    }
-  },
-  {
-    "id": 41551,
-    "picid": 1814,
-    "name": "จูเก่อกั่ว",
-    "classic_name": "จูเก่อกั่ว",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 140,
-    "hpx": 1668,
-    "spx": 812,
-    "hp": 60,
-    "sp": 52,
-    "int": 135,
-    "atk": 28,
-    "def": 69,
-    "agi": 80,
-    "b24": 19,
-    "b25": 21,
-    "colors": [
-      444014755,
-      422450444,
-      444444444,
-      559444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 20049,
-        "name": "ปีศาจต้นไม้ขั้นสูง",
-        "sp": 36,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "ใช้ปีศาจต้นไม้กับฝ่ายตรงข้าม 3 คน"
-      },
-      {
-        "id": 10016,
-        "name": "จ้าวหินผา",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญจ้าวหินผา สัตว์ประหลาดโบราณให้ปรากฎกาย"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 533,
-    "base_name": "จูเก่อกั่ว",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 12179,
-      "reborn1_id": 41551,
-      "reborn2_id": 45427
-    }
-  },
-  {
-    "id": 45427,
-    "picid": 1814,
-    "name": "จูเก่อกั่ว",
-    "classic_name": "จูเก่อกั่ว",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 165,
-    "hpx": 2257,
-    "spx": 703,
-    "hp": 68,
-    "sp": 60,
-    "int": 152,
-    "atk": 30,
-    "def": 75,
-    "agi": 84,
-    "b24": 8,
-    "b25": 30,
-    "colors": [
-      444014755,
-      422450444,
-      444444444,
-      550034444
-    ],
-    "skills": [
-      {
-        "id": 20049,
-        "name": "ปีศาจต้นไม้ขั้นสูง",
-        "sp": 36,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "ใช้ปีศาจต้นไม้กับฝ่ายตรงข้าม 3 คน"
-      },
-      {
-        "id": 10034,
-        "name": "มังกรกลืนพสุธา",
-        "sp": 84,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กลืนทุกสรรพสิ่งเบื้องบนสู่นรก"
-      },
-      {
-        "id": 10016,
-        "name": "จ้าวหินผา",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญจ้าวหินผา สัตว์ประหลาดโบราณให้ปรากฎกาย"
-      },
-      {
-        "id": 21009,
-        "name": "อุกาบาตถล่ม",
-        "sp": 48,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เสกอุกาบาตขนาดยักษ์ถล่มตีศัตรู"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 533,
-    "base_name": "จูเก่อกั่ว",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 12179,
-      "reborn1_id": 41551,
-      "reborn2_id": 45427
-    }
-  },
-  {
-    "id": 41553,
-    "picid": 2198,
-    "name": "ต้าเฉียวชุดว่ายน้ำ",
-    "classic_name": "ต้าเฉียวชุดว่ายน้ำ",
-    "legacy_name": "",
-    "element": "ลม",
-    "level": 140,
-    "hpx": 1426,
-    "spx": 636,
-    "hp": 48,
-    "sp": 43,
-    "int": 133,
-    "atk": 25,
-    "def": 20,
-    "agi": 84,
-    "b24": 19,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13022,
-        "name": "กระสุนลมทมิฬ",
-        "sp": 36,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ชักนำพลังลมดุร้ายที่ตัดทำลายอากาศธาตุแยกขาด อัดแน่นเป็นลูกกลมโจมตีใส่ศัตรูอย่างบ้าคลั่ง"
-      },
-      {
-        "id": 13020,
-        "name": "จิตรบแห่งลม",
-        "sp": 60,
-        "target": "5 เป้าหมาย (1 แถว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกพลังศักดิ์สิทธิ์แห่งลม ทำให้ฝ่ายเราท่าร่างรวดเร็วดั่งสายลม"
-      },
-      {
-        "id": 13023,
-        "name": "พายุไซโคลน",
-        "sp": 54,
-        "target": "6 เป้าหมาย (2x3 ช่อง)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "พลังพายุไซโคลนยักษ์มหึมาที่ไม่เคยพบเห็นมาก่อนพัดกวาดค่ายทัพศัตรู"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 534,
-    "base_name": "ต้าเฉียวชุดว่ายน้ำ",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 41553,
-      "reborn1_id": 45433,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45433,
-    "picid": 2199,
-    "name": "ต้าเฉียวชุดว่ายน้ำ",
-    "classic_name": "ต้าเฉียวชุดว่ายน้ำ",
-    "legacy_name": "",
-    "element": "ลม",
-    "level": 170,
-    "hpx": 1721,
-    "spx": 739,
-    "hp": 50,
-    "sp": 47,
-    "int": 174,
-    "atk": 34,
-    "def": 31,
-    "agi": 111,
-    "b24": 19,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13022,
-        "name": "กระสุนลมทมิฬ",
-        "sp": 36,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ชักนำพลังลมดุร้ายที่ตัดทำลายอากาศธาตุแยกขาด อัดแน่นเป็นลูกกลมโจมตีใส่ศัตรูอย่างบ้าคลั่ง"
-      },
-      {
-        "id": 13020,
-        "name": "จิตรบแห่งลม",
-        "sp": 60,
-        "target": "5 เป้าหมาย (1 แถว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกพลังศักดิ์สิทธิ์แห่งลม ทำให้ฝ่ายเราท่าร่างรวดเร็วดั่งสายลม"
-      },
-      {
-        "id": 13031,
-        "name": "ลมฟ้าสลาตัน",
-        "sp": 84,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญสายฟ้าฟาดฟันโจมตีศัตรู"
-      },
-      {
-        "id": 21037,
-        "name": "ผู้พิทักษ์โลมา",
-        "sp": 48,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "ขับเคลื่อนโลมาเพื่อปกป้องและปล่อยคลื่นอัลตร้าโซนิคเพื่อทำให้ศัตรูที่เข้าใกล้มึนงง"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 534,
-    "base_name": "ต้าเฉียวชุดว่ายน้ำ",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 41553,
-      "reborn1_id": 45433,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 14747,
-    "picid": 2210,
-    "name": "หวังอี้",
-    "classic_name": "หวังอี้",
-    "legacy_name": "",
-    "element": "แสง",
-    "level": 150,
-    "hpx": 1263,
-    "spx": 493,
-    "hp": 49,
-    "sp": 34,
-    "int": 45,
-    "atk": 95,
-    "def": 65,
-    "agi": 69,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22002,
-        "name": "หัตถ์แสงพุทธะ",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แสงพุทธะผนึกรวมที่กลางฝ่ามือ โจมตีอย่างรุนแรง"
-      },
-      {
-        "id": 22003,
-        "name": "แสงแรงกล้า",
-        "sp": 72,
-        "target": "3 เป้าหมาย (กระจาย)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยแสงเจิดจ้าโจมตีศัตรู 3 คน"
-      },
-      {
-        "id": 22011,
-        "name": "เสือขาว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญเสือขาวออกมาโจมตี"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 535,
-    "base_name": "หวังอี้",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 14747,
-      "reborn1_id": 41556,
-      "reborn2_id": 45436
-    }
-  },
-  {
-    "id": 41556,
-    "picid": 2211,
-    "name": "หวังอี้",
-    "classic_name": "หวังอี้",
-    "legacy_name": "",
-    "element": "แสง",
-    "level": 165,
-    "hpx": 3112,
-    "spx": 1236,
-    "hp": 63,
-    "sp": 49,
-    "int": 61,
-    "atk": 108,
-    "def": 70,
-    "agi": 78,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22002,
-        "name": "หัตถ์แสงพุทธะ",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แสงพุทธะผนึกรวมที่กลางฝ่ามือ โจมตีอย่างรุนแรง"
-      },
-      {
-        "id": 22003,
-        "name": "แสงแรงกล้า",
-        "sp": 72,
-        "target": "3 เป้าหมาย (กระจาย)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยแสงเจิดจ้าโจมตีศัตรู 3 คน"
-      },
-      {
-        "id": 22011,
-        "name": "เสือขาว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญเสือขาวออกมาโจมตี"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 535,
-    "base_name": "หวังอี้",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 14747,
-      "reborn1_id": 41556,
-      "reborn2_id": 45436
-    }
-  },
-  {
-    "id": 45436,
-    "picid": 2212,
-    "name": "หวังอี้",
-    "classic_name": "หวังอี้",
-    "legacy_name": "",
-    "element": "แสง",
-    "level": 80,
-    "hpx": 5580,
-    "spx": 1047,
-    "hp": 71,
-    "sp": 61,
-    "int": 70,
-    "atk": 145,
-    "def": 79,
-    "agi": 82,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22003,
-        "name": "แสงแรงกล้า",
-        "sp": 72,
-        "target": "3 เป้าหมาย (กระจาย)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยแสงเจิดจ้าโจมตีศัตรู 3 คน"
-      },
-      {
-        "id": 22009,
-        "name": "ขว้างความเร็วแสง",
-        "sp": 104,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้ขว้างความเร็วแสงโจมตีศัตรูในพริบตา"
-      },
-      {
-        "id": 22011,
-        "name": "เสือขาว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญเสือขาวออกมาโจมตี"
-      },
-      {
-        "id": 22016,
-        "name": "สายใยแสงเนตร",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "แช่แข็ง",
-        "desc": "ใช้แสงจากดวงตาสว่างจ้าโจมตีและมัดตัวศัตรู"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 535,
-    "base_name": "หวังอี้",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 14747,
-      "reborn1_id": 41556,
-      "reborn2_id": 45436
-    }
-  },
-  {
-    "id": 22095,
-    "picid": 1308,
-    "name": "ลูกกระต่ายหยก",
-    "classic_name": "ลูกกระต่ายหยก",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 20,
-    "hpx": 262,
-    "spx": 113,
-    "hp": 10,
-    "sp": 3,
-    "int": 3,
-    "atk": 12,
-    "def": 3,
-    "agi": 9,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444901964,
-      968444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12002,
-        "name": "ไฟร้อนแรง",
-        "sp": 12,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มพลังอานุภาพแห่งไฟ เผาไหม้ทุกสรรพสิ่ง"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 536,
-    "base_name": "ลูกกระต่ายหยก",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 22095,
-      "reborn1_id": 22096,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 22096,
-    "picid": 1787,
-    "name": "เทพธิดากระต่ายหยก",
-    "classic_name": "เทพธิดากระต่ายหยก",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 40,
-    "hpx": 491,
-    "spx": 155,
-    "hp": 13,
-    "sp": 3,
-    "int": 5,
-    "atk": 30,
-    "def": 6,
-    "agi": 23,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      344539534,
-      555444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12003,
-        "name": "ธนูไฟ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12012,
-        "name": "สะบั้นไฟคลั่ง",
-        "sp": 46,
-        "target": "6 เป้าหมาย (2x3 ช่อง)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยไฟอันร้อนแรงดั่งดาบใหญ่ฟาดฟันสังหาร"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 536,
-    "base_name": "ลูกกระต่ายหยก",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 22095,
-      "reborn1_id": 22096,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45437,
-    "picid": 2426,
-    "name": "กวนอูมาร",
-    "classic_name": "กวนอูมาร",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 180,
-    "hpx": 5565,
-    "spx": 1040,
-    "hp": 69,
-    "sp": 60,
-    "int": 66,
-    "atk": 146,
-    "def": 75,
-    "agi": 80,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23003,
-        "name": "วังวนมืด",
-        "sp": 72,
-        "target": "3 เป้าหมาย (กระจาย)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้วังวนมืดโจมตีศัตรู 3 คน"
-      },
-      {
-        "id": 23015,
-        "name": "โจมตีมึนงง",
-        "sp": 56,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "โจมตีผู้เล่นและมีโอกาสทำให้มึนงง"
-      },
-      {
-        "id": 23016,
-        "name": "ความมืดสังหาร",
-        "sp": 84,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้ความมืดสังหารกับศัตรูในพริบตา"
-      },
-      {
-        "id": 21038,
-        "name": "นาคะมารสะบั้น",
-        "sp": 85,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กวนอูมารใช้ดาบนาคะมารสะบั้น ปล่อยท่าไม้ตายโจมตีศัตรู 1 ตัว อย่างสุดกำลัง"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 537,
-    "base_name": "กวนอูมาร",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45437,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 15494,
-    "picid": 1076,
-    "name": "หลิวปัง",
-    "classic_name": "หลิวปัง",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 120,
-    "hpx": 1367,
-    "spx": 486,
-    "hp": 48,
-    "sp": 15,
-    "int": 65,
-    "atk": 125,
-    "def": 68,
-    "agi": 74,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444788444,
-      210220444,
-      765234444,
-      861444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 10010,
-        "name": "ม่านคุ้มกัน",
-        "sp": 33,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ม่านคุ้มกัน",
-        "desc": "แผ่ม่านคุ้มกันออกมา เพื่อป้องกันการโจมตี"
-      },
-      {
-        "id": 10016,
-        "name": "จ้าวหินผา",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญจ้าวหินผา สัตว์ประหลาดโบราณให้ปรากฎกาย"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 538,
-    "base_name": "หลิวปัง",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 15494,
-      "reborn1_id": 41557,
-      "reborn2_id": 45438
-    }
-  },
-  {
-    "id": 41557,
-    "picid": 1076,
-    "name": "หลิวปัง",
-    "classic_name": "หลิวปัง",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 160,
-    "hpx": 4884,
-    "spx": 689,
-    "hp": 54,
-    "sp": 21,
-    "int": 79,
-    "atk": 139,
-    "def": 77,
-    "agi": 81,
-    "b24": 8,
-    "b25": 1,
-    "colors": [
-      444788444,
-      210220444,
-      765234444,
-      861444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 10038,
-        "name": "กระจกหวั้นฮัว",
-        "sp": 80,
-        "target": "2 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "กระจกสะท้อน",
-        "desc": "รวมกำลังเป็นกระจกโจมตีสะท้อนมาคุ้มกันสองบุคคล"
-      },
-      {
-        "id": 10016,
-        "name": "จ้าวหินผา",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญจ้าวหินผา สัตว์ประหลาดโบราณให้ปรากฎกาย"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 538,
-    "base_name": "หลิวปัง",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 15494,
-      "reborn1_id": 41557,
-      "reborn2_id": 45438
-    }
-  },
-  {
-    "id": 45438,
-    "picid": 2216,
-    "name": "หลิวปัง",
-    "classic_name": "หลิวปัง",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 180,
-    "hpx": 5529,
-    "spx": 783,
-    "hp": 64,
-    "sp": 25,
-    "int": 90,
-    "atk": 150,
-    "def": 82,
-    "agi": 85,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10037,
-        "name": "ฟันใต้ดินขนัดแน่น",
-        "sp": 42,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกฟันอันแหลมคมของสัตว์ยักษ์ 3 ตัว ขึ้นมาโจมตี"
-      },
-      {
-        "id": 10038,
-        "name": "กระจกหวั้นฮัว",
-        "sp": 80,
-        "target": "2 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "กระจกสะท้อน",
-        "desc": "รวมกำลังเป็นกระจกโจมตีสะท้อนมาคุ้มกันสองบุคคล"
-      },
-      {
-        "id": 10016,
-        "name": "จ้าวหินผา",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญจ้าวหินผา สัตว์ประหลาดโบราณให้ปรากฎกาย"
-      },
-      {
-        "id": 21039,
-        "name": "เป๊กเต้พันรอบ",
-        "sp": 95,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "บุตรชายของเป๊กเต้ที่ยอมจำนนและถูกเรียกเกณฑ์จากหลิวปังรัดพันศัตรูทั้งตัวจากล่าง"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 538,
-    "base_name": "หลิวปัง",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 15494,
-      "reborn1_id": 41557,
-      "reborn2_id": 45438
-    }
-  },
-  {
-    "id": 15495,
-    "picid": 1004,
-    "name": "หานซิ่น",
-    "classic_name": "หานซิ่น",
-    "legacy_name": "",
-    "element": "น้ำ",
-    "level": 120,
-    "hpx": 1367,
-    "spx": 486,
-    "hp": 54,
-    "sp": 46,
-    "int": 129,
-    "atk": 49,
-    "def": 63,
-    "agi": 76,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444244555,
-      345652402,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11005,
-        "name": "น้ำพุทะลวง",
-        "sp": 18,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกน้ำพุใต้ดินอัดพุ่งโจมตีใส่ศัตรู"
-      },
-      {
-        "id": 11014,
-        "name": "น้ำแข็งปิดคลุม",
-        "sp": 40,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "แช่แข็ง",
-        "desc": "จับตัวเป็นน้ำแข็งอย่างรวดเร็ว ทำให้ศัตรูเคลื่อนไหวไม่ได้"
-      },
-      {
-        "id": 11009,
-        "name": "คืนมารสุดยอด",
-        "sp": 40,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ฟื้นฟู SP",
-        "desc": "ใช้กายน้ำหล่อเลี้ยงจิตใจฟื้นฟู SP กลับคืนมา"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 539,
-    "base_name": "หานซิ่น",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 15495,
-      "reborn1_id": 41558,
-      "reborn2_id": 45439
-    }
-  },
-  {
-    "id": 41558,
-    "picid": 1004,
-    "name": "หานซิ่น",
-    "classic_name": "หานซิ่น",
-    "legacy_name": "",
-    "element": "น้ำ",
-    "level": 160,
-    "hpx": 4927,
-    "spx": 910,
-    "hp": 60,
-    "sp": 52,
-    "int": 138,
-    "atk": 63,
-    "def": 69,
-    "agi": 80,
-    "b24": 9,
-    "b25": 1,
-    "colors": [
-      444244555,
-      345652402,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11022,
-        "name": "สว่านน้ำแข็ง",
-        "sp": 30,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ทำให้จับตัวแข็งในพริบตา ทำลายการป้องกันของศัตรู"
-      },
-      {
-        "id": 20026,
-        "name": "น้ำแข็งปิดคลุม 3 คน",
-        "sp": 80,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "แช่แข็ง",
-        "desc": "น้ำแข็งปิดคลุม 3 คน"
-      },
-      {
-        "id": 11009,
-        "name": "คืนมารสุดยอด",
-        "sp": 40,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ฟื้นฟู SP",
-        "desc": "ใช้กายน้ำหล่อเลี้ยงจิตใจฟื้นฟู SP กลับคืนมา"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 539,
-    "base_name": "หานซิ่น",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 15495,
-      "reborn1_id": 41558,
-      "reborn2_id": 45439
-    }
-  },
-  {
-    "id": 45439,
-    "picid": 2217,
-    "name": "หานซิ่น",
-    "classic_name": "หานซิ่น",
-    "legacy_name": "",
-    "element": "น้ำ",
-    "level": 180,
-    "hpx": 5558,
-    "spx": 1040,
-    "hp": 68,
-    "sp": 60,
-    "int": 155,
-    "atk": 78,
-    "def": 75,
-    "agi": 84,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11033,
-        "name": "อาชาพิฆาตศัตรู",
-        "sp": 60,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ขับเคลื่อนรถม้าโจมตีรวดเร็ว"
-      },
-      {
-        "id": 20026,
-        "name": "น้ำแข็งปิดคลุม 3 คน",
-        "sp": 80,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "แช่แข็ง",
-        "desc": "น้ำแข็งปิดคลุม 3 คน"
-      },
-      {
-        "id": 11029,
-        "name": "พลังเทพวารีฟื้นกลับ",
-        "sp": 60,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ฟื้นฟู SP",
-        "desc": "พลังเทพวารีฟื้นกลับคืนมหาศาล"
-      },
-      {
-        "id": 21040,
-        "name": "สู้ถวายชีวิต",
-        "sp": 80,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "หานซิ่นสั่งให้กองทัพยืนหยัดต่อสู้ต่อสู้ศัตรูจนสุดชีวิต"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 539,
-    "base_name": "หานซิ่น",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 15495,
-      "reborn1_id": 41558,
-      "reborn2_id": 45439
-    }
-  },
-  {
-    "id": 15496,
-    "picid": 1490,
-    "name": "ปาอ๋องเซี่ยงหวี่",
-    "classic_name": "ปาอ๋องเซี่ยงหวี่",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 120,
-    "hpx": 1367,
-    "spx": 486,
-    "hp": 50,
-    "sp": 30,
-    "int": 31,
-    "atk": 129,
-    "def": 70,
-    "agi": 78,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444130544,
-      320444510,
-      410641444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12045,
-        "name": "คำรามรบเลือดร้อน",
-        "sp": 60,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้คำรามรบเลือดร้อนเพื่อสร้างความฮึกเหิมให้แก่กองทัพ"
-      },
-      {
-        "id": 12003,
-        "name": "ธนูไฟ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12015,
-        "name": "รุ้งขาวทะลุตะวัน",
-        "sp": 50,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ไม้ตายโจมตีด้วยไฟผลาญโลกา"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 540,
-    "base_name": "ปาอ๋องเซี่ยงหวี่",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 15496,
-      "reborn1_id": 41559,
-      "reborn2_id": 45440
-    }
-  },
-  {
-    "id": 41559,
-    "picid": 1490,
-    "name": "ปาอ๋องเซี่ยงหวี่",
-    "classic_name": "ปาอ๋องเซี่ยงหวี่",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 160,
-    "hpx": 4913,
-    "spx": 817,
-    "hp": 58,
-    "sp": 39,
-    "int": 49,
-    "atk": 148,
-    "def": 79,
-    "agi": 83,
-    "b24": 8,
-    "b25": 1,
-    "colors": [
-      444130544,
-      320444510,
-      410641444,
-      776444444
-    ],
-    "skills": [
-      {
-        "id": 12045,
-        "name": "คำรามรบเลือดร้อน",
-        "sp": 60,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้คำรามรบเลือดร้อนเพื่อสร้างความฮึกเหิมให้แก่กองทัพ"
-      },
-      {
-        "id": 12003,
-        "name": "ธนูไฟ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12033,
-        "name": "มังกรอัคคี",
-        "sp": 84,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังจากไฟเปลี่ยนเป็นมังกรไฟ"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 540,
-    "base_name": "ปาอ๋องเซี่ยงหวี่",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 15496,
-      "reborn1_id": 41559,
-      "reborn2_id": 45440
-    }
-  },
-  {
-    "id": 45440,
-    "picid": 2218,
-    "name": "ปาอ๋องเซี่ยงหวี่",
-    "classic_name": "ปาอ๋องเซี่ยงหวี่",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 180,
-    "hpx": 5573,
-    "spx": 966,
-    "hp": 70,
-    "sp": 50,
-    "int": 68,
-    "atk": 175,
-    "def": 85,
-    "agi": 90,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12045,
-        "name": "คำรามรบเลือดร้อน",
-        "sp": 60,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้คำรามรบเลือดร้อนเพื่อสร้างความฮึกเหิมให้แก่กองทัพ"
-      },
-      {
-        "id": 14042,
-        "name": "พลังโกรธาพิชิตศัตรู",
-        "sp": 54,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังโกรธทำให้ศัตรูหวาดกลัว"
-      },
-      {
-        "id": 12037,
-        "name": "เพลิงจ้าวมังกร-แท้",
-        "sp": 84,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังจากไฟเปลี่ยนเป็นมังกรไฟ"
-      },
-      {
-        "id": 21041,
-        "name": "ปาอ๋องไร้สะบั้นสอง",
-        "sp": 1,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "ปาอ๋องเซี่ยงหวี่แห่งรัฐฉู่ตะวันตกตะโกนลั่น! ใช้พละกำลังเพื่อฟาดฟันศัตรูทั้งหมด"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 540,
-    "base_name": "ปาอ๋องเซี่ยงหวี่",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 15496,
-      "reborn1_id": 41559,
-      "reborn2_id": 45440
-    }
-  },
-  {
-    "id": 45441,
-    "picid": 2219,
-    "name": "ลิโป้เทพ",
-    "classic_name": "ลิโป้เทพ",
-    "legacy_name": "",
-    "element": "แสง",
-    "level": 180,
-    "hpx": 5565,
-    "spx": 812,
-    "hp": 69,
-    "sp": 29,
-    "int": 34,
-    "atk": 169,
-    "def": 73,
-    "agi": 93,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22019,
-        "name": "แสงแรงกล้า-แท้",
-        "sp": 72,
-        "target": "3 เป้าหมาย (กระจาย)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยแสงเจิดจ้าโจมตีศัตรู 3 คน"
-      },
-      {
-        "id": 22016,
-        "name": "สายใยแสงเนตร",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "แช่แข็ง",
-        "desc": "ใช้แสงจากดวงตาสว่างจ้าโจมตีและมัดตัวศัตรู"
-      },
-      {
-        "id": 22009,
-        "name": "ขว้างความเร็วแสง",
-        "sp": 104,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้ขว้างความเร็วแสงโจมตีศัตรูในพริบตา"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 541,
-    "base_name": "ลิโป้เทพ",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45441,
-      "reborn1_id": null,
-      "reborn2_id": null
     }
   },
   {
@@ -82138,2390 +79972,6 @@
       "normal_id": 22007,
       "reborn1_id": 41555,
       "reborn2_id": 45435
-    }
-  },
-  {
-    "id": 12218,
-    "picid": 1704,
-    "name": "เกียงอุย",
-    "classic_name": "เกียงอุย",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 50,
-    "hpx": 2598,
-    "spx": 573,
-    "hp": 50,
-    "sp": 49,
-    "int": 145,
-    "atk": 88,
-    "def": 59,
-    "agi": 74,
-    "b24": 20,
-    "b25": 31,
-    "colors": [
-      741644444,
-      444541667,
-      444444444,
-      555444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 10004,
-        "name": "ปีศาจต้นไม้",
-        "sp": 18,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "เรียกปีศาจต้นไม้ปล่อยกิ่งก้านรัดศัตรู"
-      },
-      {
-        "id": 10013,
-        "name": "หมื่นม้าทะยาน",
-        "sp": 45,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ขับเคลื่อนหมื่นม้าพันทหารตะลุยใส่ศัตรูอย่างไร้เมตตา"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 544,
-    "base_name": "เกียงอุย",
-    "faction": "จ๊ก",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 12218,
-      "reborn1_id": 41560,
-      "reborn2_id": 45442
-    }
-  },
-  {
-    "id": 41560,
-    "picid": 1704,
-    "name": "เกียงอุย",
-    "classic_name": "เกียงอุย",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 50,
-    "hpx": 3799,
-    "spx": 573,
-    "hp": 59,
-    "sp": 55,
-    "int": 161,
-    "atk": 93,
-    "def": 65,
-    "agi": 81,
-    "b24": 20,
-    "b25": 31,
-    "colors": [
-      444860444,
-      444511424,
-      104644444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 20049,
-        "name": "ปีศาจต้นไม้ขั้นสูง",
-        "sp": 36,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "ใช้ปีศาจต้นไม้กับฝ่ายตรงข้าม 3 คน"
-      },
-      {
-        "id": 10023,
-        "name": "ไอยราพิฆาต",
-        "sp": 54,
-        "target": "6 เป้าหมาย (2x3 ช่อง)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ขี่ช้างยักษ์ที่แข็งแกร่งที่สุดในโลก ไปทางไหนราบเป็นหน้ากลอง"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 544,
-    "base_name": "เกียงอุย",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 12218,
-      "reborn1_id": 41560,
-      "reborn2_id": 45442
-    }
-  },
-  {
-    "id": 45442,
-    "picid": 1904,
-    "name": "เกียงอุย",
-    "classic_name": "เกียงอุย",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 80,
-    "hpx": 2507,
-    "spx": 711,
-    "hp": 68,
-    "sp": 62,
-    "int": 174,
-    "atk": 110,
-    "def": 71,
-    "agi": 90,
-    "b24": 20,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10029,
-        "name": "ระเบิดดาวตกเหล็ก",
-        "sp": 56,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ระเบิดดาวตกเหล็กทำลายศัตรู"
-      },
-      {
-        "id": 20049,
-        "name": "ปีศาจต้นไม้ขั้นสูง",
-        "sp": 36,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "ใช้ปีศาจต้นไม้กับฝ่ายตรงข้าม 3 คน"
-      },
-      {
-        "id": 10034,
-        "name": "มังกรกลืนพสุธา",
-        "sp": 84,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กลืนทุกสรรพสิ่งเบื้องบนสู่นรก"
-      },
-      {
-        "id": 21042,
-        "name": "เวทย์มังกรคลั่งจูเก่อ",
-        "sp": 1,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "พลังตกทอดอัญเชิญมังกรคลั่งมาโจมตีศัตรูทั้งหมด!"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 544,
-    "base_name": "เกียงอุย",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 12218,
-      "reborn1_id": 41560,
-      "reborn2_id": 45442
-    }
-  },
-  {
-    "id": 11252,
-    "picid": 1815,
-    "name": "เตงงาย (เติ้งอ้าย)",
-    "classic_name": "เตงงาย",
-    "legacy_name": "เติ้งอ้าย",
-    "element": "มืด",
-    "level": 50,
-    "hpx": 422,
-    "spx": 426,
-    "hp": 52,
-    "sp": 50,
-    "int": 141,
-    "atk": 88,
-    "def": 59,
-    "agi": 74,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      606444444,
-      555515522,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23001,
-        "name": "ธนูพิษมืด",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังมืดไว้ที่ธนูโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23010,
-        "name": "กงจักรพิษ",
-        "sp": 56,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ติดพิษ",
-        "desc": "ขว้างกงจักรอาบยาพิษใส่ฝ่ายตรงข้าม"
-      },
-      {
-        "id": 23011,
-        "name": "เต่าดำ",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "อัญเชิญเต่าดำออกมาโจมตี"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 545,
-    "base_name": "เตงงาย (เติ้งอ้าย)",
-    "faction": "วุย",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 11252,
-      "reborn1_id": 41561,
-      "reborn2_id": 45443
-    }
-  },
-  {
-    "id": 41561,
-    "picid": 1815,
-    "name": "เตงงาย (เติ้งอ้าย)",
-    "classic_name": "เตงงาย",
-    "legacy_name": "เติ้งอ้าย",
-    "element": "มืด",
-    "level": 50,
-    "hpx": 469,
-    "spx": 458,
-    "hp": 61,
-    "sp": 56,
-    "int": 160,
-    "atk": 93,
-    "def": 65,
-    "agi": 81,
-    "b24": 3,
-    "b25": 3,
-    "colors": [
-      612444444,
-      555515777,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23001,
-        "name": "ธนูพิษมืด",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังมืดไว้ที่ธนูโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23010,
-        "name": "กงจักรพิษ",
-        "sp": 56,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ติดพิษ",
-        "desc": "ขว้างกงจักรอาบยาพิษใส่ฝ่ายตรงข้าม"
-      },
-      {
-        "id": 23011,
-        "name": "เต่าดำ",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "อัญเชิญเต่าดำออกมาโจมตี"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 545,
-    "base_name": "เตงงาย (เติ้งอ้าย)",
-    "faction": "วุย",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 11252,
-      "reborn1_id": 41561,
-      "reborn2_id": 45443
-    }
-  },
-  {
-    "id": 45443,
-    "picid": 1930,
-    "name": "เตงงาย (เติ้งอ้าย)",
-    "classic_name": "เตงงาย",
-    "legacy_name": "เติ้งอ้าย",
-    "element": "มืด",
-    "level": 180,
-    "hpx": 11513,
-    "spx": 1017,
-    "hp": 70,
-    "sp": 61,
-    "int": 173,
-    "atk": 113,
-    "def": 90,
-    "agi": 80,
-    "b24": 7,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23017,
-        "name": "ธนูพิษมืด-แท้",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังมืดไว้ที่ธนูโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23019,
-        "name": "หมื่นพิษทะลวงใจ",
-        "sp": 72,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ติดพิษ",
-        "desc": "ใช้หมื่นพิษทะลวงใจ ทำให้พิษเข้าโจมตีหัวใจศัตรู"
-      },
-      {
-        "id": 23011,
-        "name": "เต่าดำ",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "อัญเชิญเต่าดำออกมาโจมตี"
-      },
-      {
-        "id": 21043,
-        "name": "ลอบซุ่มโจมตี",
-        "sp": 180,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ย่องเข้าที่ตำแหน่งของศัตรู และซุ่มโจมตีศัตรูทั้งหมด"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 545,
-    "base_name": "เตงงาย (เติ้งอ้าย)",
-    "faction": "วุย",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 11252,
-      "reborn1_id": 41561,
-      "reborn2_id": 45443
-    }
-  },
-  {
-    "id": 11251,
-    "picid": 1060,
-    "name": "หยางฮู่",
-    "classic_name": "หยางฮู่",
-    "legacy_name": "",
-    "element": "แสง",
-    "level": 80,
-    "hpx": 1041,
-    "spx": 513,
-    "hp": 77,
-    "sp": 49,
-    "int": 159,
-    "atk": 79,
-    "def": 86,
-    "agi": 63,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444653444,
-      444762444,
-      762444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22001,
-        "name": "วิชาหอกแสง",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้หอกแสงโจมตีศัตรู 3 ตัว"
-      },
-      {
-        "id": 22010,
-        "name": "เหรียญทองพิฆาต",
-        "sp": 24,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ขว้างเหรียญทองใส่ฝ่ายตรงข้าม"
-      },
-      {
-        "id": 22011,
-        "name": "เสือขาว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญเสือขาวออกมาโจมตี"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 546,
-    "base_name": "หยางฮู่",
-    "faction": "วุย",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 11251,
-      "reborn1_id": 41562,
-      "reborn2_id": 45496
-    }
-  },
-  {
-    "id": 41562,
-    "picid": 1060,
-    "name": "หยางฮู่",
-    "classic_name": "หยางฮู่",
-    "legacy_name": "",
-    "element": "แสง",
-    "level": 80,
-    "hpx": 1070,
-    "spx": 561,
-    "hp": 82,
-    "sp": 57,
-    "int": 164,
-    "atk": 88,
-    "def": 99,
-    "agi": 70,
-    "b24": 8,
-    "b25": 17,
-    "colors": [
-      444653444,
-      444762444,
-      762444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22001,
-        "name": "วิชาหอกแสง",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้หอกแสงโจมตีศัตรู 3 ตัว"
-      },
-      {
-        "id": 22010,
-        "name": "เหรียญทองพิฆาต",
-        "sp": 24,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ขว้างเหรียญทองใส่ฝ่ายตรงข้าม"
-      },
-      {
-        "id": 22011,
-        "name": "เสือขาว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญเสือขาวออกมาโจมตี"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 546,
-    "base_name": "หยางฮู่",
-    "faction": "วุย",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 11251,
-      "reborn1_id": 41562,
-      "reborn2_id": 45496
-    }
-  },
-  {
-    "id": 45496,
-    "picid": 2342,
-    "name": "หยางฮู่",
-    "classic_name": "หยางฮู่",
-    "legacy_name": "",
-    "element": "แสง",
-    "level": 180,
-    "hpx": 1939,
-    "spx": 882,
-    "hp": 90,
-    "sp": 63,
-    "int": 173,
-    "atk": 99,
-    "def": 110,
-    "agi": 81,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444653444,
-      444762444,
-      762444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22001,
-        "name": "วิชาหอกแสง",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้หอกแสงโจมตีศัตรู 3 ตัว"
-      },
-      {
-        "id": 22004,
-        "name": "แสงเปลวไฟ",
-        "sp": 30,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แสงจากเปลวไฟร้อนแรงโจมตีศัตรูและทำให้ชา"
-      },
-      {
-        "id": 22011,
-        "name": "เสือขาว",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญเสือขาวออกมาโจมตี"
-      },
-      {
-        "id": 22024,
-        "name": "กระจกแสงรัศมีไท่ฉวน",
-        "sp": 206,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ไม่ได้",
-        "effect": "กระจกสะท้อน",
-        "desc": "ใช้กระจกแสงรัศมีคุ้มกันฝ่ายตนเอง 4 คน"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 546,
-    "base_name": "หยางฮู่",
-    "faction": "วุย",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 11251,
-      "reborn1_id": 41562,
-      "reborn2_id": 45496
-    }
-  },
-  {
-    "id": 45497,
-    "picid": 1907,
-    "name": "ซ่งหย่งมาร",
-    "classic_name": "ซ่งหย่งมาร",
-    "legacy_name": "",
-    "element": "ลม",
-    "level": 180,
-    "hpx": 968,
-    "spx": 726,
-    "hp": 68,
-    "sp": 59,
-    "int": 72,
-    "atk": 169,
-    "def": 87,
-    "agi": 78,
-    "b24": 3,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13029,
-        "name": "หมอกภูผา",
-        "sp": 56,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "สับสน",
-        "desc": "ใช้ความเร็วดังลมพายุโจมตีศัตรู"
-      },
-      {
-        "id": 13033,
-        "name": "พลังสายฟ้าสะเทือน",
-        "sp": 72,
-        "target": "3 เป้าหมาย (กระจาย)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "พลังสายฟ้าโจมตีทำลายให้บาดเจ็บ"
-      },
-      {
-        "id": 13021,
-        "name": "เคลื่อนดาวย้ายดารา",
-        "sp": 48,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เชี่ยวชาญการใช้ทิศทางเคลื่อนไหวแห่งมวลอากาศ ชักนำการโจมตีที่เข้าสู่ร่างไปสู่ผู้อื่น"
-      },
-      {
-        "id": 14042,
-        "name": "พลังโกรธาพิชิตศัตรู",
-        "sp": 54,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังโกรธทำให้ศัตรูหวาดกลัว"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 547,
-    "base_name": "ซ่งหย่งมาร",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45497,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45498,
-    "picid": 1908,
-    "name": "ซ่งเหยินมาร",
-    "classic_name": "ซ่งเหยินมาร",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 180,
-    "hpx": 946,
-    "spx": 807,
-    "hp": 65,
-    "sp": 70,
-    "int": 169,
-    "atk": 72,
-    "def": 81,
-    "agi": 77,
-    "b24": 3,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12054,
-        "name": "ธนูไฟแปรเปลี่ยน",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12028,
-        "name": "ลูกไฟร้อนแรง",
-        "sp": 56,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยลูกไฟโจมตีทัพข้าศึก"
-      },
-      {
-        "id": 12034,
-        "name": "ราชามังกร",
-        "sp": 84,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญราชามังกรทำลายปฐพี"
-      },
-      {
-        "id": 21035,
-        "name": "เปลวไฟพายุโหม",
-        "sp": 70,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "โจมตีศัตรู 3 คน ด้วยลมหมุนเปลวไฟร้อนแรง ."
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 548,
-    "base_name": "ซ่งเหยินมาร",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45498,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 13170,
-    "picid": 1236,
-    "name": "ลกข้อง",
-    "classic_name": "ลกข้อง",
-    "legacy_name": "",
-    "element": "น้ำ",
-    "level": 50,
-    "hpx": 662,
-    "spx": 522,
-    "hp": 53,
-    "sp": 50,
-    "int": 145,
-    "atk": 69,
-    "def": 60,
-    "agi": 79,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444420445,
-      117444444,
-      136156244,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11003,
-        "name": "กระบี่น้ำแข็ง",
-        "sp": 12,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แปรน้ำเป็นน้ำแข็ง หลอมน้ำแข็งเป็นกระบี่ โจมตีศัตรู"
-      },
-      {
-        "id": 11013,
-        "name": "วิชาฟื้นคืนชีพ",
-        "sp": 40,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกวิญญานที่ออกจากร่างให้กลับคืนร่างภายในพริบตา"
-      },
-      {
-        "id": 11012,
-        "name": "สลายสภาวะ",
-        "sp": 15,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "น้ำใสบริสุทธิ์ไร้ราคี ชำระล้างสภาวะผิดปกติ"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 549,
-    "base_name": "ลกข้อง",
-    "faction": "ง่อ",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 13170,
-      "reborn1_id": 41563,
-      "reborn2_id": 45499
-    }
-  },
-  {
-    "id": 41563,
-    "picid": 1236,
-    "name": "ลกข้อง",
-    "classic_name": "ลกข้อง",
-    "legacy_name": "",
-    "element": "น้ำ",
-    "level": 50,
-    "hpx": 710,
-    "spx": 558,
-    "hp": 61,
-    "sp": 56,
-    "int": 161,
-    "atk": 78,
-    "def": 68,
-    "agi": 88,
-    "b24": 20,
-    "b25": 3,
-    "colors": [
-      444420445,
-      117444444,
-      136156244,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11021,
-        "name": "จักรน้ำแข็งหมุนวน",
-        "sp": 24,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ผนึกน้ำแข็งเป็นวังวน คมแหลมดาบน้ำแข็งหมุนวนถี่เร่งสับฟันศัตรู"
-      },
-      {
-        "id": 11013,
-        "name": "วิชาฟื้นคืนชีพ",
-        "sp": 40,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกวิญญานที่ออกจากร่างให้กลับคืนร่างภายในพริบตา"
-      },
-      {
-        "id": 11025,
-        "name": "สลายสภาวะเลื่อนขั้น",
-        "sp": 48,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "เข้าสู่ภาวะจิตดิ่งลึก ขจัดราคีที่เกาะกุมจิตใจทั้งมวลสลายสิ้น"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 549,
-    "base_name": "ลกข้อง",
-    "faction": "ง่อ",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 13170,
-      "reborn1_id": 41563,
-      "reborn2_id": 45499
-    }
-  },
-  {
-    "id": 45499,
-    "picid": 2347,
-    "name": "ลกข้อง",
-    "classic_name": "ลกข้อง",
-    "legacy_name": "",
-    "element": "น้ำ",
-    "level": 50,
-    "hpx": 764,
-    "spx": 612,
-    "hp": 70,
-    "sp": 65,
-    "int": 174,
-    "atk": 82,
-    "def": 73,
-    "agi": 95,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11027,
-        "name": "กงจักรน้ำแข็งพันปี",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "แช่แข็ง",
-        "desc": "กงจักรน้ำแข็งพันปีหมุนทำลาย"
-      },
-      {
-        "id": 11013,
-        "name": "วิชาฟื้นคืนชีพ",
-        "sp": 40,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกวิญญานที่ออกจากร่างให้กลับคืนร่างภายในพริบตา"
-      },
-      {
-        "id": 11030,
-        "name": "น้ำค้างเซียน",
-        "sp": 72,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ฟื้นฟู HP",
-        "desc": "รักษาให้หายจากอาการบาดเจ็บ"
-      },
-      {
-        "id": 22025,
-        "name": "ธารเมฆาสะบั้น",
-        "sp": 1,
-        "target": "255 เป้า",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "จิตวิญญาณลกข้องเมื่อสูดหายใจเข้าเต็มปอด ก็ปล่อยธารเมฆาสะบั้นใส่ฝ่ายศัตรูทั้งหมด พร้อมทั้งเยียวยาฝ่ายตนเอง!"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 549,
-    "base_name": "ลกข้อง",
-    "faction": "ง่อ",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 13170,
-      "reborn1_id": 41563,
-      "reborn2_id": 45499
-    }
-  },
-  {
-    "id": 12219,
-    "picid": 1084,
-    "name": "แฮหัวป๋า",
-    "classic_name": "แฮหัวป๋า",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 50,
-    "hpx": 2773,
-    "spx": 526,
-    "hp": 57,
-    "sp": 50,
-    "int": 69,
-    "atk": 157,
-    "def": 59,
-    "agi": 78,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444633555,
-      711343999,
-      323525622,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12003,
-        "name": "ธนูไฟ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12015,
-        "name": "รุ้งขาวทะลุตะวัน",
-        "sp": 50,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ไม้ตายโจมตีด้วยไฟผลาญโลกา"
-      },
-      {
-        "id": 12045,
-        "name": "คำรามรบเลือดร้อน",
-        "sp": 60,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้คำรามรบเลือดร้อนเพื่อสร้างความฮึกเหิมให้แก่กองทัพ"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 550,
-    "base_name": "แฮหัวป๋า",
-    "faction": "จ๊ก",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 12219,
-      "reborn1_id": 41564,
-      "reborn2_id": 45500
-    }
-  },
-  {
-    "id": 41564,
-    "picid": 1084,
-    "name": "แฮหัวป๋า",
-    "classic_name": "แฮหัวป๋า",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 50,
-    "hpx": 2816,
-    "spx": 563,
-    "hp": 65,
-    "sp": 57,
-    "int": 78,
-    "atk": 163,
-    "def": 67,
-    "agi": 87,
-    "b24": 2,
-    "b25": 5,
-    "colors": [
-      444633555,
-      711343999,
-      323525622,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12003,
-        "name": "ธนูไฟ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12022,
-        "name": "มังกรคลั่งกลืนตะวัน",
-        "sp": 66,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ร่ายรำมังกรยักษ์เปลวเพลิงทะลายฟ้าดิน"
-      },
-      {
-        "id": 12045,
-        "name": "คำรามรบเลือดร้อน",
-        "sp": 60,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้คำรามรบเลือดร้อนเพื่อสร้างความฮึกเหิมให้แก่กองทัพ"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 550,
-    "base_name": "แฮหัวป๋า",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 12219,
-      "reborn1_id": 41564,
-      "reborn2_id": 45500
-    }
-  },
-  {
-    "id": 45500,
-    "picid": 1903,
-    "name": "แฮหัวป๋า",
-    "classic_name": "แฮหัวป๋า",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 180,
-    "hpx": 8820,
-    "spx": 1242,
-    "hp": 71,
-    "sp": 63,
-    "int": 82,
-    "atk": 174,
-    "def": 72,
-    "agi": 94,
-    "b24": 2,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12027,
-        "name": "พลังหมัดอัคคี",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังหมัดอัคคีโจมตีศัตรู"
-      },
-      {
-        "id": 12031,
-        "name": "หมัดหงส์อัคคี",
-        "sp": 52,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "คล้ายดั่งหมัดดาวตกตกโจมตีศัตรู"
-      },
-      {
-        "id": 12037,
-        "name": "เพลิงจ้าวมังกร-แท้",
-        "sp": 84,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังจากไฟเปลี่ยนเป็นมังกรไฟ"
-      },
-      {
-        "id": 22026,
-        "name": "คมดาบครอบงำ",
-        "sp": 218,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เปลี่ยนความโกรธเป็นรูปร่าฃ ปลดปล่อยการฟาดฟันและครอบงำศัตรูทั้งหมด!"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 550,
-    "base_name": "แฮหัวป๋า",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 12219,
-      "reborn1_id": 41564,
-      "reborn2_id": 45500
-    }
-  },
-  {
-    "id": 45501,
-    "picid": 2389,
-    "name": "ขงเบ้ง EDM",
-    "classic_name": "ขงเบ้ง EDM",
-    "legacy_name": "",
-    "element": "ลม",
-    "level": 180,
-    "hpx": 917,
-    "spx": 931,
-    "hp": 61,
-    "sp": 87,
-    "int": 181,
-    "atk": 57,
-    "def": 68,
-    "agi": 78,
-    "b24": 20,
-    "b25": 7,
-    "colors": [
-      555444555,
-      566353466,
-      444444353,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13047,
-        "name": "Chance Chance",
-        "sp": 47,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "งานเต้นรำกำลังจะเริ่มพอดีเลย"
-      },
-      {
-        "id": 13048,
-        "name": "Chitty Chitty",
-        "sp": 30,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "พวกเราดื่มให้ Chitty Chitty กัน"
-      },
-      {
-        "id": 13049,
-        "name": "Bang Bang",
-        "sp": 22,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ล่องหน/ซ่อนร่าง",
-        "desc": "ขณะสนุกสนานไม่ถูกรบกวนถึงจะ Bang Bang"
-      },
-      {
-        "id": 13050,
-        "name": "มาปาร์ตี้กัน",
-        "sp": 88,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ไม่ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "ทุกคนมาสนุกด้วยกัน"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 551,
-    "base_name": "ขงเบ้ง EDM",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45501,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45502,
-    "picid": 2353,
-    "name": "โลก้า (ลูก้า)",
-    "classic_name": "โลก้า",
-    "legacy_name": "ลูก้า",
-    "element": "ไฟ",
-    "level": 180,
-    "hpx": 5947,
-    "spx": 601,
-    "hp": 70,
-    "sp": 63,
-    "int": 68,
-    "atk": 181,
-    "def": 68,
-    "agi": 88,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12031,
-        "name": "หมัดหงส์อัคคี",
-        "sp": 52,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "คล้ายดั่งหมัดดาวตกตกโจมตีศัตรู"
-      },
-      {
-        "id": 12033,
-        "name": "มังกรอัคคี",
-        "sp": 84,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังจากไฟเปลี่ยนเป็นมังกรไฟ"
-      },
-      {
-        "id": 12016,
-        "name": "หงส์เพลิง",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญหงส์เพลิงอัคคีให้ปรากฎกาย"
-      },
-      {
-        "id": 22027,
-        "name": "ดาบโค้งรากษสี",
-        "sp": 109,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "โลก้ากวัดแกว่งดาบโค้งคู่กายอย่างช่ำชอง ก่อนจะเหวี่ยงเข้าหาศัตรู 1 ราย!"
-      }
-    ],
-    "mount_type": 0,
-    "sort_index": 552,
-    "base_name": "โลก้า (ลูก้า)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45502,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45503,
-    "picid": 2352,
-    "name": "นิซ (นีซ)",
-    "classic_name": "นิซ",
-    "legacy_name": "นีซ",
-    "element": "น้ำ",
-    "level": 180,
-    "hpx": 5787,
-    "spx": 910,
-    "hp": 68,
-    "sp": 80,
-    "int": 181,
-    "atk": 60,
-    "def": 67,
-    "agi": 82,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 11029,
-        "name": "พลังเทพวารีฟื้นกลับ",
-        "sp": 60,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ฟื้นฟู SP",
-        "desc": "พลังเทพวารีฟื้นกลับคืนมหาศาล"
-      },
-      {
-        "id": 11037,
-        "name": "จัตุรัสวารี",
-        "sp": 53,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "น้ำจากใต้ดินที่พ่นออกมาจากพื้น ส่งผลให้ศัตรูเปียกชุ่มไปทั้งตัว"
-      },
-      {
-        "id": 11016,
-        "name": "เทพวารี",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญเทพวารีให้ปรากฎกาย"
-      },
-      {
-        "id": 22028,
-        "name": "สายฟ้าน้ำแข็ง",
-        "sp": 83,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "นิซผนึกไอน้ำเป็นน้ำแข็ง ก่อนจะปล่อยสายฟ้าฟาดศัตรูให้บาดเจ็บหนัก!"
-      }
-    ],
-    "mount_type": 0,
-    "sort_index": 553,
-    "base_name": "นิซ (นีซ)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45503,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45504,
-    "picid": 2360,
-    "name": "เฟร็ด (เฟรด)",
-    "classic_name": "เฟร็ด",
-    "legacy_name": "เฟรด",
-    "element": "ไฟ",
-    "level": 180,
-    "hpx": 5947,
-    "spx": 626,
-    "hp": 70,
-    "sp": 68,
-    "int": 181,
-    "atk": 72,
-    "def": 62,
-    "agi": 85,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12003,
-        "name": "ธนูไฟ",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เพิ่มไฟอันร้อนแรงให้แก่ลูกธนู โจมตีใส่เป้าหมาย"
-      },
-      {
-        "id": 12028,
-        "name": "ลูกไฟร้อนแรง",
-        "sp": 56,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยลูกไฟโจมตีทัพข้าศึก"
-      },
-      {
-        "id": 12034,
-        "name": "ราชามังกร",
-        "sp": 84,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "อัญเชิญราชามังกรทำลายปฐพี"
-      },
-      {
-        "id": 22029,
-        "name": "เหยี่ยวอัคคีผลาญ",
-        "sp": 94,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เฟร็ดเชิญเหยี่ยวเจ้าอัคคีมาโจมตีเป้าหมาย!"
-      }
-    ],
-    "mount_type": 0,
-    "sort_index": 554,
-    "base_name": "เฟร็ด (เฟรด)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45504,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 11253,
-    "picid": 1705,
-    "name": "โจยอย",
-    "classic_name": "โจยอย",
-    "legacy_name": "",
-    "element": "ลม",
-    "level": 129,
-    "hpx": 1013,
-    "spx": 416,
-    "hp": 54,
-    "sp": 51,
-    "int": 144,
-    "atk": 70,
-    "def": 59,
-    "agi": 78,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      236444444,
-      525351444,
-      252555335,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13022,
-        "name": "กระสุนลมทมิฬ",
-        "sp": 36,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ชักนำพลังลมดุร้ายที่ตัดทำลายอากาศธาตุแยกขาด อัดแน่นเป็นลูกกลมโจมตีใส่ศัตรูอย่างบ้าคลั่ง"
-      },
-      {
-        "id": 13020,
-        "name": "จิตรบแห่งลม",
-        "sp": 60,
-        "target": "5 เป้าหมาย (1 แถว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกพลังศักดิ์สิทธิ์แห่งลม ทำให้ฝ่ายเราท่าร่างรวดเร็วดั่งสายลม"
-      },
-      {
-        "id": 13007,
-        "name": "โจมตีสลบ",
-        "sp": 31,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "ใช้พลังลมอัดกระหน่ำโจมตีศัตรูทำให้มึนงงสลบ"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 555,
-    "base_name": "โจยอย",
-    "faction": "วุย",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 11253,
-      "reborn1_id": 41566,
-      "reborn2_id": 45508
-    }
-  },
-  {
-    "id": 41566,
-    "picid": 1705,
-    "name": "โจยอย",
-    "classic_name": "โจยอย",
-    "legacy_name": "",
-    "element": "ลม",
-    "level": 129,
-    "hpx": 1013,
-    "spx": 416,
-    "hp": 62,
-    "sp": 57,
-    "int": 160,
-    "atk": 79,
-    "def": 66,
-    "agi": 87,
-    "b24": 24,
-    "b25": 5,
-    "colors": [
-      236444444,
-      525351444,
-      252555335,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13039,
-        "name": "กระสุนลมทมิฬต่อเนื่อง",
-        "sp": 47,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้กระสุนวายุอันรุนแรงโจมตีศัตรู"
-      },
-      {
-        "id": 13020,
-        "name": "จิตรบแห่งลม",
-        "sp": 60,
-        "target": "5 เป้าหมาย (1 แถว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกพลังศักดิ์สิทธิ์แห่งลม ทำให้ฝ่ายเราท่าร่างรวดเร็วดั่งสายลม"
-      },
-      {
-        "id": 13007,
-        "name": "โจมตีสลบ",
-        "sp": 31,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "ใช้พลังลมอัดกระหน่ำโจมตีศัตรูทำให้มึนงงสลบ"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 555,
-    "base_name": "โจยอย",
-    "faction": "วุย",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 11253,
-      "reborn1_id": 41566,
-      "reborn2_id": 45508
-    }
-  },
-  {
-    "id": 45508,
-    "picid": 1891,
-    "name": "โจยอย",
-    "classic_name": "โจยอย",
-    "legacy_name": "",
-    "element": "ลม",
-    "level": 182,
-    "hpx": 10552,
-    "spx": 1273,
-    "hp": 71,
-    "sp": 66,
-    "int": 173,
-    "atk": 85,
-    "def": 74,
-    "agi": 95,
-    "b24": 20,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 13038,
-        "name": "สาดกระสุนลมทมิฬ",
-        "sp": 17,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แยกลมโหมกระหน่ำให้เป็น 3 วิถีแล้วโจมตีศัตรู 3 ตัว"
-      },
-      {
-        "id": 14054,
-        "name": "สายฟ้าลงทัณฑ์",
-        "sp": 84,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "สายฟ้าลงโทษผู้กระทำผิด"
-      },
-      {
-        "id": 22043,
-        "name": "สายฟ้าแห่งความโกรธจากมารดา",
-        "sp": 254,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "โจโฉที่คลั่งไคล้ด้วยความทรงจำปลดปล่อยสายฟ้าด้วยภาพลวงตาของเจินหมี่"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 555,
-    "base_name": "โจยอย",
-    "faction": "วุย",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 11253,
-      "reborn1_id": 41566,
-      "reborn2_id": 45508
-    }
-  },
-  {
-    "id": 14749,
-    "picid": 2463,
-    "name": "ไอดอลปาโต้ (ซอสไอดอลปาโต้)",
-    "classic_name": "ไอดอลปาโต้",
-    "legacy_name": "ซอสไอดอลปาโต้",
-    "element": "แสง",
-    "level": 150,
-    "hpx": 1186,
-    "spx": 598,
-    "hp": 38,
-    "sp": 49,
-    "int": 113,
-    "atk": 50,
-    "def": 47,
-    "agi": 63,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22001,
-        "name": "วิชาหอกแสง",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้หอกแสงโจมตีศัตรู 3 ตัว"
-      },
-      {
-        "id": 22004,
-        "name": "แสงเปลวไฟ",
-        "sp": 30,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แสงจากเปลวไฟร้อนแรงโจมตีศัตรูและทำให้ชา"
-      },
-      {
-        "id": 22005,
-        "name": "วิชาแสงรักษา",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ลบสถานะอ่อนแอต่างๆ ที่ตัวเพื่อนร่วมทีม 3 คน"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 556,
-    "base_name": "ไอดอลปาโต้ (ซอสไอดอลปาโต้)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 14749,
-      "reborn1_id": 41570,
-      "reborn2_id": 45512
-    }
-  },
-  {
-    "id": 41570,
-    "picid": 2464,
-    "name": "ไอดอลปาโต้ (ซอสไอดอลปาโต้)",
-    "classic_name": "ไอดอลปาโต้",
-    "legacy_name": "ซอสไอดอลปาโต้",
-    "element": "แสง",
-    "level": 150,
-    "hpx": 1263,
-    "spx": 626,
-    "hp": 49,
-    "sp": 53,
-    "int": 187,
-    "atk": 66,
-    "def": 56,
-    "agi": 101,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22001,
-        "name": "วิชาหอกแสง",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้หอกแสงโจมตีศัตรู 3 ตัว"
-      },
-      {
-        "id": 22004,
-        "name": "แสงเปลวไฟ",
-        "sp": 30,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แสงจากเปลวไฟร้อนแรงโจมตีศัตรูและทำให้ชา"
-      },
-      {
-        "id": 22005,
-        "name": "วิชาแสงรักษา",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ลบสถานะอ่อนแอต่างๆ ที่ตัวเพื่อนร่วมทีม 3 คน"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 556,
-    "base_name": "ไอดอลปาโต้ (ซอสไอดอลปาโต้)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 14749,
-      "reborn1_id": 41570,
-      "reborn2_id": 45512
-    }
-  },
-  {
-    "id": 45512,
-    "picid": 2465,
-    "name": "ไอดอลปาโต้ (ซอสไอดอลปาโต้)",
-    "classic_name": "ไอดอลปาโต้",
-    "legacy_name": "ซอสไอดอลปาโต้",
-    "element": "แสง",
-    "level": 180,
-    "hpx": 517,
-    "spx": 193,
-    "hp": 57,
-    "sp": 63,
-    "int": 213,
-    "atk": 80,
-    "def": 58,
-    "agi": 114,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 22001,
-        "name": "วิชาหอกแสง",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้หอกแสงโจมตีศัตรู 3 ตัว"
-      },
-      {
-        "id": 22018,
-        "name": "แสงเปลวไฟ-แท้",
-        "sp": 30,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "แสงจากเปลวไฟร้อนแรงโจมตีศัตรูและทำให้ชา"
-      },
-      {
-        "id": 22005,
-        "name": "วิชาแสงรักษา",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ลบสถานะอ่อนแอต่างๆ ที่ตัวเพื่อนร่วมทีม 3 คน"
-      },
-      {
-        "id": 22046,
-        "name": "รัศมีไอดอล",
-        "sp": 238,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ปล่อยออร่าไอดอลเพื่อปกป้อง"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 556,
-    "base_name": "ไอดอลปาโต้ (ซอสไอดอลปาโต้)",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 14749,
-      "reborn1_id": 41570,
-      "reborn2_id": 45512
-    }
-  },
-  {
-    "id": 11254,
-    "picid": 1706,
-    "name": "จงโฮย",
-    "classic_name": "จงโฮย",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 129,
-    "hpx": 1013,
-    "spx": 416,
-    "hp": 50,
-    "sp": 61,
-    "int": 180,
-    "atk": 53,
-    "def": 40,
-    "agi": 78,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444445444,
-      335666444,
-      444444224,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23001,
-        "name": "ธนูพิษมืด",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังมืดไว้ที่ธนูโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23009,
-        "name": "เข็มพิษสับสน",
-        "sp": 30,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "สับสน",
-        "desc": "ใช้เข็มพิษสับสนโจมตีศัตรูและทำให้สับสน"
-      },
-      {
-        "id": 23008,
-        "name": "วิชามารกระตุ้น",
-        "sp": 69,
-        "target": "4 เป้าหมาย (กากบาท)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "วิชามารกระตุ้นเพื่อนร่วมทีม โจมตีพิฆาต"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 557,
-    "base_name": "จงโฮย",
-    "faction": "วุย",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 11254,
-      "reborn1_id": 41571,
-      "reborn2_id": 45515
-    }
-  },
-  {
-    "id": 41571,
-    "picid": 1706,
-    "name": "จงโฮย",
-    "classic_name": "จงโฮย",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 129,
-    "hpx": 1013,
-    "spx": 416,
-    "hp": 59,
-    "sp": 67,
-    "int": 197,
-    "atk": 62,
-    "def": 49,
-    "agi": 92,
-    "b24": 2,
-    "b25": 19,
-    "colors": [
-      444445444,
-      335666444,
-      444444224,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23001,
-        "name": "ธนูพิษมืด",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังมืดไว้ที่ธนูโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23009,
-        "name": "เข็มพิษสับสน",
-        "sp": 30,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "สับสน",
-        "desc": "ใช้เข็มพิษสับสนโจมตีศัตรูและทำให้สับสน"
-      },
-      {
-        "id": 23011,
-        "name": "เต่าดำ",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "อัญเชิญเต่าดำออกมาโจมตี"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 557,
-    "base_name": "จงโฮย",
-    "faction": "วุย",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 11254,
-      "reborn1_id": 41571,
-      "reborn2_id": 45515
-    }
-  },
-  {
-    "id": 45515,
-    "picid": 2501,
-    "name": "จงโฮย",
-    "classic_name": "จงโฮย",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 129,
-    "hpx": 1013,
-    "spx": 416,
-    "hp": 68,
-    "sp": 72,
-    "int": 220,
-    "atk": 70,
-    "def": 56,
-    "agi": 115,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23001,
-        "name": "ธนูพิษมืด",
-        "sp": 15,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใส่พลังมืดไว้ที่ธนูโจมตีเป้าหมาย"
-      },
-      {
-        "id": 23009,
-        "name": "เข็มพิษสับสน",
-        "sp": 30,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "สับสน",
-        "desc": "ใช้เข็มพิษสับสนโจมตีศัตรูและทำให้สับสน"
-      },
-      {
-        "id": 23011,
-        "name": "เต่าดำ",
-        "sp": 120,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "ลบล้าง/สลายบัฟ",
-        "desc": "อัญเชิญเต่าดำออกมาโจมตี"
-      },
-      {
-        "id": 22051,
-        "name": "คำสั่งมืด",
-        "sp": 500,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ขีดเขียนคำสั่งมืด เขียนคำสั่งมืดโจมตีศัตรูทั้งกลุ่ม และลดความเสียหายของศัตรูทั้งกลุ่ม(1 รอบ)"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 557,
-    "base_name": "จงโฮย",
-    "faction": "วุย",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 11254,
-      "reborn1_id": 41571,
-      "reborn2_id": 45515
-    }
-  },
-  {
-    "id": 45516,
-    "picid": 2504,
-    "name": "หงอคงมาร",
-    "classic_name": "หงอคงมาร",
-    "legacy_name": "",
-    "element": "มืด",
-    "level": 180,
-    "hpx": 517,
-    "spx": 193,
-    "hp": 82,
-    "sp": 78,
-    "int": 64,
-    "atk": 192,
-    "def": 84,
-    "agi": 125,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 23003,
-        "name": "วังวนมืด",
-        "sp": 72,
-        "target": "3 เป้าหมาย (กระจาย)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้วังวนมืดโจมตีศัตรู 3 คน"
-      },
-      {
-        "id": 23016,
-        "name": "ความมืดสังหาร",
-        "sp": 84,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้ความมืดสังหารกับศัตรูในพริบตา"
-      },
-      {
-        "id": 23032,
-        "name": "เหวี่ยงฟ้าดิน",
-        "sp": 90,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กระบองทองสัมฤทธิ์ร่ายมนต์! โจมตีศัตรู 2 ตัวในแถวแนวตั้ง"
-      },
-      {
-        "id": 22052,
-        "name": "วิชาแยกร่างขนลิง",
-        "sp": 120,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "มึนงง/อัมพาต",
-        "desc": "โจมตีศัตรูทั้งหมด และมีโอกาสทำให้ศัตรูสลบ"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 558,
-    "base_name": "หงอคงมาร",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45516,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 45520,
-    "picid": 1938,
-    "name": "เตียวหุยไร้เทียมทาน",
-    "classic_name": "เตียวหุยไร้เทียมทาน",
-    "legacy_name": "",
-    "element": "ไฟ",
-    "level": 128,
-    "hpx": 8494,
-    "spx": 757,
-    "hp": 115,
-    "sp": 53,
-    "int": 85,
-    "atk": 204,
-    "def": 82,
-    "agi": 125,
-    "b24": 0,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 12031,
-        "name": "หมัดหงส์อัคคี",
-        "sp": 52,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "คล้ายดั่งหมัดดาวตกตกโจมตีศัตรู"
-      },
-      {
-        "id": 14042,
-        "name": "พลังโกรธาพิชิตศัตรู",
-        "sp": 54,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ใช้พลังโกรธทำให้ศัตรูหวาดกลัว"
-      },
-      {
-        "id": 21025,
-        "name": "งูคลั่งชิงศีรษะ",
-        "sp": 77,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "ยามหอกงูจั้งปาสะบัดออก หยิบศีรษะคนดั่งหยิบสิ่งของในถุง"
-      },
-      {
-        "id": 46001,
-        "name": "ตะโกนทำลายไม้ยาว",
-        "sp": 352,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เตียวหุยตะโกนใส่ศัตรู: “ข้าคือจางอี้เต๋อชาวเยียน!”"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 559,
-    "base_name": "เตียวหุยไร้เทียมทาน",
-    "faction": "จอมยุทธ์",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 45520,
-      "reborn1_id": null,
-      "reborn2_id": null
-    }
-  },
-  {
-    "id": 12220,
-    "picid": 1243,
-    "name": "เตาอี้",
-    "classic_name": "เตาอี้",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 92,
-    "hpx": 754,
-    "spx": 368,
-    "hp": 37,
-    "sp": 20,
-    "int": 21,
-    "atk": 73,
-    "def": 42,
-    "agi": 42,
-    "b24": 8,
-    "b25": 24,
-    "colors": [
-      444443444,
-      209444550,
-      780815660,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 10006,
-        "name": "ฟันใต้ดิน",
-        "sp": 28,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกฟันอันแหลมคมของสัตว์ยักษ์ที่ซ่อนอยู่ใต้ดินขึ้นมาโจมตี"
-      },
-      {
-        "id": 10007,
-        "name": "หินถล่ม",
-        "sp": 34,
-        "target": "2 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กลิ้งหินยักษ์อันน่าสะพรึงกลัวถล่มทับลงมาจากยอดเขา"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 560,
-    "base_name": "เตาอี้",
-    "faction": "จ๊ก",
-    "reborn_type": "ปกติ (Normal)",
-    "chain": {
-      "normal_id": 12220,
-      "reborn1_id": 41575,
-      "reborn2_id": 45521
-    }
-  },
-  {
-    "id": 41575,
-    "picid": 1243,
-    "name": "เตาอี้",
-    "classic_name": "เตาอี้",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 120,
-    "hpx": 1710,
-    "spx": 536,
-    "hp": 39,
-    "sp": 52,
-    "int": 21,
-    "atk": 98,
-    "def": 45,
-    "agi": 61,
-    "b24": 8,
-    "b25": 24,
-    "colors": [
-      444443444,
-      209444550,
-      780815660,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10005,
-        "name": "ยิงก้อนหิน",
-        "sp": 22,
-        "target": "3 เป้าหมาย",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกรถยิงหินยักษ์ ยิงก้อนหินโจมตี"
-      },
-      {
-        "id": 10006,
-        "name": "ฟันใต้ดิน",
-        "sp": 28,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เรียกฟันอันแหลมคมของสัตว์ยักษ์ที่ซ่อนอยู่ใต้ดินขึ้นมาโจมตี"
-      },
-      {
-        "id": 10012,
-        "name": "ฟ้าถล่มดินแยก",
-        "sp": 50,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "โยกย้ายพลังโทสะแห่งพื้นปฐพีฉีกกองทัพข้าศึกแหลกละเอียด"
-      }
-    ],
-    "mount_type": 1,
-    "sort_index": 560,
-    "base_name": "เตาอี้",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 1 (Reborn 1)",
-    "chain": {
-      "normal_id": 12220,
-      "reborn1_id": 41575,
-      "reborn2_id": 45521
-    }
-  },
-  {
-    "id": 45521,
-    "picid": 1910,
-    "name": "เตาอี้",
-    "classic_name": "เตาอี้",
-    "legacy_name": "",
-    "element": "ดิน",
-    "level": 185,
-    "hpx": 10674,
-    "spx": 1309,
-    "hp": 60,
-    "sp": 39,
-    "int": 153,
-    "atk": 124,
-    "def": 67,
-    "agi": 99,
-    "b24": 7,
-    "b25": 0,
-    "colors": [
-      444444444,
-      444444444,
-      444444444,
-      444444444
-    ],
-    "skills": [
-      {
-        "id": 10028,
-        "name": "ขวานยักษ์ทลายวิญญาณ",
-        "sp": 52,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "คล้ายดังขวานยักษ์ของเทพโบราณ"
-      },
-      {
-        "id": 10034,
-        "name": "มังกรกลืนพสุธา",
-        "sp": 84,
-        "target": "ทั้งหมด (ทั้งสนาม / 10 ตัว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "กลืนทุกสรรพสิ่งเบื้องบนสู่นรก"
-      },
-      {
-        "id": 20049,
-        "name": "ปีศาจต้นไม้ขั้นสูง",
-        "sp": 36,
-        "target": "3 เป้าหมาย",
-        "combo": "ไม่ได้",
-        "effect": "พันธนาการ",
-        "desc": "ใช้ปีศาจต้นไม้กับฝ่ายตรงข้าม 3 คน"
-      },
-      {
-        "id": 52001,
-        "name": "จักรวาลประสาน",
-        "sp": 0,
-        "target": "1 เป้าหมาย (เดี่ยว)",
-        "combo": "ไม่ได้",
-        "effect": "ไม่มี (ดาเมจ)",
-        "desc": "เตาอี้เข้าฉาก ปลุกขวัญ เพิ่ม AGI และคริติคอลทุกเทิร์น"
-      }
-    ],
-    "mount_type": 2,
-    "sort_index": 560,
-    "base_name": "เตาอี้",
-    "faction": "จ๊ก",
-    "reborn_type": "จุติ 2 (Reborn 2)",
-    "chain": {
-      "normal_id": 12220,
-      "reborn1_id": 41575,
-      "reborn2_id": 45521
     }
   }
 ]
